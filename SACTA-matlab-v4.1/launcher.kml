@@ -1,0 +1,13 @@
+<Document>
+	<visibility>1</visibility>
+	<NetworkLink>
+		<name>Sacta - Earth Launcher</name>
+		<refreshVisibility>0</refreshVisibility>
+		<flyToView>0</flyToView>
+		<Link>
+			<href>/Users/jvila/Dropbox/docencia/TNyCA/sw/SACTA-matlab-v4.1/SACTA.kml</href>
+			<refreshMode>onInterval</refreshMode>
+			<refreshInterval>1</refreshInterval>
+		</Link>
+	</NetworkLink>
+</Document>

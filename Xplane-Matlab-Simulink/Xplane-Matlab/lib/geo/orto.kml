@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>orto.kml</name>
+<Style id="inline0">
+	<LineStyle>
+		<color>ff0000ff</color>
+		<width>3</width>
+	</LineStyle>
+	<IconStyle>
+		<scale>1</scale>
+		<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+	<LabelStyle>
+		<color>ff0000ff</color>
+		<scale>1</scale>
+	</LabelStyle>
+</Style>
+<Style id="inline1">
+	<LineStyle>
+		<color>ff0000ff</color>
+		<width>3</width>
+	</LineStyle>
+	<IconStyle>
+		<scale>0.5</scale>
+		<Icon><href>http://maps.google.com/mapfiles/kml/shapes/triangle.png</href></Icon>
+	</IconStyle>
+	<LabelStyle>
+		<color>fffffffff</color>
+		<scale>0.8</scale>
+	</LabelStyle>
+</Style>
+<Placemark>
+	<name>ORTO</name>
+	<styleUrl>#inline0</styleUrl>
+	<MultiGeometry>
+		<Point>
+			<altitudeMode>clampToGround</altitudeMode>
+			<coordinates>-0.481567,39.489544,0.000000</coordinates>
+		</Point>
+		<LineString>
+			<extrude>0</extrude>
+			<tessellate>1</tessellate>
+			<altitudeMode>clampToGround</altitudeMode>
+			<coordinates>
+			-0.481667,39.489444,0.000000 
+			-73.778889,40.639722,0.000000 
+			</coordinates>
+		</LineString>
+	</MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>LEVC</name>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>clampToGround</altitudeMode>
+		<coordinates>-0.481667,39.489444,0.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>KJFK</name>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>clampToGround</altitudeMode>
+		<coordinates>-73.778889,40.639722,0.000000 </coordinates>
+	</Point>
+</Placemark>
+</Document>
+</kml>

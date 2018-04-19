@@ -1,0 +1,1471 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1347\cocoasubrtf570
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\froman\fcharset0 Times-Roman;}
+{\colortbl;\red255\green255\blue255;\red170\green13\blue145;\red37\green65\blue69;\red57\green99\blue105;
+\red28\green0\blue207;\red0\green116\blue0;}
+\margl1440\margr1440\vieww28000\viewh21840\viewkind0
+\deftab640
+\pard\tx640\pardeftab640
+
+\f0\fs28 \cf0 \'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95
+\f1\fs24 \
+
+\f0\fs28 THIS DOCUMENT
+\f1\fs24 \
+
+\f0\fs28 \'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95
+\f1\fs24 \
+
+\f0\fs28 \
+This document will tell you how to get data from or send data to X-Plane!
+\f1\fs24 \
+
+\f0\fs28 Use this data for whatever purposes you like, including running custom cockpits, motion platforms, or anything else you can think of.
+\f1\fs24 \
+
+\f0\fs28 I made X-Plane to be used, so you should use these messages to drive it, or listen to it, in any way you can imagine, without restriction.
+\f1\fs24 \
+
+\f0\fs28 This document shows how to send data to and from X-Plane by UDP messages over ethernet cable or WIFI,
+\f1\fs24 \
+
+\f0\fs28 but you can also google \'93plugins for X-Plane\'94 to write a plugin to actually RUN INSIDE X-PLANE ITSELF, giving much faster control of X-Plane variables\'85
+\f1\fs24 \
+
+\f0\fs28 but you have to learn how to write a plugin to do that. With the UDP messages described in this document,
+\f1\fs24 \
+
+\f0\fs28 you don\'92t have to learn much at all if you already know how to send and receive UDP messages from your App.
+\f1\fs24 \
+
+\f0\fs28 \
+\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95
+\f1\fs24 \
+
+\f0\fs28 PROLOUGE
+\f1\fs24 \
+
+\f0\fs28 \'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95
+\f1\fs24 \
+
+\f0\fs28 \
+You will send and receive various structs by UDP to talk to and listen to X-Plane, so you need to declare some structs in your code.
+\f1\fs24 \
+
+\f0\fs28 The byte-alignment of your structs must match the current Intel 64-bit X-Code alignment (because that is what we use, on Mac anyway).
+\f1\fs24 \
+
+\f0\fs28 This alignment is to the nearest 4 bytes if the struct contains INTS or FLOATS, and the nearest 8 bytes if the struct has DOUBLES!
+\f1\fs24 \
+
+\f0\fs28 So, even an INT will take 8 bytes of space in the struct if there is only one of them, and the struct contains DOUBLES!
+\f1\fs24 \
+
+\f0\fs28 Basically, there is padding in between the smaller variables to make them fall to the next-available 4-byte or 8-byte bound,
+\f1\fs24 \
+
+\f0\fs28 depending on whether or not the struct has doubles in it.
+\f1\fs24 \
+
+\f0\fs28 \
+Sometimes people with different compilers and compiler settings and languages do not have that padding inserted, and the message is therefore the wrong size.
+\f1\fs24 \
+
+\f0\fs28 To see if this is happening to you, run X-Plane, go to the SETTINGS menu, OPERATIONS AND WARNINGS screen,
+\f1\fs24 \
+
+\f0\fs28 turn on the DUMP NET DATA TO LOG.TXT, and then send your messages.
+\f1\fs24 \
+
+\f0\fs28 Then exit X-Plane and open the log.txt file to see what size structs X-Plane expected, versus what you sent.
+\f1\fs24 \
+
+\f0\fs28 Add padding as needed as explained above.
+\f1\fs24 \
+
+\f0\fs28 The best thing about standards is that there are so many of them.
+\f1\fs24 \
+
+\f0\fs28 \
+\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95
+\f1\fs24 \
+
+\f0\fs28 JUST LET ME GET OUTPUT BY UDP TO DRIVE A VISUAL OR MAP: RPOS
+\f1\fs24 \
+
+\f0\fs28 \'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95
+\f1\fs24 \
+
+\f0\fs28 \
+This doc will go into lots of detail of all the ways to get data to and from X-Plane:
+\f1\fs24 \
+
+\f0\fs28 \
+1: by plugins (an App you can write that runs on the same computer as X-Plane, reading and writing data as desired) and
+\f1\fs24 \
+
+\f0\fs28 2: by UDP (to and from any program running on any computer in the world that can send data by UDP to and from X-Plane).
+\f1\fs24 \
+
+\f0\fs28 \
+BUT, the thing that the vast majority of people seem to want is simple: A UDP output from X-Plane to drive their own visuals or moving map!
+\f1\fs24 \
+
+\f0\fs28 \
+So, while the document below will show you how to read and write all the various variables in X-Plane by plugin or UDP, we made a way to have X-Plane
+\f1\fs24 \
+
+\f0\fs28 just output the data you need to drive an external visual or moving map to any IP address and port number by UDP.
+\f1\fs24 \
+
+\f0\fs28 From your App that NEEDS the map and attitude data, simply send the 5-char message:
+\f1\fs24 \
+
+\f0\fs28 \
+\'93RPOS\'94 (null-terminated!), and then this struct:
+\f1\fs24 \
+
+\f0\fs28 \
+struct rpos_struct_in
+\f1\fs24 \
+
+\f0\fs28 \{
+\f1\fs24 \
+
+\f0\fs28 	xint rpos_freq;
+\f1\fs24 \
+
+\f0\fs28 \};
+\f1\fs24 \
+
+\f0\fs28 \
+rpos_freq IS ACTUALLY THE NUMBER OF TIMES PER SECOND YOU WANT X-PLANE TO SEND THIS DATA! ENTER 0 TO NOT SEND IT AT ALL!) to X-Plane by UDP, sending to port 49000.
+\f1\fs24 \
+
+\f0\fs28 \
+Now, each frame, X-Plane will send the minimum data needed to drive an external visual or moving map to the same IP address and port number you sent this message from! Easy!
+\f1\fs24 \
+
+\f0\fs28 This will simply be the 5 chars \'93RPOS\'94 (plus a NULL at the end!) followed by a struct as follows: (machine-native floats and doubles, 4-byte struct alignment)
+\f1\fs24 \
+
+\f0\fs28 \
+struct position_struct
+\f1\fs24 \
+
+\f0\fs28 \{
+\f1\fs24 \
+
+\f0\fs28 	double longitude,latitude;				// double is needed for smooth data here. this is good for simple 2-d maps
+\f1\fs24 \
+
+\f0\fs28 	float elevation_MSL,elevation_AGL;		// we have AGL so you can correct the heigh above ground for your visuals to match X-Plane, if desired
+\f1\fs24 \
+
+\f0\fs28 	float pitch,heading,roll;				// this is for making your own visuals
+\f1\fs24 \
+
+\f0\fs28 	float Vx,Vy,Vz;						// Vxyz are the speeds in the east, up, and south directions, in meters per second. you can use these to predict longitude, latitude, and elevation smoothly.
+\f1\fs24 \
+
+\f0\fs28 	float Pdeg,Qdeg,Rdeg;				// P Q R are the roll, pitch, and yaw rates, in aircraft axis, in degrees per second. you can use these to predict pitch, heading, and roll smoothly.
+\f1\fs24 \
+
+\f0\fs28 \}
+\f1\fs24 \
+
+\f0\fs28 \
+So, this is very simple, but will let you drive moving maps and external visuals, which is the most commonly used output from X-Plane!
+\f1\fs24 \
+
+\f0\fs28 Obviously, it is up to you to find the ground track, ground speed, climb angle, total speed, etc, based on the Vx, Vy, and Vz.
+\f1\fs24 \
+
+\f0\fs28 \
+NOW, if you want MORE stuff from X-Plane than this, or you want to CONTROL stuff in X-Plane, then read on!
+\f1\fs24 \
+
+\f0\fs28 You will see how to read and write every variable that X-Plane makes available, by either plugin (on the same machine as X-Plane) or UDP (run on any program, in any language, on any machine, you can imagine).
+\f1\fs24 \
+
+\f0\fs28 \
+\
+\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95
+\f1\fs24 \
+
+\f0\fs28 PLUGINS
+\f1\fs24 \
+
+\f0\fs28 \'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95
+\f1\fs24 \
+
+\f0\fs28 \
+First things first: To get the maximum control right from the start, you can write a PLUG-IN to get data to and from X-Plane.
+\f1\fs24 \
+
+\f0\fs28 A plugin is a small program that you write yourself and drop into the PLUGINS folder in your X-Plane folder.
+\f1\fs24 \
+
+\f0\fs28 This little plugin is a program that will run whenever you run X-Plane.
+\f1\fs24 \
+
+\f0\fs28 You can make your plugin read and write things called \'91datarefs', which are various variables inside X-Plane.
+\f1\fs24 \
+
+\f0\fs28 With that plugin, you can also make your program draw graphics, send data over a network or serial port, or anything else you can imagine!
+\f1\fs24 \
+
+\f0\fs28 Learn all about plug-ins here:
+\f1\fs24 \
+
+\f0\fs28 	http://www.xsquawkbox.net/xpsdk/phpwiki/index.php
+\f1\fs24 \
+
+\f0\fs28 \
+\
+\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95
+\f1\fs24 \
+
+\f0\fs28 DATA AND NET CONNECTION SCREENS
+\f1\fs24 \
+
+\f0\fs28 \'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95
+\f1\fs24 \
+
+\f0\fs28 \
+So you can write a plugin to read and write data from X-Plane.
+\f1\fs24 \
+
+\f0\fs28 But there are other ways to send and receive data from X-Plane as well.
+\f1\fs24 \
+
+\f0\fs28 \
+In X-Plane, go to the SETTINGS menu, DATA INPUT AND OUTPUT screen.
+\f1\fs24 \
+
+\f0\fs28 From there, you can output various data to observe in flight.
+\f1\fs24 \
+
+\f0\fs28 The FIRST button by each label goes to the screen for observation during flight.
+\f1\fs24 \
+
+\f0\fs28 The SECOND, to a graphical display for observation in X-Plane right AFTER your flight.
+\f1\fs24 \
+
+\f0\fs28 The THIRD, to the disk for perusal after the flight as a text file or spreadsheet.
+\f1\fs24 \
+
+\f0\fs28 The FOURTH, to an IP address of your choice, for data-reception on some other computer!
+\f1\fs24 \
+
+\f0\fs28 \
+So, there are a number of ways to get data to and from X-Plane!
+\f1\fs24 \
+
+\f0\fs28 \
+Let\'92s look at that fourth button a little more: Sending data to an IP address.
+\f1\fs24 \
+
+\f0\fs28 \
+Hook up the computer running your App that wants to receive data from X-Plane to the computer running X-Plane by ethernet or WIFI connection.
+\f1\fs24 \
+
+\f0\fs28 \
+Now that the machine running your App and the machine running X-Plane are on the same Local Area Network, launch X-Plane.
+\f1\fs24 \
+
+\f0\fs28 Go to the  SETTINGS menu, DATA INPUT AND OUTPUT screen.
+\f1\fs24 \
+
+\f0\fs28 Check the FOURTH button by any label to send that data to the IP address of the computer running your App.
+\f1\fs24 \
+
+\f0\fs28 \
+Now, go to the NET CONNECTIONS window, then the DATA tab.
+\f1\fs24 \
+
+\f0\fs28 Check the box for \'93IP of data receiver\'94 and enter the IP address of the computer running your App, and the port as well.
+\f1\fs24 \
+
+\f0\fs28 Now, when flying, X-Plane will send the data you have selected in the Date Output Screen to the IP address and port you entered in the NET CONNECTIONS window!
+\f1\fs24 \
+
+\f0\fs28 Receive this data in your App and do with it as you like.
+\f1\fs24 \
+
+\f0\fs28 \
+\
+\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95
+\f1\fs24 \
+
+\f0\fs28 UDP MESSAGES TO X-PLANE
+\f1\fs24 \
+
+\f0\fs28 \'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95
+\f1\fs24 \
+
+\f0\fs28 \
+So now you have seen Plugins to get data to and from X-Plane, and the Data and Net Connections screens to get data from X-Plane\'85 what about sending data TO X-Plane by UDP?
+\f1\fs24 \
+
+\f0\fs28 \
+You can send various different UDP messages TO X-Plane as well, and here are the rules for that:
+\f1\fs24 \
+
+\f0\fs28 \
+\
+NOTE: X-Plane always receives on port 49000.
+\f1\fs24 \
+
+\f0\fs28 NOTE: Any strings that you send should be null-terminated!
+\f1\fs24 \
+
+\f0\fs28 NOTE: Any time you send or receive a structure, the struct alignment must be 4 bytes, or 8 bytes if the struct has any doubles in it!
+\f1\fs24 \
+
+\f0\fs28 NOTE: GO TO THE SETTINGS MENU, OPERATIONS AND WARNINGS SCREEN, AND TURN ON THE \'93dump net data to log.txt\'94 button to have X-Plane dump log data to the file error.out.
+\f1\fs24 \
+
+\f0\fs28 This will slow down the sim a little, but you can leave it on for a little while as you get started, so that if your data transfer does NOT work,
+\f1\fs24 \
+
+\f0\fs28 you can quit X-Plane, open the error.out file with a text editor, and see what (if any) error messages X-Plane is giving you!
+\f1\fs24 \
+
+\f0\fs28 \
+\
+Below, you will see some variable types that are defined internally to X-Plane, and here they are:
+\f1\fs24 \
+
+\f0\fs28 \
+XCHR (character, in local byte-order for the machine you are on)
+\f1\fs24 \
+
+\f0\fs28 XINT (4-byte int, in local byte-order for the machine you are on)
+\f1\fs24 \
+
+\f0\fs28 XFLT (4-byte ints and floats, in local byte-order for the machine you are on)
+\f1\fs24 \
+
+\f0\fs28 XDOB (double-precision float, in local byte-order for the machine you are on)
+\f1\fs24 \
+
+\f0\fs28 strDIM is 500
+\f1\fs24 \
+
+\f0\fs28 vehDIM is 20
+\f1\fs24 \
+
+\f0\fs28 \
+You may notice that we sometimes pass around STRINGS TO REPRESENT NUMBERS, like the null-termed string "123" to represent the number 123.
+\f1\fs24 \
+
+\f0\fs28 This is simply to avoid byte-order conversion head-aches.
+\f1\fs24 \
+
+\f0\fs28 \
+\
+So, now you see some notes about the port to send to, the need to null-term your strings, the struct alignment, and variable names and dimensions that we use.
+\f1\fs24 \
+
+\f0\fs28 Now you need to know what the format is to send messages to X-Plane by UDP!
+\f1\fs24 \
+
+\f0\fs28 All of the UDP messages have the same format, which is:
+\f1\fs24 \
+
+\f0\fs28 \
+5-character MESSAGE PROLOGUE (to indicate the type of message)
+\f1\fs24 \
+
+\f0\fs28 \
+and then a
+\f1\fs24 \
+
+\f0\fs28 \
+DATA INPUT STRUCTURE (containing the message data that you want to send or receive)
+\f1\fs24 \
+
+\f0\fs28 \
+So what is the 5-char message prologue? Easy!
+\f1\fs24 \
+
+\f0\fs28 \
+The first 4 chars are the message type,
+\f1\fs24 \
+
+\f0\fs28 the 5th char is a byte of value zero, to null-term the label,
+\f1\fs24 \
+
+\f0\fs28 and after that comes the data to send!
+\f1\fs24 \
+
+\f0\fs28 \
+So, to send a UDP message to X-Plane, just send:
+\f1\fs24 \
+
+\f0\fs28 -the 4-letter label
+\f1\fs24 \
+
+\f0\fs28 -a byte of value \'910\'92
+\f1\fs24 \
+
+\f0\fs28 -the message data you want to send
+\f1\fs24 \
+
+\f0\fs28 \
+\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95
+\f1\fs24 \
+
+\f0\fs28 SAMPLE CODE TO SEND A MESSAGE:
+\f1\fs24 \
+
+\f0\fs28 \'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95
+\f1\fs24 \
+
+\f0\fs28 \
+xchr data_send[net_SIZE_buff];
+\f1\fs24 \
+
+\f0\fs28 \
+void NET_send(xchr label[5],xchr* data_in,xint data_len,xint ip_index_to)
+\f1\fs24 \
+
+\f0\fs28 \{
+\f1\fs24 \
+
+\f0\fs28 	data_send[0]=label[0];
+\f1\fs24 \
+
+\f0\fs28 	data_send[1]=label[1];
+\f1\fs24 \
+
+\f0\fs28 	data_send[2]=label[2];
+\f1\fs24 \
+
+\f0\fs28 	data_send[3]=label[3];
+\f1\fs24 \
+
+\f0\fs28 	data_send[4]=0;
+\f1\fs24 \
+
+\f0\fs28 	memcpy(&data_send[5],data_in,data_len); 	// load in the data
+\f1\fs24 \
+
+\f0\fs28 	data_len+=5;							// we send in the data plus the 4-letter label and the 0 at the end of the label, so we add 5 chars to the length to send!
+\f1\fs24 \
+
+\f0\fs28 \
+	#if MACINTOSH
+\f1\fs24 \
+
+\f0\fs28 		TUnitData unitdata;
+\f1\fs24 \
+
+\f0\fs28 		unitdata.addr.len =sizeof(struct InetAddress);
+\f1\fs24 \
+
+\f0\fs28 		unitdata.addr.buf =(UInt8*)&their_address[ip_index_to];
+\f1\fs24 \
+
+\f0\fs28 		unitdata.opt.len =0;
+\f1\fs24 \
+
+\f0\fs28 		unitdata.opt.buf =0;
+\f1\fs24 \
+
+\f0\fs28 		unitdata.udata.len=data_len;
+\f1\fs24 \
+
+\f0\fs28 		unitdata.udata.buf=(UInt8*)data_send;
+\f1\fs24 \
+
+\f0\fs28 		OSStatus retval =my_ep->SndUData(&unitdata);
+\f1\fs24 \
+
+\f0\fs28 		xint send_failed =(retval!=kOTNoError);
+\f1\fs24 \
+
+\f0\fs28 	#endif
+\f1\fs24 \
+
+\f0\fs28 	#if WINDOWS 
+\f1\fs24 \
+
+\f0\fs28 		SOCKADDR_IN addr_otherguy;
+\f1\fs24 \
+
+\f0\fs28 		memset(&addr_otherguy,0,sizeof(addr_otherguy));
+\f1\fs24 \
+
+\f0\fs28 		addr_otherguy.sin_family =AF_INET;
+\f1\fs24 \
+
+\f0\fs28 		addr_otherguy.sin_port =htons(str_to_int(net.their_port_str[ip_index_to]));
+\f1\fs24 \
+
+\f0\fs28 		addr_otherguy.sin_addr.s_addr=their_address[ip_index_to];
+\f1\fs24 \
+
+\f0\fs28 		xint send_failed=(sendto(my_socket,data_send,data_len,0,(LPSOCKADDR)&addr_otherguy,sizeof(struct sockaddr))!=data_len);
+\f1\fs24 \
+
+\f0\fs28 	#endif
+\f1\fs24 \
+
+\f0\fs28 	#if LINUX
+\f1\fs24 \
+
+\f0\fs28 		struct sockaddr_in addr_otherguy;
+\f1\fs24 \
+
+\f0\fs28 		memset(&addr_otherguy,0,sizeof(addr_otherguy));
+\f1\fs24 \
+
+\f0\fs28 		addr_otherguy.sin_family =AF_INET;
+\f1\fs24 \
+
+\f0\fs28 		addr_otherguy.sin_port =htons(str_to_int(net.their_port_str[ip_index_to]));
+\f1\fs24 \
+
+\f0\fs28 		addr_otherguy.sin_addr.s_addr =their_address[ip_index_to];
+\f1\fs24 \
+
+\f0\fs28 		xint send_failed=(sendto(my_socket,data_send,data_len,0,(const struct sockaddr*)&addr_otherguy,sizeof(struct sockaddr_in))!=data_len);
+\f1\fs24 \
+
+\f0\fs28 	#endif
+\f1\fs24 \
+
+\f0\fs28 \}
+\f1\fs24 \
+\
+\
+
+\f0\fs28 \'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95
+\f1\fs24 \
+
+\f0\fs28 DISCOVER X-PLANE BY A BEACON
+\f1\fs24 \
+
+\f0\fs28 \'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95
+\f1\fs24 \
+
+\f0\fs28 \
+In order to send and receive UDP messages to talk to X-Plane, you must know the IP-address of that machine within your network. You can either enter the IP-address manually, or you can use the BEACON that each instance of X-Plane running in your network broadcasts to announce its presence. 
+\f1\fs24 \
+\
+
+\f0\fs28 The BEACON message uses a mechanism called multicast, which is a special IP-address range that you can subscribe to in order to get announcements from X-Plane. 
+\f1\fs24 \
+\
+
+\f0\fs28 In order to subscribe to X-Plane's BEACON, you must join the multicast group 239.255.1.1 and listen on port 49001. While this looks like an IP-address that is not in your network, it is really a group identifier. Consult your operating system's documentation on how to join a multicast group with a UDP socket. You will want to read the documentation of the setsockopt() function and the IP_ADD_MEMBERSHIP parameter.
+\f1\fs24 \
+\
+
+\f0\fs28 Once you are receiving the BEACON messages from X-Plane, the struct must be interpreted as follows:
+\f1\fs24 \
+\
+
+\f0\fs28 5-character MESSAGE PROLOGUE which indicates the type of the following struct as
+\f1\fs24 \
+
+\f0\fs28 BECN\\0
+\f1\fs24 \
+\
+
+\f0\fs28 struct becn_struct
+\f1\fs24 \
+
+\f0\fs28 \{
+\f1\fs24 \
+
+\f0\fs28 	uchar beacon_major_version;		// 1 at the time of X-Plane 10.40
+\f1\fs24 \
+
+\f0\fs28 	uchar beacon_minor_version;		// 1 at the time of X-Plane 10.40
+\f1\fs24 \
+
+\f0\fs28 	xint application_host_id;			// 1 for X-Plane, 2 for PlaneMaker
+\f1\fs24 \
+
+\f0\fs28 	xint version_number;			// 104014 for X-Plane 10.40b14
+\f1\fs24 \
+
+\f0\fs28 	uint role;						// 1 for master, 2 for extern visual, 3 for IOS
+\f1\fs24 \
+
+\f0\fs28 	ushort port;					// port number X-Plane is listening on
+\f1\fs24 \
+
+\f0\fs28 	xchr	computer_name[strDIM];		// the hostname of the computer 
+\f1\fs24 \
+
+\f0\fs28 \};
+\f1\fs24 \
+
+\f0\fs28 \
+Parsing this struct allows you to find any instance of X-Plane running in the network, find out which version of X-Plane is running, see the name of the computer and find out whether it's configured as a master or visual slave machine, and lastly find out if X-Plane's receive port has been changed from the default of 49000.
+\f1\fs24 \
+
+\f0\fs28 \
+You can expect the struct to be compatible within the same major version of the BEACON. Expect structs to change when the major version changes, so you will want to abort parsing when you discover a mismatch of the beacon_major_version.
+\f1\fs24 \
+\
+
+\f0\fs28 \'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95
+\f1\fs24 \
+
+\f0\fs28 THE MESSAGES YOU CAN SEND
+\f1\fs24 \
+
+\f0\fs28 \'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95
+\f1\fs24 \
+
+\f0\fs28 \
+So now you see how to send messages to X-Plane\'85 your final question is: What are the messages I can send?
+\f1\fs24 \
+
+\f0\fs28 \
+Well, I will tell you now!
+\f1\fs24 \
+
+\f0\fs28 \
+Following are various DATA STRUCTURES that you can send (right after the 5-char MESSAGE PROLOGUE, each being 4 chars (plus a zero byte) as mentioned above):
+\f1\fs24 \
+
+\f0\fs28 \
+\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95
+\f1\fs24 \
+
+\f0\fs28 SET 1 OR ALL AIRCRAFT LOCATIONS: VEH1/VEHA (SET ONE AIRCRAFT LOCATION TO DRIVE X-PLANE AS A VISUAL SYSTEM!)
+\f1\fs24 \
+
+\f0\fs28 \'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95
+\f1\fs24 \
+
+\f0\fs28 \
+You can send the VEH1 "ONE-VEHICLE" UDP to move an airplane wherever you like.
+\f1\fs24 \
+
+\f0\fs28 This way, you can easily have X-Plane do the graphics for your own flight model, whatever that flight model may be!
+\f1\fs24 \
+
+\f0\fs28 It is really easy... just fill in a structure with the small amount of data needed to indicate the craft's location and orientation and send it in!
+\f1\fs24 \
+
+\f0\fs28 \
+So you would send in VEH1, a null to term that, and then the struct below, all on one message, with net data logging turned on in the Operations and Warnings window if you like to have X-Plane log any errors it gets in understanding the data it is getting from you\'85
+\f1\fs24 \
+
+\f0\fs28 using 8-byte struct align since this struct has doubles, and in intel byte-order. Whew!
+\f1\fs24 \
+
+\f0\fs28 \
+struct veh1_struct
+\f1\fs24 \
+
+\f0\fs28 \{
+\f1\fs24 \
+
+\f0\fs28 	p_index p;
+\f1\fs24 \
+
+\f0\fs28 	xdob lat_lon_ele	[3];
+\f1\fs24 \
+
+\f0\fs28 	xflt psi_the_phi		[3];
+\f1\fs24 \
+
+\f0\fs28 	xflt gear_flap_vect	[3];
+\f1\fs24 \
+
+\f0\fs28 \};
+\f1\fs24 \
+
+\f0\fs28 \
+Here is what those arrays are:
+\f1\fs24 \
+
+\f0\fs28 \
+DOUBLE-PRECISION FLOAT array of dimension 3, with the latitude, longitude, and elevation of the aircraft. The elevation of the plane is in meters above sea-level.
+\f1\fs24 \
+
+\f0\fs28 \
+SINGLE-PRECISION FLOAT array of dimension 3, with the heading, pitch, and roll, all in degrees, positive up and right.
+\f1\fs24 \
+
+\f0\fs28 \
+Gear, flap, and thrust-vectors... single-precision floats, all RATIOS 0->1,
+\f1\fs24 \
+
+\f0\fs28 \
+Now, when you set one plane's location at a time, planes tend to "jiggle" a bit with respect to each other since their locations come in at different times.
+\f1\fs24 \
+
+\f0\fs28 To avoid this annoyance, use the VEHA message. It is exactly like the VEH1 message, except that lat, lon, elevation, the, psi, and phi are each dimmed 20 (index 0 to 19) to control ALL the airplanes, and num_p is the NUMBER OF PLANES that you want to control.
+\f1\fs24 \
+
+\f0\fs28 Send in num_p of 5, for example, to control planes with indices 0 through 4. Easy! As well, we snuck a little tidbit in the struct for you: The pilots VIEWPOINT location and angle.
+\f1\fs24 \
+
+\f0\fs28 Send in ZERO for these if you are happy with X-Plane's default viewing locations, or the lat, lon, elevation, theta, psi, and phi if not. Here is the total structure you must send in, entering ZERO for unused params:
+\f1\fs24 \
+
+\f0\fs28 \
+Or, with the VEHA message, control the locations of MORE THAN ONE PLANE at a time.
+\f1\fs24 \
+
+\f0\fs28 \
+struct vehA_struct
+\f1\fs24 \
+
+\f0\fs28 \{
+\f1\fs24 \
+
+\f0\fs28 	p_index num_p;
+\f1\fs24 \
+
+\f0\fs28 	xdob lat_lon_ele	[vehDIM][3];
+\f1\fs24 \
+
+\f0\fs28 	xflt psi_the_phi		[vehDIM][3];
+\f1\fs24 \
+
+\f0\fs28 	xflt gear_flap_vect	[vehDIM][3];
+\f1\fs24 \
+
+\f0\fs28 	xdob lat_view,lon_view,ele_view;
+\f1\fs24 \
+
+\f0\fs28 	xflt psi_view,the_view,phi_view;
+\f1\fs24 \
+
+\f0\fs28 \};
+\f1\fs24 \
+
+\f0\fs28 \
+Where vehDIM is 20, send in any number p from 1 to 20 to control how many planes you want to set, and send in a non-zero value for the view locations if you want to control the viewpoint location as well.
+\f1\fs24 \
+
+\f0\fs28 \
+\pard\pardeftab640
+\cf0 \'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95
+\f1\fs24 \
+
+\f0\fs28 SEND ME ALL THE DATAREFS I WANT: RREF
+\f1\fs24 \
+
+\f0\fs28 \'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95
+\f1\fs24 \
+
+\f0\fs28 \
+So this one is cool: Send in the 5 chars RREF (null-terminated!) plus this struct:
+\f1\fs24 \
+
+\f0\fs28 \
+\pard\tx640\pardeftab640
+\cf0 struct dref_struct_in
+\f1\fs24 \
+
+\f0\fs28 \{
+\f1\fs24 \
+
+\f0\fs28 	xint dref_freq		;
+\f1\fs24 \
+
+\f0\fs28 	xint dref_en		;
+\f1\fs24 \
+
+\f0\fs28 	xchr dref_string[400]	;
+\f1\fs24 \
+
+\f0\fs28 \};
+\f1\fs24 \
+\pard\pardeftab640
+
+\f0\fs28 \cf0 \
+Where dref_freq IS ACTUALLY THE NUMBER OF TIMES PER SECOND YOU WANT X-PLANE TO SEND THIS DATA!
+\f1\fs24 \
+
+\f0\fs28 Where dref_en is the integer code you want X-Plane to send back with the dataref value so you can tell WHICH dataref X-Plane is giving you! (since you are likely to ask for MANY different datarefs!)
+\f1\fs24 \
+
+\f0\fs28 Where dref_string is the dataref string that you want X-Plane to send to you!
+\f1\fs24 \
+\pard\tx640\pardeftab640
+
+\f0\fs28 \cf0 \
+\pard\pardeftab640
+\cf0 And, if the dataref is to an ARRAY of values (like engine thrust, since there can be 8 engines), just add [xxx] to the end, where \'93xxx\'94 is the array index you want X-Plane to send!
+\f1\fs24 \
+
+\f0\fs28 The [ and ] should simply surround the number to indicate that the number is the index you want.
+\f1\fs24 \
+
+\f0\fs28 So, send in \'93sim/flightmodel/engine/POINT_thrust[1] \'93to have X-Plane send the second engine, for example (since we start at 0!)
+\f1\fs24 \
+
+\f0\fs28 \
+X-Plane will send the message right back to the IP address and port number you sent the RREF command from.
+\f1\fs24 \
+
+\f0\fs28 You will get:
+\f1\fs24 \
+
+\f0\fs28 \
+\pard\tx640\pardeftab640
+\cf0 struct dref_struct_out
+\f1\fs24 \
+
+\f0\fs28 \{
+\f1\fs24 \
+
+\f0\fs28 	xint dref_en	;
+\f1\fs24 \
+
+\f0\fs28 	xflt dref_flt	;
+\f1\fs24 \
+
+\f0\fs28 \};
+\f1\fs24 \
+\pard\pardeftab640
+
+\f0\fs28 \cf0 \
+Where dref_en is the integer code you sent in for this dataref in the struct above.
+\f1\fs24 \
+
+\f0\fs28 Where dref_flt is the dataref value, in machine-native floating-point value, even for ints!
+\f1\fs24 \
+
+\f0\fs28 \
+So, of course, you can send in all the RREF messages you want, to get all the dataref values back that you want!
+\f1\fs24 \
+
+\f0\fs28 Easy!
+\f1\fs24 \
+
+\f0\fs28 \
+Send in a \'93dref_freq\'94 of 0 to stop having X-Pane send the dataref values.
+\f1\fs24 \
+\pard\tx640\pardeftab640
+
+\f0\fs28 \cf0 \
+\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95
+\f1\fs24 \
+
+\f0\fs28 SET A DATAREF TO A VALUE: DREF
+\f1\fs24 \
+
+\f0\fs28 \'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95
+\f1\fs24 \
+
+\f0\fs28 \
+struct dref_struct
+\f1\fs24 \
+
+\f0\fs28 \{
+\f1\fs24 \
+
+\f0\fs28 	xflt var;
+\f1\fs24 \
+
+\f0\fs28 	xchr dref_path[strDIM];
+\f1\fs24 \
+
+\f0\fs28 \};
+\f1\fs24 \
+
+\f0\fs28 \
+Use this to set ANY data-ref by UDP! With this power, you can send in any floating-point value to any data-ref in the entire sim!
+\f1\fs24 \
+
+\f0\fs28 Just look up the datarefs at http://www.xsquawkbox.net/.
+\f1\fs24 \
+
+\f0\fs28 Easy!
+\f1\fs24 \
+
+\f0\fs28 \
+IMPORTANT: NULL TERMINATION MEANS THE NULL CHARACTER MUST BE PLACED AT THE END OF dref_path THEN SHOULD BE FILLED WITH BLANK
+\f1\fs24 \
+
+\f0\fs28 SO YOUR TYPICAL MESSAGE SHOULD LOOK LIKE THIS
+\f1\fs24 \
+
+\f0\fs28 \
+DREF0+(4byte byte value)+dref_path+0+spaces to complete the whole message to 509 bytes
+\f1\fs24 \
+
+\f0\fs28 \
+AN EXAMPLE TO TURN ON AN ANTI-ICE SWITCH WOULD BE
+\f1\fs24 \
+
+\f0\fs28 \
+DREF0+(4byte byte value of 1)+ sim/cockpit/switches/anti_ice_surf_heat_left+0+spaces to complete to 509 bytes
+\f1\fs24 \
+
+\f0\fs28 \
+DO NOT ADD ANY + SIGNS. THIS IS JUST TO SHOW THE PARTS OF THE MESSAGE TO BE ADDED AS ONE SINGLE BLOCK
+\f1\fs24 \
+
+\f0\fs28 \
+REMEMBER: You can go to the SETTINGS menu, OPERATIONS AND WARNING window, to turn on a diganostics option that will output what data X-Plane thinks it is getting from you to a log file!
+\f1\fs24 \
+
+\f0\fs28 Turn this on during development to see what X-Plane THINKS it is getting from you!
+\f1\fs24 \
+
+\f0\fs28 \
+\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95
+\f1\fs24 \
+
+\f0\fs28 SET A DATA OUTPUT TO A VALUE: DATA
+\f1\fs24 \
+
+\f0\fs28 \'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95
+\f1\fs24 \
+
+\f0\fs28 \
+Remember how you can output data from the Data Output Screen?
+\f1\fs24 \
+
+\f0\fs28 You can also SET data as well with the DATA message!
+\f1\fs24 \
+
+\f0\fs28 You just send in the variables that you want to SET!
+\f1\fs24 \
+
+\f0\fs28 (Now, you can NOT set ALL the variables! Mach number, for example, is determined by the speed of the plane\'85 so you cannot change that, for example).
+\f1\fs24 \
+
+\f0\fs28 \
+But, to enter radios or control deflections by UDP, simply send the DATA message described below TO X-Plane by UDP, and X-Plane will use those messages for input and control of the sim! You may send joystick deflections to fly the plane with your own hardware, or send in any number of other variables selectable in the data output screen... whatever can come out, you can send right back in with an identical message but the values of the number changed! Easy! (Just realize that some messages will be over-ridden by X-Plane!)
+\f1\fs24 \
+
+\f0\fs28 \
+struct data_struct
+\f1\fs24 \
+
+\f0\fs28 \{
+\f1\fs24 \
+
+\f0\fs28 	int index;		 // data index, the index into the list of variables you can output from the Data Output screen in X-Plane.
+\f1\fs24 \
+
+\f0\fs28 	float data[8]; 	// the up to 8 numbers you see in the data output screen associated with that selection.. many outputs do not use all 8, though.
+\f1\fs24 \
+
+\f0\fs28 \};
+\f1\fs24 \
+
+\f0\fs28 \
+SEND A -999 FOR ANY VARIABLE IN THE SELECTION LIST THAT YOU JUST WANT TO LEAVE ALONE, OR RETURN TO DEFAULT CONTROL IN THE SIMULATOR RATHER THAN UDP OVER-RIDE.
+\f1\fs24 \
+
+\f0\fs28 \
+So, to send in a DATA message to control some value in X-Plane, send in:
+\f1\fs24 \
+
+\f0\fs28 \'93DATA\'94 (4 chars)
+\f1\fs24 \
+
+\f0\fs28 0 (1 char of val 0)
+\f1\fs24 \
+
+\f0\fs28 data_struct (a filled-in data struct as per above, with struct alignment 4)
+\f1\fs24 \
+
+\f0\fs28 \
+Do this, and you should be able to control some of the variables in X-Plane by UDP!
+\f1\fs24 \
+
+\f0\fs28 \
+\
+\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95
+\f1\fs24 \
+
+\f0\fs28 RUN A COMMAND: CMND
+\f1\fs24 \
+
+\f0\fs28 \'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95
+\f1\fs24 \
+
+\f0\fs28 \
+DATA INPUT STRUCTURE is a string
+\f1\fs24 \
+
+\f0\fs28 \
+The data part of this message is simply the command that you want X-Plane to intitiate!
+\f1\fs24 \
+
+\f0\fs28 Easy!
+\f1\fs24 \
+
+\f0\fs28 To see the (plethora) of X-Plane commands, run X-Plane and go to the Settings menu, Joystick and Equipment screen, Buttons:Advanced tab.
+\f1\fs24 \
+
+\f0\fs28 The commands are the group name you see in the center of the screen, PLUS command string in the right side, all run together.
+\f1\fs24 \
+
+\f0\fs28 So, for example, the first command in the sim is: \'93none/none\'94.
+\f1\fs24 \
+
+\f0\fs28 OK that was a boring one.
+\f1\fs24 \
+
+\f0\fs28 But there are more! Lots more!
+\f1\fs24 \
+
+\f0\fs28 \
+TYPICAL MESSAGE TO GET FLAPS ONE NOTCH UP WILL LOOK LIKE
+\f1\fs24 \
+
+\f0\fs28 \
+CMND0+sim/flight_controls/flaps_up
+\f1\fs24 \
+
+\f0\fs28 \
+\
+\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95
+\f1\fs24 \
+
+\f0\fs28 SELECT OR DE-SELECT DATA OUTPUT TO NOT OR COCKPIT DISLPAY: DSEL/USEL/DCOC/UCOC
+\f1\fs24 \
+
+\f0\fs28 \'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95
+\f1\fs24 \
+
+\f0\fs28 \
+DATA INPUT STRUCTURE is any series of XINTs
+\f1\fs24 \
+
+\f0\fs28 \
+Now, say that you are writing an add-on or something for X-Plane and you want your motion-platform or cockpit to send in a request to X-Plane to send a bunch of data out like this, because you are getting tired of going into the data output screen and making selections of data to output all the time. In that case you will SEND a packet just like the one above to X-Plane, but the label will be "DSEL". The data will be a series of integers indicating which data output you want! (1 for the first in the list, 2 for the second, etc).
+\f1\fs24 \
+
+\f0\fs28 \
+So "DSEL0456" would request that X-Plane send the fourth, fifth, and sixth items in the data output screen many times per second to the IP address listed in the Internet Settings screen. DSEL is in characters, but 4 5 6 are YOUR MACHINE-BYTE-ORDER integers.
+\f1\fs24 \
+
+\f0\fs28 \
+Use DSEL to select data to send via UDP output.
+\f1\fs24 \
+
+\f0\fs28 \
+Use USEL to UN-select data to send via UDP output.
+\f1\fs24 \
+
+\f0\fs28 \
+Use DCOC to select data to the COCKPIT DISPLAY rather than UDP output.
+\f1\fs24 \
+
+\f0\fs28 \
+Use UCOC to UN-select data to the COCKPIT DISPLAY rather than UDP output.
+\f1\fs24 \
+
+\f0\fs28 \
+\
+\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95
+\f1\fs24 \
+
+\f0\fs28 CLICK THE MOUSE SOMEWHERE: MOUS
+\f1\fs24 \
+
+\f0\fs28 \'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95
+\f1\fs24 \
+
+\f0\fs28 \
+DATA INPUT STRUCTURE is an 8-char string
+\f1\fs24 \
+
+\f0\fs28 \
+Simulates a mouse-click, where the data will be a text string indicating where to act like a MOUSE-CLICK has occurred. This is useful to control any number of instruments on the panel... Just enter the location where you would like the mouse clicked in the blank above, and X-Plane will pretend you have just clicked the mouse there! The location will simply be an 8-character-long string, where the first 4 digits are the x value (0 at the left) and the second 4 digits are the are the y value (0 at bottom).
+\f1\fs24 \
+
+\f0\fs28 \
+\
+\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95
+\f1\fs24 \
+
+\f0\fs28 CLICK A KEYBOARD KEY: CHAR
+\f1\fs24 \
+
+\f0\fs28 \'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95
+\f1\fs24 \
+
+\f0\fs28 \
+DATA INPUT STRUCTURE is a char
+\f1\fs24 \
+
+\f0\fs28 \
+You can send this UDP message to X-Plane to act as a keypress. This opens up a lot of possibilities! Menu Selections, landing gear and other equipment... anything that has a keypress you can do simply by sending in that key after the IP address string.
+\f1\fs24 \
+
+\f0\fs28 \
+\
+\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95
+\f1\fs24 \
+
+\f0\fs28 ACTIVATE A MENU ITEM: MENU
+\f1\fs24 \
+
+\f0\fs28 \'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95
+\f1\fs24 \
+
+\f0\fs28 \
+The data part of this message is simply a menu item number you wish to select in string form.
+\f1\fs24 \
+
+\f0\fs28 See the Resources/Menus/English/X-Plane.txt file to see the number of each menu item.
+\f1\fs24 \
+
+\f0\fs28 \
+\
+\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95
+\f1\fs24 \
+
+\f0\fs28 PLAY A SOUND: SOUN
+\f1\fs24 \
+
+\f0\fs28 \'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95
+\f1\fs24 \
+
+\f0\fs28 \
+struct soun_struct	 // play any sound
+\f1\fs24 \
+
+\f0\fs28 \{
+\f1\fs24 \
+
+\f0\fs28 	xflt freq,vol		;
+\f1\fs24 \
+
+\f0\fs28 	xchr path[strDIM]	;
+\f1\fs24 \
+
+\f0\fs28 \};
+\f1\fs24 \
+
+\f0\fs28 \
+Use this to simply play a WAV-file sound. Enter the path of the WAV file in the struct. The freq and volume scale 0.0 to 1.0. Easy!
+\f1\fs24 \
+
+\f0\fs28 \
+\
+\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95
+\f1\fs24 \
+
+\f0\fs28 PLAY A LOOPING SOUND: LSND and SSND
+\f1\fs24 \
+
+\f0\fs28 \'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95
+\f1\fs24 \
+
+\f0\fs28 \
+\pard\tx640\pardeftab640
+\cf2 struct\cf0  loop_struct
+\f1\fs24 \
+\pard\tx640\pardeftab640
+
+\f0\fs28 \cf0 \{
+\f1\fs24 \
+
+\f0\fs28 	\cf3 xint\cf0  index				;
+\f1\fs24 \
+
+\f0\fs28 	\cf3 xflt\cf0  freq,vol			;
+\f1\fs24 \
+
+\f0\fs28 	\cf3 xchr\cf0  soun_path[\cf4 strDIM\cf0 ]	;
+\f1\fs24 \
+
+\f0\fs28 \};
+\f1\fs24 \
+
+\f0\fs28 \
+Use this to simply play a WAV-file sound THAT LOOPS, with index 0 to 4 (so you can have 5 going at once)
+\f1\fs24 \
+
+\f0\fs28 \
+LSND starts it, SSND stops it.
+\f1\fs24 \
+
+\f0\fs28 \
+\
+\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95
+\f1\fs24 \
+
+\f0\fs28 FAIL A SYSTEM: FAIL
+\f1\fs24 \
+
+\f0\fs28 \'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95
+\f1\fs24 \
+
+\f0\fs28 \
+Fail a system, where the data will indicate which system to fail. The system to fail is sent as an ASCI STRING (ie: "145"), where the 0 is the first failure listed in the failure window in X-Plane (currently the vacuum system) and incremented by 1 from there.
+\f1\fs24 \
+
+\f0\fs28 \
+\
+\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95
+\f1\fs24 \
+
+\f0\fs28 RECOVER A SYSTEM: RECO
+\f1\fs24 \
+
+\f0\fs28 \'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95
+\f1\fs24 \
+
+\f0\fs28 \
+Recover a system, where the data will be an integer indicating which system to recover. The system to recover is sent as an ASCI STRING (ie: "145"), where the 0 is the first failure listed in the failure window in X-Plane (currently the vacuum system) and incremented by 1 from there.
+\f1\fs24 \
+
+\f0\fs28 \
+\
+\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95
+\f1\fs24 \
+
+\f0\fs28 PLACE TO AN AIRPORT: PAPT
+\f1\fs24 \
+
+\f0\fs28 \'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95
+\f1\fs24 \
+
+\f0\fs28 \
+Use this to place the aircraft at an airport. Just use the PAPT message with the following struct filled in:
+\f1\fs24 \
+
+\f0\fs28 \
+struct papt_struct							// place at apt... this is used here and there
+\f1\fs24 \
+
+\f0\fs28 \{
+\f1\fs24 \
+
+\f0\fs28 	xchr apt_ID[8]			;
+\f1\fs24 \
+
+\f0\fs28 	init_flt_enum type_start	;
+\f1\fs24 \
+
+\f0\fs28 	xint lcl_rwy_ram		;
+\f1\fs24 \
+
+\f0\fs28 	xint rwy_dir			;
+\f1\fs24 \
+
+\f0\fs28 \};
+\f1\fs24 \
+
+\f0\fs28 \
+PAPT MESSAGE DOES NOT REQUIRE A FIXED LENGTH LIKE DREF. SO THE TYPICAL MESSAGE WILL LOOK LIKE
+\f1\fs24 \
+
+\f0\fs28 \
+PAPT0+AIRPORT ID(SUCH AS KSFO)+0000+TYPE_START (THE RUNWAY REFERENCE NUMBER IN apt.dat	FILE+RWY_RAM(WHERE TO START)+DIR(BACKWARDS meaning you can put the airplane at the other end of the runway by setting this to 1)
+\f1\fs24 \
+
+\f0\fs28 \
+\
+\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95
+\f1\fs24 \
+
+\f0\fs28 LOAD AN AIRCRAFT: ACFN
+\f1\fs24 \
+
+\f0\fs28 \'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95
+\f1\fs24 \
+
+\f0\fs28 \
+struct acfn_struct							// veh name and livery, used here and there
+\f1\fs24 \
+
+\f0\fs28 \{
+\f1\fs24 \
+
+\f0\fs28 	xint		acfn_p				;
+\f1\fs24 \
+
+\f0\fs28 	xchr		acfn_path_rel[net_strDIM];
+\f1\fs24 \
+
+\f0\fs28 	xint		livery_index			;
+\f1\fs24 \
+
+\f0\fs28 \};
+\f1\fs24 \
+
+\f0\fs28 \
+Use this to load a vehicle (an airplane). Just enter which plane to load as 'p', and the path of the plane as the path. Send this in and X-Plane will load this plane. Send in 1->19 to load the other planes!
+\f1\fs24 \
+
+\f0\fs28 \
+\
+\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95
+\f1\fs24 \
+
+\f0\fs28 LOAD AN OBJECT: OBJN
+\f1\fs24 \
+
+\f0\fs28 \'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95
+\f1\fs24 \
+
+\f0\fs28 \
+struct objN_struct // object name: draw any object in the world in the sim
+\f1\fs24 \
+
+\f0\fs28 \{
+\f1\fs24 \
+
+\f0\fs28 	xint index			;
+\f1\fs24 \
+
+\f0\fs28 	xchr path[strDIM]	;
+\f1\fs24 \
+
+\f0\fs28 \};
+\f1\fs24 \
+
+\f0\fs28 \
+Just like the airplane struct, but with any OBJ7 object (see the San Bernardino "KSBD_example.obj" sample object in the Custom Scenery folder for an example of an OBJ7 object. With this message, simply send in the path of any object that you have on the drive and you want X-Plane to display! The location is controlled with the struct below.
+\f1\fs24 \
+
+\f0\fs28 \
+\
+\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95
+\f1\fs24 \
+
+\f0\fs28 PLACE AN OBJECT: OBJL
+\f1\fs24 \
+
+\f0\fs28 \'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95
+\f1\fs24 \
+
+\f0\fs28 \
+struct objL_struct // object location: draw any object in the world in the sim
+\f1\fs24 \
+
+\f0\fs28 \{
+\f1\fs24 \
+
+\f0\fs28 	xint index;
+\f1\fs24 \
+
+\f0\fs28 	xdob lat_lon_ele[3]	;
+\f1\fs24 \
+
+\f0\fs28 	xflt psi_the_phi[3]	;
+\f1\fs24 \
+
+\f0\fs28 	xint on_ground		;	 // is this object on the ground? if so, simply enter 0 for the elevation, x-plane will put it on the ground
+\f1\fs24 \
+
+\f0\fs28 	xflt smoke_size		;	 // is this object smoking? if so, simply indicate the size of the smoke puffs here
+\f1\fs24 \
+
+\f0\fs28 \};
+\f1\fs24 \
+
+\f0\fs28 \
+Enter the location of the object you loaded here. It can be a tank driving around on the ground, a missile firing, or anything else you can imagine.
+\f1\fs24 \
+
+\f0\fs28 \
+\
+\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95
+\f1\fs24 \
+
+\f0\fs28 SET UP THE INTERNET OPTIONS: ISET
+\f1\fs24 \
+
+\f0\fs28 \'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95\'95
+\f1\fs24 \
+
+\f0\fs28 \
+This allows you to set up internet options for X-Plane without touching it. This is useful if you have a simulator with many displays, and do not want to manually set the IP options for each copy of X-Plane. Simply send this structure:
+\f1\fs24 \
+
+\f0\fs28 \
+struct iset_struct			// IP settings
+\f1\fs24 \
+
+\f0\fs28 \{
+\f1\fs24 \
+
+\f0\fs28 	xint index;
+\f1\fs24 \
+
+\f0\fs28 	xchr snd_ip_str[16]	;	// IP's we are sending to, in english
+\f1\fs24 \
+
+\f0\fs28 	xchr snd_pt_str[ 6]	;	// ports are easier to work with in STRINGS!
+\f1\fs24 \
+
+\f0\fs28 	xint snd_use_ip	;	// 1 or 0 to turn this option on or off
+\f1\fs24 \
+
+\f0\fs28 \};
+\f1\fs24 \
+
+\f0\fs28 \
+And following are a list of the indices as of X-Plane 10.40:
+\f1\fs24 \
+\pard\pardeftab640
+
+\f0\fs28 \cf0 \
+\pard\tx640\pardeftab640
+\cf0 	ip_mplayer_00	=\cf5 0\cf0 						,	\cf6 // p==p01 on THIS machine!!!
+\f1\fs24 \cf0 \
+
+\f0\fs28 	ip_mplayer_18	=ip_mplayer_00+\cf5 18		\cf0 	,	\cf6 // p==p19 on THIS machine!!!
+\f1\fs24 \cf0 \
+
+\f0\fs28 	ip_mon_00							,
+\f1\fs24 \
+
+\f0\fs28 	ip_mon_19	=ip_mon_00+\cf5 19\cf0 			,
+\f1\fs24 \
+
+\f0\fs28 	ip_master_view						,
+\f1\fs24 \
+
+\f0\fs28 	ip_unused_1							,	\cf6 // available placeholders - here to avoid changing following enums
+\f1\fs24 \cf0 \
+
+\f0\fs28 	ip_unused_2							,
+\f1\fs24 \
+
+\f0\fs28 	ip_master_00_IOS						,	\cf6 // p==p00 on THIS machine!!! this machine is the ios.
+\f1\fs24 \cf0 \
+
+\f0\fs28 	ip_master_19_IOS=ip_master_00_IOS+\cf5 19	\cf0 ,	\cf6 // p==p19 on THIS machine!!! this machine is the ios.
+\f1\fs24 \cf0 \
+
+\f0\fs28 	ip_single_IOS							,	\cf6 // send ALL data to this IOS!
+\f1\fs24 \cf0 \
+
+\f0\fs28 	ip_multi_IOS							,	\cf6 // do NOT send other planes or birds! the ios will get the other planes from them, and cannot handle 10 different ideas of flock location!
+\f1\fs24 \cf0 \
+
+\f0\fs28 	ip_data_we_send						,
+\f1\fs24 \
+
+\f0\fs28 	ip_FLIR								,
+\f1\fs24 \
+
+\f0\fs28 	ip_remote								,	\cf6 // iphone joystick
+\f1\fs24 \cf0 \
+
+\f0\fs28 	ip_EFIS_0							,	\cf6 // iphone efis-app
+\f1\fs24 \cf0 \
+
+\f0\fs28 	ip_EFIS_1							,	\cf6 // iphone efis-app
+\f1\fs24 \cf0 \
+
+\f0\fs28 	ip_EFIS_2							,	\cf6 // iphone efis-app
+\f1\fs24 \cf0 \
+
+\f0\fs28 	ip_EFIS_3							,	\cf6 // iphone efis-app
+\f1\fs24 \cf0 \
+}

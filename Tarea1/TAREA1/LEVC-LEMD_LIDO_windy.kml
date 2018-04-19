@@ -1,0 +1,781 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>LEVC-LEMD_LIDO_windy.kml</name>
+<Style id="inline0">
+	<LineStyle>
+		<color>ffffff00</color>
+		<width>2</width>
+	</LineStyle>
+	<IconStyle>
+		<scale>1.5</scale>
+		<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+	<LabelStyle>
+		<color>ff00ff00</color>
+		<scale>1.8</scale>
+	</LabelStyle>
+</Style>
+<Style id="inline1">
+	<LineStyle>
+		<color>ffffff00</color>
+		<width>2</width>
+	</LineStyle>
+	<IconStyle>
+		<scale>1</scale>
+		<Icon><href>http://maps.google.com/mapfiles/kml/shapes/triangle.png</href></Icon>
+	</IconStyle>
+	<LabelStyle>
+		<color>fffffffff</color>
+		<scale>1.2</scale>
+	</LabelStyle>
+</Style>
+<Placemark>
+	<name>LEVC-LEMD</name>
+	<styleUrl>#inline0</styleUrl>
+	<MultiGeometry>
+		<Point>
+			<altitudeMode>clampToGround</altitudeMode>
+			<coordinates>-46.475900,-14.444567,40000.000000</coordinates>
+		</Point>
+		<LineString>
+			<extrude>0</extrude>
+			<tessellate>1</tessellate>
+			<altitudeMode>clampToGround</altitudeMode>
+			<coordinates>
+			-3.575194,40.546417,6900.000000 
+			-3.542264,40.635497,12100.000000 
+			-3.539200,40.668772,13500.000000 
+			-3.428464,40.760467,17400.000000 
+			-3.348028,40.252917,27500.000000 
+			-3.464028,39.780750,32800.000000 
+			-3.824639,39.506083,35900.000000 
+			-4.084279,39.306275,37000.000000 
+			-4.556278,38.938611,37000.000000 
+			-5.099694,38.508139,37000.000000 
+			-5.762222,37.427583,37000.000000 
+			-6.726972,36.508889,37000.000000 
+			-7.416667,35.833333,37000.000000 
+			-7.833333,35.413889,37000.000000 
+			-8.789167,34.444444,37000.000000 
+			-10.148333,32.997500,37000.000000 
+			-11.277500,31.753889,37000.000000 
+			-12.373333,30.505833,37000.000000 
+			-12.717222,30.104167,37000.000000 
+			-13.510722,29.166000,38000.000000 
+			-15.429000,28.077083,37000.000000 
+			-15.691056,27.720444,38000.000000 
+			-16.290111,26.894583,38000.000000 
+			-16.786389,26.197778,38000.000000 
+			-17.625583,25.000000,38000.000000 
+			-19.590028,22.081361,38000.000000 
+			-20.700000,20.365000,38000.000000 
+			-22.950850,16.736672,38000.000000 
+			-24.596667,13.876667,38000.000000 
+			-27.335000,8.941667,38000.000000 
+			-30.000000,6.000000,38000.000000 
+			-33.549667,1.737500,38000.000000 
+			-40.000000,-6.000000,38000.000000 
+			-44.152500,-10.592167,40000.000000 
+			-45.608333,-13.321833,40000.000000 
+			-46.072167,-13.923833,40000.000000 
+			-46.476000,-14.444667,40000.000000 
+			-46.791833,-14.850000,40000.000000 
+			-47.346639,-15.557144,40000.000000 
+			-48.021922,-15.871903,40000.000000 
+			-48.646333,-16.550167,40000.000000 
+			-48.986000,-16.911000,40000.000000 
+			-49.132000,-17.067500,40000.000000 
+			-49.346167,-17.291333,40000.000000 
+			-50.029667,-18.000833,40000.000000 
+			-50.485833,-18.475667,40000.000000 
+			-50.839167,-18.845500,40000.000000 
+			-51.552000,-19.566333,40000.000000 
+			-51.673167,-19.687667,40000.000000 
+			-51.782667,-19.796667,40000.000000 
+			-51.946667,-19.958167,40000.000000 
+			-52.618833,-20.622500,40000.000000 
+			-52.860500,-20.859500,40000.000000 
+			-53.030333,-21.030833,40000.000000 
+			-53.352500,-21.338500,40000.000000 
+			-53.475833,-21.454167,40000.000000 
+			-54.608167,-22.550500,40000.000000 
+			-55.514667,-23.406333,40000.000000 
+			-55.759722,-23.635000,40000.000000 
+			-56.869444,-24.656389,40000.000000 
+			-57.521944,-25.244167,40000.000000 
+			-57.875278,-25.731667,40000.000000 
+			-58.224694,-26.210278,40000.000000 
+			-62.197778,-28.717500,40000.000000 
+			-68.336944,-32.058611,40000.000000 
+			-69.456900,-32.618067,40000.000000 
+			-70.000000,-32.883333,30100.000000 
+			-70.539722,-32.906667,21700.000000 
+			-70.811111,-32.919167,17400.000000 
+			-70.977875,-33.085936,13300.000000 
+			-70.933950,-33.423494,7100.000000 
+			-70.911594,-33.594122,4100.000000 
+			-70.793803,-33.394442,4100.000000 
+			</coordinates>
+		</LineString>
+	</MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>SSY</name>
+	<description>S.S.REYES</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>clampToGround</altitudeMode>
+		<coordinates>-3.575194,40.546417,6900.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>D006J</name>
+	<description>D006J</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>clampToGround</altitudeMode>
+		<coordinates>-3.542264,40.635497,12100.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>D006L</name>
+	<description>D006L</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>clampToGround</altitudeMode>
+		<coordinates>-3.539200,40.668772,13500.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>D238J</name>
+	<description>D238J</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>clampToGround</altitudeMode>
+		<coordinates>-3.428464,40.760467,17400.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>PDT</name>
+	<description>PERALES</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>clampToGround</altitudeMode>
+		<coordinates>-3.348028,40.252917,27500.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>VTB</name>
+	<description>VILLATOBAS</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>clampToGround</altitudeMode>
+		<coordinates>-3.464028,39.780750,32800.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>BOGAS</name>
+	<description>BOGAS</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>clampToGround</altitudeMode>
+		<coordinates>-3.824639,39.506083,35900.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>TOC</name>
+	<description>TOP OF CLIMB</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>clampToGround</altitudeMode>
+		<coordinates>-4.084279,39.306275,37000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>CRISA</name>
+	<description>CRISA</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>clampToGround</altitudeMode>
+		<coordinates>-4.556278,38.938611,37000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>HIJ</name>
+	<description>HINOJOSA DEL DUQUE</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>clampToGround</altitudeMode>
+		<coordinates>-5.099694,38.508139,37000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>SVL</name>
+	<description>SEVILLE</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>clampToGround</altitudeMode>
+		<coordinates>-5.762222,37.427583,37000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>CLANA</name>
+	<description>CLANA</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>clampToGround</altitudeMode>
+		<coordinates>-6.726972,36.508889,37000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>KORNO</name>
+	<description>KORNO</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>clampToGround</altitudeMode>
+		<coordinates>-7.416667,35.833333,37000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>ABODA</name>
+	<description>ABODA</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>clampToGround</altitudeMode>
+		<coordinates>-7.833333,35.413889,37000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>IBALU</name>
+	<description>IBALU</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>clampToGround</altitudeMode>
+		<coordinates>-8.789167,34.444444,37000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>AMETA</name>
+	<description>AMETA</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>clampToGround</altitudeMode>
+		<coordinates>-10.148333,32.997500,37000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>TOVRA</name>
+	<description>TOVRA</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>clampToGround</altitudeMode>
+		<coordinates>-11.277500,31.753889,37000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>VEDOD</name>
+	<description>VEDOD</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>clampToGround</altitudeMode>
+		<coordinates>-12.373333,30.505833,37000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>TERTO</name>
+	<description>TERTO</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>clampToGround</altitudeMode>
+		<coordinates>-12.717222,30.104167,37000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>LZR</name>
+	<description>LANZAROTE</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>clampToGround</altitudeMode>
+		<coordinates>-13.510722,29.166000,38000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>GDV</name>
+	<description>GRAN CANARIA</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>clampToGround</altitudeMode>
+		<coordinates>-15.429000,28.077083,37000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>LOMAS</name>
+	<description>LOMAS</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>clampToGround</altitudeMode>
+		<coordinates>-15.691056,27.720444,38000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>ODEGI</name>
+	<description>ODEGI</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>clampToGround</altitudeMode>
+		<coordinates>-16.290111,26.894583,38000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>UDATI</name>
+	<description>UDATI</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>clampToGround</altitudeMode>
+		<coordinates>-16.786389,26.197778,38000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>LIMAL</name>
+	<description>LIMAL</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>clampToGround</altitudeMode>
+		<coordinates>-17.625583,25.000000,38000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>ISOKA</name>
+	<description>ISOKA</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>clampToGround</altitudeMode>
+		<coordinates>-19.590028,22.081361,38000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>IPERA</name>
+	<description>IPERA</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>clampToGround</altitudeMode>
+		<coordinates>-20.700000,20.365000,38000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>CVS</name>
+	<description>SAL</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>clampToGround</altitudeMode>
+		<coordinates>-22.950850,16.736672,38000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>POMAT</name>
+	<description>POMAT</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>clampToGround</altitudeMode>
+		<coordinates>-24.596667,13.876667,38000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>SAGMA</name>
+	<description>SAGMA</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>clampToGround</altitudeMode>
+		<coordinates>-27.335000,8.941667,38000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>06N030W</name>
+	<description>06N030W</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>clampToGround</altitudeMode>
+		<coordinates>-30.000000,6.000000,38000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>CRUDE</name>
+	<description>CRUDE</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>clampToGround</altitudeMode>
+		<coordinates>-33.549667,1.737500,38000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>06S040W</name>
+	<description>06S040W</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>clampToGround</altitudeMode>
+		<coordinates>-40.000000,-6.000000,38000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>OPLUK</name>
+	<description>OPLUK</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>clampToGround</altitudeMode>
+		<coordinates>-44.152500,-10.592167,40000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>NECTO</name>
+	<description>NECTO</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>clampToGround</altitudeMode>
+		<coordinates>-45.608333,-13.321833,40000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>KORAN</name>
+	<description>KORAN</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>clampToGround</altitudeMode>
+		<coordinates>-46.072167,-13.923833,40000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>KOGPU</name>
+	<description>KOGPU</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>clampToGround</altitudeMode>
+		<coordinates>-46.476000,-14.444667,40000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>PEDAL</name>
+	<description>PEDAL</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>clampToGround</altitudeMode>
+		<coordinates>-46.791833,-14.850000,40000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>FRM</name>
+	<description>FORMOSA</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>clampToGround</altitudeMode>
+		<coordinates>-47.346639,-15.557144,40000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>BSI</name>
+	<description>BRASILIA</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>clampToGround</altitudeMode>
+		<coordinates>-48.021922,-15.871903,40000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>SIREM</name>
+	<description>SIREM</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>clampToGround</altitudeMode>
+		<coordinates>-48.646333,-16.550167,40000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>PAMEO</name>
+	<description>PAMEO</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>clampToGround</altitudeMode>
+		<coordinates>-48.986000,-16.911000,40000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>KETUL</name>
+	<description>KETUL</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>clampToGround</altitudeMode>
+		<coordinates>-49.132000,-17.067500,40000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>SIBUT</name>
+	<description>SIBUT</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>clampToGround</altitudeMode>
+		<coordinates>-49.346167,-17.291333,40000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>EGONI</name>
+	<description>EGONI</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>clampToGround</altitudeMode>
+		<coordinates>-50.029667,-18.000833,40000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>ANDIV</name>
+	<description>ANDIV</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>clampToGround</altitudeMode>
+		<coordinates>-50.485833,-18.475667,40000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>TESEK</name>
+	<description>TESEK</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>clampToGround</altitudeMode>
+		<coordinates>-50.839167,-18.845500,40000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>VAMIK</name>
+	<description>VAMIK</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>clampToGround</altitudeMode>
+		<coordinates>-51.552000,-19.566333,40000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>PUKIL</name>
+	<description>PUKIL</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>clampToGround</altitudeMode>
+		<coordinates>-51.673167,-19.687667,40000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>NEVSI</name>
+	<description>NEVSI</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>clampToGround</altitudeMode>
+		<coordinates>-51.782667,-19.796667,40000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>KALER</name>
+	<description>KALER</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>clampToGround</altitudeMode>
+		<coordinates>-51.946667,-19.958167,40000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>SIMIV</name>
+	<description>SIMIV</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>clampToGround</altitudeMode>
+		<coordinates>-52.618833,-20.622500,40000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>BUTNA</name>
+	<description>BUTNA</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>clampToGround</altitudeMode>
+		<coordinates>-52.860500,-20.859500,40000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>SIRIS</name>
+	<description>SIRIS</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>clampToGround</altitudeMode>
+		<coordinates>-53.030333,-21.030833,40000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>DABIG</name>
+	<description>DABIG</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>clampToGround</altitudeMode>
+		<coordinates>-53.352500,-21.338500,40000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>DUNCE</name>
+	<description>DUNCE</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>clampToGround</altitudeMode>
+		<coordinates>-53.475833,-21.454167,40000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>KABEG</name>
+	<description>KABEG</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>clampToGround</altitudeMode>
+		<coordinates>-54.608167,-22.550500,40000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>REBOX</name>
+	<description>REBOX</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>clampToGround</altitudeMode>
+		<coordinates>-55.514667,-23.406333,40000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>SOSMO</name>
+	<description>SOSMO</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>clampToGround</altitudeMode>
+		<coordinates>-55.759722,-23.635000,40000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>NILKI</name>
+	<description>NILKI</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>clampToGround</altitudeMode>
+		<coordinates>-56.869444,-24.656389,40000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>VAS</name>
+	<description>ASUNCION</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>clampToGround</altitudeMode>
+		<coordinates>-57.521944,-25.244167,40000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>ARPAS</name>
+	<description>ARPAS</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>clampToGround</altitudeMode>
+		<coordinates>-57.875278,-25.731667,40000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>FSA</name>
+	<description>FORMOSA</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>clampToGround</altitudeMode>
+		<coordinates>-58.224694,-26.210278,40000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>MEVUR</name>
+	<description>MEVUR</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>clampToGround</altitudeMode>
+		<coordinates>-62.197778,-28.717500,40000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>MEBRA</name>
+	<description>MEBRA</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>clampToGround</altitudeMode>
+		<coordinates>-68.336944,-32.058611,40000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>TOD</name>
+	<description>TOP OF DESCENT</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>clampToGround</altitudeMode>
+		<coordinates>-69.456900,-32.618067,40000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>UMKAL</name>
+	<description>UMKAL</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>clampToGround</altitudeMode>
+		<coordinates>-70.000000,-32.883333,30100.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>RIBLA</name>
+	<description>RIBLA</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>clampToGround</altitudeMode>
+		<coordinates>-70.539722,-32.906667,21700.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>LESTA</name>
+	<description>LESTA</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>clampToGround</altitudeMode>
+		<coordinates>-70.811111,-32.919167,17400.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>EL476</name>
+	<description>EL476</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>clampToGround</altitudeMode>
+		<coordinates>-70.977875,-33.085936,13300.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>EL273</name>
+	<description>EL273</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>clampToGround</altitudeMode>
+		<coordinates>-70.933950,-33.423494,7100.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>ANKES</name>
+	<description>ANKES</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>clampToGround</altitudeMode>
+		<coordinates>-70.911594,-33.594122,4100.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>SCEL</name>
+	<description>ARTURO MERINO BENITEZ INTL</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>clampToGround</altitudeMode>
+		<coordinates>-70.793803,-33.394442,4100.000000 </coordinates>
+	</Point>
+</Placemark>
+</Document>
+</kml>

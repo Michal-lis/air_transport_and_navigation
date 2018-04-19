@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>levcctr.kml</name>
+<Style id="inline0">
+	<PolyStyle>
+		<fill>0</fill>
+		<color>AAff0000</color>
+	</PolyStyle>
+	<LineStyle>
+		<color>ffff0055</color>
+		<width>5</width>
+	</LineStyle>
+	<IconStyle>
+		<scale>1.5</scale>
+		<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+	<LabelStyle>
+		<color>ffffeeee</color>
+		<scale>1.5</scale>
+	</LabelStyle>
+</Style>
+<Placemark>
+	<name>CTR</name>
+	<styleUrl>#inline0</styleUrl>
+	<MultiGeometry>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-0.783611,39.675833,1828.800000</coordinates>
+		</Point>
+		<Polygon>
+			<extrude>1</extrude>
+			<tessellate>1</tessellate>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-0.783611,39.675833,1828.800000 
+						-0.695000,39.635000,1828.800000 
+						-0.540833,39.709444,1828.800000 
+						-0.529407,39.714313,1828.800000 
+						-0.516624,39.718480,1828.800000 
+						-0.503337,39.721571,1828.800000 
+						-0.489697,39.723552,1828.800000 
+						-0.475860,39.724399,1828.800000 
+						-0.461986,39.724104,1828.800000 
+						-0.448231,39.722670,1828.800000 
+						-0.434754,39.720113,1828.800000 
+						-0.421708,39.716462,1828.800000 
+						-0.409243,39.711758,1828.800000 
+						-0.397501,39.706057,1828.800000 
+						-0.386617,39.699423,1828.800000 
+						-0.376714,39.691931,1828.800000 
+						-0.367907,39.683668,1828.800000 
+						-0.360295,39.674728,1828.800000 
+						-0.353966,39.665213,1828.800000 
+						-0.348993,39.655232,1828.800000 
+						-0.345431,39.644899,1828.800000 
+						-0.343322,39.634332,1828.800000 
+						-0.342690,39.623652,1828.800000 
+						-0.343542,39.612981,1828.800000 
+						-0.345868,39.602441,1828.800000 
+						-0.349642,39.592153,1828.800000 
+						-0.354820,39.582234,1828.800000 
+						-0.361344,39.572797,1828.800000 
+						-0.355556,39.581389,1828.800000 
+						-0.266389,39.492222,1828.800000 
+						-0.274722,39.280556,1828.800000 
+						-0.583333,39.377222,1828.800000 
+						-0.843889,39.597500,1828.800000 
+						-0.783611,39.675833,1828.800000 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</MultiGeometry>
+</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>DME-LEVC.kml</name>
+<Style id="inline0">
+	<LineStyle>
+		<color>ff00ffff</color>
+		<width>6</width>
+	</LineStyle>
+	<IconStyle>
+		<scale>1.5</scale>
+		<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+	<LabelStyle>
+		<color>ffffeeee</color>
+		<scale>1.8</scale>
+	</LabelStyle>
+</Style>
+<Style id="inline1">
+	<LineStyle>
+		<color>ff00ffff</color>
+		<width>6</width>
+	</LineStyle>
+	<IconStyle>
+		<scale>0.5</scale>
+		<Icon><href>http://maps.google.com/mapfiles/kml/shapes/triangle.png</href></Icon>
+	</IconStyle>
+	<LabelStyle>
+		<color>fffffffff</color>
+		<scale>0.8</scale>
+	</LabelStyle>
+</Style>
+<Placemark>
+	<name>ARCO DME</name>
+	<styleUrl>#inline0</styleUrl>
+	<MultiGeometry>
+		<Point>
+			<altitudeMode>clampToGround</altitudeMode>
+			<coordinates>-0.773919,39.597160,0.000000</coordinates>
+		</Point>
+		<LineString>
+			<extrude>0</extrude>
+			<tessellate>1</tessellate>
+			<altitudeMode>clampToGround</altitudeMode>
+			<coordinates>
+			-0.504261,39.240082,0.000000 
+			-0.556135,39.246170,0.000000 
+			-0.606055,39.258641,0.000000 
+			-0.652710,39.277169,0.000000 
+			-0.694878,39.301267,0.000000 
+			-0.731450,39.330303,0.000000 
+			-0.761467,39.363516,0.000000 
+			-0.784142,39.400033,0.000000 
+			-0.798880,39.438896,0.000000 
+			-0.805293,39.479086,0.000000 
+			-0.803214,39.519547,0.000000 
+			-0.792697,39.559219,0.000000 
+			-0.774019,39.597060,0.000000 
+			-0.747668,39.632076,0.000000 
+			-0.714337,39.663350,0.000000 
+			-0.674900,39.690061,0.000000 
+			-0.630393,39.711506,0.000000 
+			-0.581983,39.727125,0.000000 
+			-0.530940,39.736506,0.000000 
+			-0.478605,39.739404,0.000000 
+			-0.426349,39.735743,0.000000 
+			-0.375546,39.725619,0.000000 
+			-0.327527,39.709297,0.000000 
+			-0.283553,39.687205,0.000000 
+			-0.244778,39.659924,0.000000 
+			</coordinates>
+		</LineString>
+	</MultiGeometry>
+</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,5051 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>tracks/19-Oct-2015_Arrival_A11AD2.kml</name>
+<Style id="inline0">
+	<LineStyle>
+		<color>ff0099ff</color>
+		<width>4</width>
+	</LineStyle>
+	<IconStyle>
+		<scale>1</scale>
+		<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+	<LabelStyle>
+		<color>ffffeeee</color>
+		<scale>1</scale>
+	</LabelStyle>
+</Style>
+<Style id="inline1">
+	<LineStyle>
+		<color>ff0099ff</color>
+		<width>4</width>
+	</LineStyle>
+	<IconStyle>
+		<scale>0</scale>
+		<Icon><href>http://maps.google.com/mapfiles/kml/shapes/triangle.png</href></Icon>
+	</IconStyle>
+	<LabelStyle>
+		<color>ff0000ff</color>
+		<scale>0</scale>
+	</LabelStyle>
+</Style>
+<Placemark>
+	<name>3C4847</name>
+	<styleUrl>#inline0</styleUrl>
+	<MultiGeometry>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-0.294560,39.418080,3175.000000</coordinates>
+		</Point>
+		<LineString>
+			<extrude>0</extrude>
+			<tessellate>1</tessellate>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>
+			0.153320,39.917990,16325.000000 
+			0.153320,39.917990,16325.000000 
+			0.151420,39.916950,16275.000000 
+			0.148800,39.915520,16225.000000 
+			0.146880,39.914520,16175.000000 
+			0.145020,39.913470,16125.000000 
+			0.145020,39.913470,16125.000000 
+			0.141300,39.911370,16050.000000 
+			0.141300,39.911370,16025.000000 
+			0.141300,39.911370,16025.000000 
+			0.141300,39.911370,16025.000000 
+			0.141300,39.911370,16025.000000 
+			0.133510,39.906740,15875.000000 
+			0.133510,39.906740,15875.000000 
+			0.129090,39.903970,15750.000000 
+			0.127690,39.903140,15725.000000 
+			0.127690,39.903140,15725.000000 
+			0.124270,39.900900,15625.000000 
+			0.124270,39.900900,15625.000000 
+			0.124270,39.900900,15625.000000 
+			0.124270,39.900900,15625.000000 
+			0.124270,39.900900,15625.000000 
+			0.115120,39.894610,15425.000000 
+			0.114200,39.893920,15400.000000 
+			0.114200,39.893920,15400.000000 
+			0.110290,39.891030,15275.000000 
+			0.109510,39.890440,15275.000000 
+			0.107240,39.888750,15200.000000 
+			0.107240,39.888750,15200.000000 
+			0.107240,39.888750,15200.000000 
+			0.102640,39.885090,15050.000000 
+			0.101140,39.883860,15000.000000 
+			0.099590,39.882610,14950.000000 
+			0.099590,39.882610,14950.000000 
+			0.096550,39.880050,14850.000000 
+			0.095760,39.879390,14800.000000 
+			0.095760,39.879390,14800.000000 
+			0.092220,39.876270,14675.000000 
+			0.090820,39.874970,14625.000000 
+			0.089540,39.873810,14575.000000 
+			0.088730,39.873050,14525.000000 
+			0.088730,39.873050,14525.000000 
+			0.085980,39.870480,14400.000000 
+			0.085980,39.870480,14400.000000 
+			0.082760,39.867320,14225.000000 
+			0.082760,39.867320,14225.000000 
+			0.080130,39.864670,14100.000000 
+			0.078860,39.863380,14050.000000 
+			0.077560,39.862010,13975.000000 
+			0.076350,39.860680,13925.000000 
+			0.076350,39.860680,13925.000000 
+			0.074100,39.858260,13825.000000 
+			0.074100,39.858260,13825.000000 
+			0.071650,39.855510,13700.000000 
+			0.070500,39.854160,13650.000000 
+			0.069320,39.852770,13575.000000 
+			0.068180,39.851420,13550.000000 
+			0.067140,39.850160,13500.000000 
+			0.067140,39.850160,13500.000000 
+			0.064780,39.847230,13400.000000 
+			0.064780,39.847230,13400.000000 
+			0.064780,39.847230,13400.000000 
+			0.061160,39.842520,13275.000000 
+			0.060730,39.841970,13250.000000 
+			0.060730,39.841970,13250.000000 
+			0.058720,39.839170,13200.000000 
+			0.057740,39.837800,13175.000000 
+			0.056700,39.836330,13125.000000 
+			0.056700,39.836330,13125.000000 
+			0.056700,39.836330,13125.000000 
+			0.056700,39.836330,13125.000000 
+			0.052840,39.830610,13050.000000 
+			0.052000,39.829210,13025.000000 
+			0.052000,39.829210,13025.000000 
+			0.049440,39.825120,13000.000000 
+			0.048580,39.823720,13000.000000 
+			0.047770,39.822370,13000.000000 
+			0.047770,39.822370,13000.000000 
+			0.046210,39.819630,12975.000000 
+			0.046210,39.819630,12975.000000 
+			0.046210,39.819630,12975.000000 
+			0.044360,39.816380,12950.000000 
+			0.043170,39.814220,12925.000000 
+			0.042420,39.812870,12925.000000 
+			0.041560,39.811240,12900.000000 
+			0.041200,39.810590,12900.000000 
+			0.040100,39.808590,12875.000000 
+			0.040100,39.808590,12875.000000 
+			0.040100,39.808590,12875.000000 
+			0.038150,39.805020,12800.000000 
+			0.037380,39.803510,12800.000000 
+			0.036620,39.802210,12750.000000 
+			0.035940,39.800900,12725.000000 
+			0.035220,39.799560,12700.000000 
+			0.034510,39.798250,12675.000000 
+			0.034510,39.798250,12675.000000 
+			0.033260,39.795930,12625.000000 
+			0.032180,39.793990,12600.000000 
+			0.031560,39.792810,12575.000000 
+			0.031560,39.792810,12575.000000 
+			0.031560,39.792810,12575.000000 
+			0.029440,39.789000,12525.000000 
+			0.029050,39.788240,12500.000000 
+			0.028300,39.786850,12475.000000 
+			0.027650,39.785680,12450.000000 
+			0.026930,39.784420,12425.000000 
+			0.026000,39.782660,12375.000000 
+			0.026000,39.782660,12375.000000 
+			0.024720,39.780350,12325.000000 
+			0.023990,39.779030,12275.000000 
+			0.023250,39.777630,12225.000000 
+			0.022570,39.776410,12200.000000 
+			0.022570,39.776410,12200.000000 
+			0.021200,39.773900,12100.000000 
+			0.020450,39.772560,12075.000000 
+			0.020450,39.772560,12075.000000 
+			0.019410,39.770550,12000.000000 
+			0.018750,39.769410,11950.000000 
+			0.018130,39.768180,11925.000000 
+			0.018130,39.768180,11925.000000 
+			0.016780,39.765670,11825.000000 
+			0.016060,39.764420,11775.000000 
+			0.015440,39.763200,11725.000000 
+			0.014750,39.761950,11650.000000 
+			0.013790,39.760220,11575.000000 
+			0.013080,39.758830,11525.000000 
+			0.012760,39.758220,11500.000000 
+			0.011820,39.756450,11400.000000 
+			0.011110,39.755190,11350.000000 
+			0.011110,39.755190,11350.000000 
+			0.009910,39.752980,11250.000000 
+			0.009220,39.751700,11200.000000 
+			0.009220,39.751700,11200.000000 
+			0.007870,39.749190,11075.000000 
+			0.007220,39.747940,11025.000000 
+			0.006930,39.747440,11000.000000 
+			0.005850,39.745420,10925.000000 
+			0.005250,39.744280,10875.000000 
+			0.004480,39.742900,10825.000000 
+			0.003850,39.741650,10750.000000 
+			0.003160,39.740390,10725.000000 
+			0.002570,39.739290,10675.000000 
+			0.001950,39.738110,10650.000000 
+			0.001250,39.736860,10600.000000 
+			0.000660,39.735720,10550.000000 
+			-0.000120,39.734340,10500.000000 
+			-0.000790,39.733080,10475.000000 
+			-0.001490,39.731740,10425.000000 
+			-0.002270,39.730360,10375.000000 
+			-0.002270,39.730360,10375.000000 
+			-0.003580,39.727840,10275.000000 
+			-0.004270,39.726610,10250.000000 
+			-0.004960,39.725370,10200.000000 
+			-0.005620,39.724140,10175.000000 
+			-0.005920,39.723540,10125.000000 
+			-0.006510,39.722400,10100.000000 
+			-0.007580,39.720380,10025.000000 
+			-0.008240,39.719160,9975.000000 
+			-0.215450,39.378630,3575.000000 
+			-0.216500,39.378940,3575.000000 
+			-0.217590,39.379280,3575.000000 
+			-0.218590,39.379670,3575.000000 
+			-0.219600,39.380120,3575.000000 
+			-0.220260,39.380450,3575.000000 
+			-0.221700,39.381270,3575.000000 
+			-0.222530,39.381840,3575.000000 
+			-0.223370,39.382460,3575.000000 
+			-0.224120,39.383050,3575.000000 
+			-0.224860,39.383700,3575.000000 
+			-0.225100,39.383970,3575.000000 
+			-0.226010,39.384960,3575.000000 
+			-0.226650,39.385710,3575.000000 
+			-0.227230,39.386450,3575.000000 
+			-0.227550,39.386900,3575.000000 
+			-0.228090,39.387660,3575.000000 
+			-0.228940,39.388830,3600.000000 
+			-0.229370,39.389430,3600.000000 
+			-0.230000,39.390240,3600.000000 
+			-0.230530,39.390870,3600.000000 
+			-0.230770,39.391150,3575.000000 
+			-0.231570,39.391990,3575.000000 
+			-0.232670,39.393060,3575.000000 
+			-0.233580,39.393810,3575.000000 
+			-0.233890,39.394040,3575.000000 
+			-0.234710,39.394640,3550.000000 
+			-0.235530,39.395160,3550.000000 
+			-0.236440,39.395740,3550.000000 
+			-0.237580,39.396290,3550.000000 
+			-0.238460,39.396740,3575.000000 
+			-0.239500,39.397210,3550.000000 
+			-0.240450,39.397610,3550.000000 
+			-0.241280,39.397980,3550.000000 
+			-0.242360,39.398390,3550.000000 
+			-0.243070,39.398670,3550.000000 
+			-0.244080,39.398970,3550.000000 
+			-0.245180,39.399390,3550.000000 
+			-0.246030,39.399670,3550.000000 
+			-0.247010,39.399990,3550.000000 
+			-0.247860,39.400280,3550.000000 
+			-0.248800,39.400590,3550.000000 
+			-0.249760,39.400930,3550.000000 
+			-0.250550,39.401160,3550.000000 
+			-0.251710,39.401580,3550.000000 
+			-0.252630,39.401870,3550.000000 
+			-0.253600,39.402190,3550.000000 
+			-0.254540,39.402510,3550.000000 
+			-0.255490,39.402840,3550.000000 
+			-0.256590,39.403260,3550.000000 
+			-0.257580,39.403610,3550.000000 
+			-0.258120,39.403820,3550.000000 
+			-0.259010,39.404160,3550.000000 
+			-0.259950,39.404470,3550.000000 
+			-0.261220,39.404980,3525.000000 
+			-0.262150,39.405350,3525.000000 
+			-0.262940,39.405630,3525.000000 
+			-0.263980,39.406050,3525.000000 
+			-0.264470,39.406240,3525.000000 
+			-0.265440,39.406610,3500.000000 
+			-0.266540,39.407030,3500.000000 
+			-0.267430,39.407410,3500.000000 
+			-0.268370,39.407770,3475.000000 
+			-0.269280,39.408140,3475.000000 
+			-0.270200,39.408470,3475.000000 
+			-0.270940,39.408800,3450.000000 
+			-0.271850,39.409150,3450.000000 
+			-0.272770,39.409500,3425.000000 
+			-0.274060,39.410020,3425.000000 
+			-0.274600,39.410240,3425.000000 
+			-0.275910,39.410750,3400.000000 
+			-0.276860,39.411080,3400.000000 
+			-0.277760,39.411440,3375.000000 
+			-0.278320,39.411680,3375.000000 
+			-0.279550,39.412170,3350.000000 
+			-0.280520,39.412520,3350.000000 
+			-0.281410,39.412860,3350.000000 
+			-0.282180,39.413180,3325.000000 
+			-0.283020,39.413500,3325.000000 
+			-0.283970,39.413860,3300.000000 
+			-0.285050,39.414280,3300.000000 
+			-0.285760,39.414550,3275.000000 
+			-0.286840,39.414960,3275.000000 
+			-0.287670,39.415280,3275.000000 
+			-0.288690,39.415700,3250.000000 
+			-0.289250,39.415870,3250.000000 
+			-0.290180,39.416240,3225.000000 
+			-0.291440,39.416710,3225.000000 
+			-0.292390,39.417070,3200.000000 
+			-0.293170,39.417390,3200.000000 
+			-0.293700,39.417600,3200.000000 
+			-0.294660,39.417980,3175.000000 
+			-0.295900,39.418430,3150.000000 
+			-0.296870,39.418810,3150.000000 
+			-0.297670,39.419130,3125.000000 
+			-0.298600,39.419490,3125.000000 
+			-0.299620,39.419880,3100.000000 
+			-0.300660,39.420300,3100.000000 
+			-0.301530,39.420640,3075.000000 
+			-0.303280,39.421270,3050.000000 
+			-0.303280,39.421270,3050.000000 
+			-0.304510,39.421740,3025.000000 
+			-0.305590,39.422150,3025.000000 
+			-0.306520,39.422530,3000.000000 
+			-0.307080,39.422740,3000.000000 
+			-0.308510,39.423290,2975.000000 
+			-0.308990,39.423430,2975.000000 
+			-0.310360,39.423980,2950.000000 
+			-0.311340,39.424350,2950.000000 
+			-0.312440,39.424760,2925.000000 
+			-0.313350,39.425130,2900.000000 
+			-0.314360,39.425490,2900.000000 
+			-0.314720,39.425630,2900.000000 
+			-0.315610,39.425970,2875.000000 
+			-0.317080,39.426530,2850.000000 
+			-0.317810,39.426810,2850.000000 
+			-0.318360,39.427000,2850.000000 
+			-0.319270,39.427320,2825.000000 
+			-0.319270,39.427320,2825.000000 
+			-0.319270,39.427320,2825.000000 
+			-0.321950,39.428380,2775.000000 
+			-0.323240,39.428860,2750.000000 
+			-0.323610,39.429000,2750.000000 
+			-0.324510,39.429380,2750.000000 
+			-0.325380,39.429750,2725.000000 
+			-0.326840,39.430300,2700.000000 
+			-0.327740,39.430620,2700.000000 
+			-0.328250,39.430860,2675.000000 
+			-0.328980,39.431140,2675.000000 
+			-0.330080,39.431560,2650.000000 
+			-0.331020,39.431950,2650.000000 
+			-0.332040,39.432310,2625.000000 
+			-0.332950,39.432680,2600.000000 
+			-0.333830,39.433000,2600.000000 
+			-0.335020,39.433470,2575.000000 
+			-0.335920,39.433820,2575.000000 
+			-0.336340,39.434010,2575.000000 
+			-0.336340,39.434010,2575.000000 
+			-0.338070,39.434690,2550.000000 
+			-0.339020,39.435060,2525.000000 
+			-0.340100,39.435420,2525.000000 
+			-0.340940,39.435750,2500.000000 
+			-0.340940,39.435750,2500.000000 
+			-0.342190,39.436250,2475.000000 
+			-0.343440,39.436680,2450.000000 
+			-0.344220,39.436980,2450.000000 
+			-0.345030,39.437290,2425.000000 
+			-0.345890,39.437620,2400.000000 
+			-0.345890,39.437620,2400.000000 
+			-0.347920,39.438350,2350.000000 
+			-0.348750,39.438640,2350.000000 
+			-0.349180,39.438820,2325.000000 
+			-0.350460,39.439290,2300.000000 
+			-0.350970,39.439450,2300.000000 
+			-0.351810,39.439750,2275.000000 
+			-0.352640,39.440090,2275.000000 
+			-0.352640,39.440090,2275.000000 
+			-0.354490,39.440820,2225.000000 
+			-0.355260,39.441100,2200.000000 
+			-0.356080,39.441430,2200.000000 
+			-0.356990,39.441800,2175.000000 
+			-0.356990,39.441800,2175.000000 
+			-0.358640,39.442450,2150.000000 
+			-0.359310,39.442780,2150.000000 
+			-0.359740,39.442930,2125.000000 
+			-0.359740,39.442930,2125.000000 
+			-0.361510,39.443620,2100.000000 
+			-0.362180,39.443940,2075.000000 
+			-0.362610,39.444080,2075.000000 
+			-0.364070,39.444690,2050.000000 
+			-0.364520,39.444900,2050.000000 
+			-0.365360,39.445270,2025.000000 
+			-0.366070,39.445540,2000.000000 
+			-0.366070,39.445540,2000.000000 
+			-0.366070,39.445540,2000.000000 
+			-0.366070,39.445540,2000.000000 
+			-0.369510,39.447020,1950.000000 
+			-0.369510,39.447020,1950.000000 
+			-0.369510,39.447020,1950.000000 
+			-0.369510,39.447020,1950.000000 
+			-0.369510,39.447020,1950.000000 
+			-0.369510,39.447020,1950.000000 
+			-0.373420,39.448610,1850.000000 
+			-0.373420,39.448610,1850.000000 
+			-0.374910,39.449200,1825.000000 
+			-0.374910,39.449200,1825.000000 
+			-0.376880,39.449940,1775.000000 
+			-0.377770,39.450260,1750.000000 
+			-0.377770,39.450260,1750.000000 
+			-0.377770,39.450260,1750.000000 
+			-0.377770,39.450260,1750.000000 
+			-0.377770,39.450260,1750.000000 
+			-0.381890,39.451770,1675.000000 
+			-0.381890,39.451770,1675.000000 
+			-0.383300,39.452230,1625.000000 
+			-0.383300,39.452230,1625.000000 
+			-0.384830,39.452790,1600.000000 
+			-0.385190,39.452880,1600.000000 
+			-0.385190,39.452880,1600.000000 
+			-0.385190,39.452880,1600.000000 
+			-0.387940,39.453770,1550.000000 
+			-0.388610,39.454000,1525.000000 
+			-0.389000,39.454100,1525.000000 
+			-0.390490,39.454610,1500.000000 
+			-0.390490,39.454610,1500.000000 
+			-0.391990,39.455060,1475.000000 
+			-0.391990,39.455060,1475.000000 
+			-0.393010,39.455440,1450.000000 
+			-0.394070,39.455800,1450.000000 
+			-0.394070,39.455800,1450.000000 
+			-0.395450,39.456300,1400.000000 
+			-0.395450,39.456300,1400.000000 
+			-0.396520,39.456760,1400.000000 
+			-0.397160,39.456980,1375.000000 
+			-0.397160,39.456980,1375.000000 
+			-0.398610,39.457580,1350.000000 
+			-0.399390,39.457950,1350.000000 
+			-0.400020,39.458190,1325.000000 
+			-0.400700,39.458500,1300.000000 
+			-0.401000,39.458630,1300.000000 
+			-0.402020,39.459050,1275.000000 
+			-0.402020,39.459050,1275.000000 
+			-0.403200,39.459540,1275.000000 
+			-0.403500,39.459680,1250.000000 
+			-0.404540,39.460100,1250.000000 
+			-0.404850,39.460190,1250.000000 
+			-0.404850,39.460190,1250.000000 
+			-0.404850,39.460190,1250.000000 
+			-0.407470,39.461210,1200.000000 
+			-0.407870,39.461380,1200.000000 
+			-0.408810,39.461730,1200.000000 
+			-0.409060,39.461820,1175.000000 
+			-0.409060,39.461820,1175.000000 
+			-0.410100,39.462240,1175.000000 
+			-0.411030,39.462570,1150.000000 
+			-0.411990,39.462940,1150.000000 
+			-0.412350,39.463070,1150.000000 
+			-0.413420,39.463490,1125.000000 
+			-0.413660,39.463580,1125.000000 
+			-0.414730,39.463990,1100.000000 
+			-0.414730,39.463990,1100.000000 
+			-0.414730,39.463990,1100.000000 
+			-0.416500,39.464660,1075.000000 
+			-0.416500,39.464660,1075.000000 
+			-0.416500,39.464660,1075.000000 
+			-0.418030,39.465220,1050.000000 
+			-0.418030,39.465220,1050.000000 
+			-0.419810,39.465870,1050.000000 
+			-0.420470,39.466100,1025.000000 
+			-0.421180,39.466320,1025.000000 
+			-0.421480,39.466460,1000.000000 
+			-0.422730,39.466920,1000.000000 
+			-0.422730,39.466920,1000.000000 
+			-0.424110,39.467380,975.000000 
+			-0.424500,39.467550,975.000000 
+			-0.424500,39.467550,975.000000 
+			-0.425540,39.467960,975.000000 
+			-0.425540,39.467960,975.000000 
+			-0.427120,39.468570,950.000000 
+			-0.427670,39.468760,950.000000 
+			-0.427670,39.468760,950.000000 
+			-0.429120,39.469350,925.000000 
+			-0.429120,39.469350,925.000000 
+			-0.429120,39.469350,925.000000 
+			-0.430970,39.470080,900.000000 
+			-0.432050,39.470440,900.000000 
+			-0.432500,39.470620,875.000000 
+			-0.433420,39.470990,875.000000 
+			-0.433840,39.471130,850.000000 
+			-0.433840,39.471130,850.000000 
+			-0.435330,39.471680,850.000000 
+			-0.435970,39.471920,825.000000 
+			-0.436650,39.472180,825.000000 
+			-0.437320,39.472430,825.000000 
+			-0.438020,39.472690,825.000000 
+			-0.438500,39.472920,800.000000 
+			-0.438500,39.472920,800.000000 
+			-0.439870,39.473420,800.000000 
+			-0.440490,39.473690,775.000000 
+			-0.441180,39.473970,775.000000 
+			-0.441890,39.474250,775.000000 
+			-0.442800,39.474610,750.000000 
+			-0.443480,39.474850,750.000000 
+			-0.443930,39.475020,750.000000 
+			-0.444520,39.475270,725.000000 
+			-0.444820,39.475370,725.000000 
+			-0.445540,39.475660,725.000000 
+			-0.446170,39.475880,700.000000 
+			-0.447450,39.476350,675.000000 
+			-0.448120,39.476620,675.000000 
+			-0.448530,39.476760,675.000000 
+			-0.449220,39.477040,650.000000 
+			-0.449900,39.477260,650.000000 
+			-0.450980,39.477680,625.000000 
+			-0.451660,39.477930,625.000000 
+			-0.451900,39.478020,600.000000 
+			-0.452760,39.478350,600.000000 
+			-0.453420,39.478590,575.000000 
+			-0.454200,39.478870,575.000000 
+			-0.454900,39.479140,550.000000 
+			-0.455570,39.479420,525.000000 
+			-0.456300,39.479700,525.000000 
+			-0.456300,39.479700,525.000000 
+			-0.457490,39.480150,500.000000 
+			-0.458190,39.480440,500.000000 
+			-0.458800,39.480700,475.000000 
+			-0.459160,39.480790,475.000000 
+			-0.460170,39.481200,450.000000 
+			-0.460170,39.481200,450.000000 
+			-0.461360,39.481650,425.000000 
+			-0.462160,39.481980,425.000000 
+			-0.462800,39.482210,400.000000 
+			-0.462800,39.482210,400.000000 
+			-0.464110,39.482710,375.000000 
+			-0.464890,39.482990,375.000000 
+			-0.464890,39.482990,375.000000 
+			-0.465900,39.483400,350.000000 
+			-0.465900,39.483400,350.000000 
+			-0.467280,39.483860,325.000000 
+			-0.467280,39.483860,325.000000 
+			-0.467280,39.483860,325.000000 
+			-0.467280,39.483860,325.000000 
+			-0.467280,39.483860,325.000000 
+			-0.467280,39.483860,325.000000 
+			-0.467280,39.483860,325.000000 
+			-0.467280,39.483860,325.000000 
+			-0.467280,39.483860,325.000000 
+			-0.467280,39.483860,325.000000 
+			-0.467280,39.483860,325.000000 
+			-0.467280,39.483860,325.000000 
+			-0.467280,39.483860,325.000000 
+			-0.467280,39.483860,325.000000 
+			-0.467280,39.483860,325.000000 
+			-0.467280,39.483860,325.000000 
+			-0.467280,39.483860,325.000000 
+			-0.467280,39.483860,325.000000 
+			-0.467280,39.483860,325.000000 
+			-0.467280,39.483860,325.000000 
+			-0.467280,39.483860,325.000000 
+			-0.467280,39.483860,325.000000 
+			-0.467280,39.483860,325.000000 
+			-0.480730,39.488990,0.000000 
+			</coordinates>
+		</LineString>
+	</MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>1</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 380.5,tk: 236.1, vr: -2496</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.153320,39.917990,16325.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>2</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 380.5,tk: 236.1, vr: -2496</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.153320,39.917990,16325.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>3</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 379.7,tk: 236.1, vr: -2496</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.151420,39.916950,16275.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>4</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 379.4,tk: 235.8, vr: -2496</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.148800,39.915520,16225.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>5</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 379.2,tk: 235.6, vr: -2432</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.146880,39.914520,16175.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>6</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 384.1,tk: 234.3, vr: -2496</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.145020,39.913470,16125.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>7</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 384.1,tk: 234.3, vr: -2496</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.145020,39.913470,16125.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>8</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 383.4,tk: 233.7, vr: -2560</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.141300,39.911370,16050.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>9</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 383.4,tk: 233.7, vr: -2560</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.141300,39.911370,16025.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>10</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 383.4,tk: 233.7, vr: -2560</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.141300,39.911370,16025.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>11</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 383.4,tk: 233.7, vr: -2560</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.141300,39.911370,16025.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>12</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 383.4,tk: 233.7, vr: -2560</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.141300,39.911370,16025.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>13</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 374.6,tk: 232.7, vr: -2880</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.133510,39.906740,15875.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>14</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 374.6,tk: 232.7, vr: -2880</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.133510,39.906740,15875.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>15</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 372.5,tk: 231.9, vr: -2688</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.129090,39.903970,15750.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>16</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 376.6,tk: 230.6, vr: -2624</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.127690,39.903140,15725.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>17</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 376.6,tk: 230.6, vr: -2624</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.127690,39.903140,15725.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>18</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 373.9,tk: 229.7, vr: -2496</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.124270,39.900900,15625.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>19</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 373.9,tk: 229.7, vr: -2496</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.124270,39.900900,15625.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>20</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 373.9,tk: 229.7, vr: -2496</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.124270,39.900900,15625.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>21</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 373.9,tk: 229.7, vr: -2496</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.124270,39.900900,15625.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>22</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 373.9,tk: 229.7, vr: -2496</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.124270,39.900900,15625.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>23</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 365.5,tk: 228.3, vr: -2240</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.115120,39.894610,15425.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>24</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 365.3,tk: 227.9, vr: -2432</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.114200,39.893920,15400.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>25</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 365.3,tk: 227.9, vr: -2432</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.114200,39.893920,15400.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>26</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 369.9,tk: 226.2, vr: -2752</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.110290,39.891030,15275.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>27</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 369.8,tk: 225.8, vr: -2880</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.109510,39.890440,15275.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>28</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 369.1,tk: 225.4, vr: -2944</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.107240,39.888750,15200.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>29</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 369.1,tk: 225.4, vr: -2944</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.107240,39.888750,15200.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>30</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 369.1,tk: 225.4, vr: -2944</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.107240,39.888750,15200.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>31</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 361.3,tk: 225.1, vr: -3008</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.102640,39.885090,15050.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>32</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 360.6,tk: 224.6, vr: -3008</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.101140,39.883860,15000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>33</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 360,tk: 224.2, vr: -2944</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.099590,39.882610,14950.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>34</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 360,tk: 224.2, vr: -2944</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.099590,39.882610,14950.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>35</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 358,tk: 223, vr: -3008</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.096550,39.880050,14850.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>36</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 357.3,tk: 222.8, vr: -3072</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.095760,39.879390,14800.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>37</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 357.3,tk: 222.8, vr: -3072</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.095760,39.879390,14800.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>38</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 362.1,tk: 221.3, vr: -3392</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.092220,39.876270,14675.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>39</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 361,tk: 220.6, vr: -3648</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.090820,39.874970,14625.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>40</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 361.2,tk: 220.2, vr: -3712</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.089540,39.873810,14575.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>41</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 360.7,tk: 219.8, vr: -3840</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.088730,39.873050,14525.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>42</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 360.7,tk: 219.8, vr: -3840</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.088730,39.873050,14525.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>43</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 354.3,tk: 219.8, vr: -3904</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.085980,39.870480,14400.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>44</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 354.3,tk: 219.8, vr: -3904</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.085980,39.870480,14400.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>45</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 353.4,tk: 218.9, vr: -3840</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.082760,39.867320,14225.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>46</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 353.4,tk: 218.9, vr: -3840</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.082760,39.867320,14225.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>47</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 353.3,tk: 218.1, vr: -3840</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.080130,39.864670,14100.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>48</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 358.6,tk: 216.8, vr: -3904</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.078860,39.863380,14050.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>49</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 358.2,tk: 216.5, vr: -3776</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.077560,39.862010,13975.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>50</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 357.8,tk: 216.1, vr: -3648</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.076350,39.860680,13925.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>51</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 357.8,tk: 216.1, vr: -3648</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.076350,39.860680,13925.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>52</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 357.6,tk: 215, vr: -3456</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.074100,39.858260,13825.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>53</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 357,tk: 214.8, vr: -3392</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.074100,39.858260,13825.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>54</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 350.4,tk: 215, vr: -3328</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.071650,39.855510,13700.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>55</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 350.1,tk: 214.6, vr: -3264</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.070500,39.854160,13650.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>56</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 348.6,tk: 214, vr: -3136</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.069320,39.852770,13575.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>57</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 348.4,tk: 213.6, vr: -3008</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.068180,39.851420,13550.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>58</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 347.2,tk: 213.4, vr: -2944</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.067140,39.850160,13500.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>59</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 347.2,tk: 213.4, vr: -2944</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.067140,39.850160,13500.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>60</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 344.8,tk: 212.4, vr: -2560</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.064780,39.847230,13400.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>61</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 344.8,tk: 212.4, vr: -2560</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.064780,39.847230,13400.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>62</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 344.8,tk: 212.4, vr: -2560</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.064780,39.847230,13400.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>63</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 339.9,tk: 210.8, vr: -1728</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.061160,39.842520,13275.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>64</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 339.9,tk: 210.8, vr: -1600</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.060730,39.841970,13250.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>65</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 337.9,tk: 210.2, vr: -1472</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.060730,39.841970,13250.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>66</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 336.4,tk: 209.8, vr: -1408</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.058720,39.839170,13200.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>67</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 334.9,tk: 209.3, vr: -1408</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.057740,39.837800,13175.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>68</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 333.1,tk: 209.1, vr: -1536</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.056700,39.836330,13125.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>69</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 333.1,tk: 209.1, vr: -1536</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.056700,39.836330,13125.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>70</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 333.1,tk: 209.1, vr: -1536</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.056700,39.836330,13125.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>71</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 333.1,tk: 209.1, vr: -1536</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.056700,39.836330,13125.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>72</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 327.8,tk: 207.4, vr: -896</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.052840,39.830610,13050.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>73</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 326.9,tk: 207.1, vr: -704</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.052000,39.829210,13025.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>74</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 326.9,tk: 207.1, vr: -704</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.052000,39.829210,13025.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>75</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 321.6,tk: 206, vr: -256</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.049440,39.825120,13000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>76</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 320.7,tk: 205.7, vr: -320</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.048580,39.823720,13000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>77</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 318.1,tk: 205.1, vr: -448</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.047770,39.822370,13000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>78</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 318.1,tk: 205.1, vr: -448</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.047770,39.822370,13000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>79</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 315.9,tk: 204.7, vr: -448</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.046210,39.819630,12975.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>80</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 315.9,tk: 204.7, vr: -448</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.046210,39.819630,12975.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>81</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 315.9,tk: 204.7, vr: -448</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.046210,39.819630,12975.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>82</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 318,tk: 203.3, vr: -576</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.044360,39.816380,12950.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>83</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 317.6,tk: 203.2, vr: -704</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.043170,39.814220,12925.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>84</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 315.9,tk: 202.9, vr: -832</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.042420,39.812870,12925.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>85</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 315,tk: 203, vr: -1024</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.041560,39.811240,12900.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>86</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 315,tk: 203, vr: -1024</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.041200,39.810590,12900.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>87</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 312.4,tk: 202.8, vr: -1344</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.040100,39.808590,12875.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>88</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 312.4,tk: 202.8, vr: -1344</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.040100,39.808590,12875.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>89</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 312.4,tk: 202.8, vr: -1344</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.040100,39.808590,12875.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>90</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 311.1,tk: 202.7, vr: -1600</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.038150,39.805020,12800.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>91</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 302.8,tk: 203.3, vr: -1664</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.037380,39.803510,12800.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>92</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 302.4,tk: 203.2, vr: -1728</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.036620,39.802210,12750.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>93</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 301.5,tk: 203.2, vr: -1728</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.035940,39.800900,12725.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>94</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 300.2,tk: 203.1, vr: -1536</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.035220,39.799560,12700.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>95</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 299.2,tk: 203.2, vr: -1408</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.034510,39.798250,12675.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>96</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 299.2,tk: 203.2, vr: -1408</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.034510,39.798250,12675.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>97</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 296.5,tk: 203.5, vr: -1344</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.033260,39.795930,12625.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>98</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 295.6,tk: 203.5, vr: -1344</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.032180,39.793990,12600.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>99</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 302,tk: 203, vr: -1408</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.031560,39.792810,12575.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>100</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 302,tk: 203, vr: -1408</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.031560,39.792810,12575.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>101</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 302,tk: 203, vr: -1408</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.031560,39.792810,12575.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>102</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 299.8,tk: 203, vr: -1536</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.029440,39.789000,12525.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>103</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 298.5,tk: 202.9, vr: -1600</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.029050,39.788240,12500.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>104</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 297.5,tk: 202.9, vr: -1664</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.028300,39.786850,12475.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>105</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 296.6,tk: 203, vr: -1792</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.027650,39.785680,12450.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>106</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 295.3,tk: 202.9, vr: -1920</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.026930,39.784420,12425.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>107</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 295.3,tk: 202.9, vr: -2048</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.026000,39.782660,12375.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>108</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 295.3,tk: 202.9, vr: -2048</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.026000,39.782660,12375.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>109</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 294,tk: 202.8, vr: -2240</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.024720,39.780350,12325.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>110</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 294,tk: 202.8, vr: -2304</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.023990,39.779030,12275.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>111</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 294,tk: 202.8, vr: -2368</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.023250,39.777630,12225.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>112</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 285.3,tk: 203.3, vr: -2432</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.022570,39.776410,12200.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>113</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 285.3,tk: 203.3, vr: -2432</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.022570,39.776410,12200.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>114</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 285.3,tk: 203.3, vr: -2560</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.021200,39.773900,12100.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>115</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 284.4,tk: 203.4, vr: -2624</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.020450,39.772560,12075.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>116</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 284.4,tk: 203.4, vr: -2624</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.020450,39.772560,12075.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>117</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 284.4,tk: 203.4, vr: -2688</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.019410,39.770550,12000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>118</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 284,tk: 203.2, vr: -2752</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.018750,39.769410,11950.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>119</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 284,tk: 203.2, vr: -2816</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.018130,39.768180,11925.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>120</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 284,tk: 203.2, vr: -2816</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.018130,39.768180,11925.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>121</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 284,tk: 203.2, vr: -2944</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.016780,39.765670,11825.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>122</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 284,tk: 203.2, vr: -3072</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.016060,39.764420,11775.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>123</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 284,tk: 203.2, vr: -3200</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.015440,39.763200,11725.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>124</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 284,tk: 203.2, vr: -3200</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.014750,39.761950,11650.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>125</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 284,tk: 203.2, vr: -3328</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.013790,39.760220,11575.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>126</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 284,tk: 203.2, vr: -3392</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.013080,39.758830,11525.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>127</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 284,tk: 203.2, vr: -3392</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.012760,39.758220,11500.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>128</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 284.9,tk: 203.1, vr: -3520</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.011820,39.756450,11400.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>129</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 284.9,tk: 203.1, vr: -3520</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.011110,39.755190,11350.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>130</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 284.9,tk: 203.1, vr: -3520</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.011110,39.755190,11350.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>131</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 293.2,tk: 202.5, vr: -3584</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.009910,39.752980,11250.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>132</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 293.2,tk: 202.5, vr: -3584</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.009220,39.751700,11200.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>133</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 293.6,tk: 202.6, vr: -3520</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.009220,39.751700,11200.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>134</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 294.5,tk: 202.6, vr: -3392</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.007870,39.749190,11075.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>135</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 294.5,tk: 202.6, vr: -3264</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.007220,39.747940,11025.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>136</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 294.5,tk: 202.6, vr: -3200</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.006930,39.747440,11000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>137</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 294.5,tk: 202.6, vr: -3072</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.005850,39.745420,10925.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>138</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 294.5,tk: 202.6, vr: -2944</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.005250,39.744280,10875.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>139</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 294.5,tk: 202.6, vr: -2816</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.004480,39.742900,10825.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>140</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 294.5,tk: 202.6, vr: -2688</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.003850,39.741650,10750.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>141</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 294.5,tk: 202.6, vr: -2624</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.003160,39.740390,10725.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>142</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 294.5,tk: 202.6, vr: -2624</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.002570,39.739290,10675.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>143</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 294.5,tk: 202.6, vr: -2560</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.001950,39.738110,10650.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>144</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 293.6,tk: 202.6, vr: -2496</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.001250,39.736860,10600.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>145</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 293.6,tk: 202.6, vr: -2496</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.000660,39.735720,10550.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>146</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 285.3,tk: 203.3, vr: -2496</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.000120,39.734340,10500.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>147</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 285.3,tk: 203.3, vr: -2496</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.000790,39.733080,10475.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>148</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 284.9,tk: 203.1, vr: -2432</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.001490,39.731740,10425.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>149</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 284,tk: 203.2, vr: -2496</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.002270,39.730360,10375.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>150</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 284,tk: 203.2, vr: -2496</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.002270,39.730360,10375.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>151</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 284,tk: 203.2, vr: -2624</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.003580,39.727840,10275.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>152</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 284,tk: 203.2, vr: -2624</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.004270,39.726610,10250.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>153</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 283.6,tk: 203, vr: -2624</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.004960,39.725370,10200.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>154</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 283.6,tk: 203, vr: -2688</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.005620,39.724140,10175.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>155</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 282.7,tk: 203.1, vr: -2688</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.005920,39.723540,10125.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>156</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 282.7,tk: 203.1, vr: -2688</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.006510,39.722400,10100.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>157</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 282.7,tk: 203.1, vr: -2816</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.007580,39.720380,10025.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>158</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 282.7,tk: 203.1, vr: -2880</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.008240,39.719160,9975.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>159</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 192.9,tk: 285.3, vr: -64</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.215450,39.378630,3575.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>160</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 195,tk: 291, vr: -64</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.216500,39.378940,3575.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>161</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 193.8,tk: 294.1, vr: -64</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.217590,39.379280,3575.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>162</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 189.6,tk: 295.6, vr: -64</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.218590,39.379670,3575.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>163</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 192.4,tk: 301, vr: 64</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.219600,39.380120,3575.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>164</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 187.3,tk: 301.9, vr: 128</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.220260,39.380450,3575.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>165</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 190.6,tk: 307.1, vr: 128</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.221700,39.381270,3575.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>166</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 185.8,tk: 306.7, vr: 128</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.222530,39.381840,3575.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>167</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 188.9,tk: 313.1, vr: 0</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.223370,39.382460,3575.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>168</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 182.4,tk: 315, vr: 0</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.224120,39.383050,3575.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>169</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 188,tk: 319.5, vr: -64</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.224860,39.383700,3575.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>170</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 187,tk: 322.8, vr: -64</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.225100,39.383970,3575.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>171</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 180.1,tk: 324.7, vr: 64</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.226010,39.384960,3575.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>172</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 180,tk: 325.9, vr: 128</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.226650,39.385710,3575.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>173</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 185.6,tk: 329.6, vr: 256</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.227230,39.386450,3575.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>174</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 184.9,tk: 330.5, vr: 384</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.227550,39.386900,3575.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>175</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 185.3,tk: 330.9, vr: 320</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.228090,39.387660,3575.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>176</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 184.4,tk: 330.8, vr: 128</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.228940,39.388830,3600.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>177</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 184.6,tk: 330.1, vr: 0</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.229370,39.389430,3600.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>178</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 177.8,tk: 326.9, vr: -192</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.230000,39.390240,3600.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>179</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 178.1,tk: 325.1, vr: -320</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.230530,39.390870,3600.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>180</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 179.2,tk: 322.9, vr: -320</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.230770,39.391150,3575.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>181</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 185.2,tk: 322, vr: -384</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.231570,39.391990,3575.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>182</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 178.4,tk: 317.7, vr: -384</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.232670,39.393060,3575.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>183</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 178.9,tk: 315.2, vr: -320</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.233580,39.393810,3575.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>184</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 183.9,tk: 314.1, vr: -256</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.233890,39.394040,3575.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>185</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 178.4,tk: 309.3, vr: -128</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.234710,39.394640,3550.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>186</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 183,tk: 308.1, vr: 0</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.235530,39.395160,3550.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>187</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 178.1,tk: 303.8, vr: 64</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.236440,39.395740,3550.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>188</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 181.1,tk: 303.5, vr: 0</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.237580,39.396290,3550.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>189</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 180.9,tk: 301.7, vr: -64</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.238460,39.396740,3575.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>190</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 176.2,tk: 297.7, vr: -64</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.239500,39.397210,3550.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>191</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 176.2,tk: 297, vr: -64</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.240450,39.397610,3550.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>192</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 178.5,tk: 297.7, vr: -64</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.241280,39.397980,3550.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>193</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 178,tk: 296.7, vr: -64</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.242360,39.398390,3550.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>194</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 178,tk: 296.7, vr: -64</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.243070,39.398670,3550.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>195</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 173.1,tk: 292.4, vr: 0</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.244080,39.398970,3550.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>196</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 172.3,tk: 291.8, vr: -64</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.245180,39.399390,3550.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>197</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 172,tk: 291.5, vr: -64</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.246030,39.399670,3550.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>198</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 174.2,tk: 293.3, vr: -64</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.247010,39.399990,3550.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>199</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 173.9,tk: 293, vr: -64</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.247860,39.400280,3550.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>200</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 173.9,tk: 293, vr: -64</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.248800,39.400590,3550.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>201</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 173.9,tk: 293, vr: 0</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.249760,39.400930,3550.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>202</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 173.9,tk: 293, vr: 0</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.250550,39.401160,3550.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>203</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 174.2,tk: 293.3, vr: 0</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.251710,39.401580,3550.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>204</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 173.3,tk: 293.5, vr: 0</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.252630,39.401870,3550.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>205</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 173.7,tk: 293.8, vr: 0</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.253600,39.402190,3550.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>206</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 173.7,tk: 293.8, vr: 0</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.254540,39.402510,3550.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>207</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 170.1,tk: 291.7, vr: 0</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.255490,39.402840,3550.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>208</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 169.5,tk: 292.2, vr: -64</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.256590,39.403260,3550.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>209</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 169.5,tk: 292.2, vr: -128</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.257580,39.403610,3550.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>210</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 169,tk: 292.6, vr: -192</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.258120,39.403820,3550.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>211</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 169.4,tk: 292.9, vr: -256</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.259010,39.404160,3550.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>212</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 168.5,tk: 293.1, vr: -256</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.259950,39.404470,3550.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>213</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 168.9,tk: 293.4, vr: -320</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.261220,39.404980,3525.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>214</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 168.3,tk: 293.8, vr: -320</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.262150,39.405350,3525.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>215</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 168.3,tk: 293.8, vr: -320</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.262940,39.405630,3525.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>216</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 168.8,tk: 294.1, vr: -320</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.263980,39.406050,3525.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>217</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 168.8,tk: 294.1, vr: -384</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.264470,39.406240,3525.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>218</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 168.3,tk: 294.6, vr: -448</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.265440,39.406610,3500.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>219</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 168.3,tk: 294.6, vr: -512</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.266540,39.407030,3500.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>220</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 168.3,tk: 294.6, vr: -576</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.267430,39.407410,3500.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>221</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 169.2,tk: 294.4, vr: -576</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.268370,39.407770,3475.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>222</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 169.2,tk: 294.4, vr: -576</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.269280,39.408140,3475.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>223</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 169.2,tk: 294.4, vr: -576</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.270200,39.408470,3475.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>224</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 169.2,tk: 294.4, vr: -576</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.270940,39.408800,3450.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>225</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 169.2,tk: 294.4, vr: -576</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.271850,39.409150,3450.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>226</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 169.2,tk: 294.4, vr: -576</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.272770,39.409500,3425.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>227</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 169.2,tk: 294.4, vr: -576</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.274060,39.410020,3425.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>228</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 169.2,tk: 294.4, vr: -576</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.274600,39.410240,3425.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>229</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 169.2,tk: 294.4, vr: -640</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.275910,39.410750,3400.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>230</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 169.2,tk: 294.4, vr: -640</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.276860,39.411080,3400.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>231</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 168.8,tk: 294.1, vr: -704</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.277760,39.411440,3375.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>232</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 167.8,tk: 294.3, vr: -704</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.278320,39.411680,3375.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>233</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 167.8,tk: 294.3, vr: -704</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.279550,39.412170,3350.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>234</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 167.4,tk: 294, vr: -640</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.280520,39.412520,3350.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>235</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 167.4,tk: 294, vr: -640</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.281410,39.412860,3350.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>236</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 167.4,tk: 294, vr: -704</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.282180,39.413180,3325.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>237</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 166.5,tk: 294.1, vr: -704</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.283020,39.413500,3325.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>238</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 166.1,tk: 293.8, vr: -640</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.283970,39.413860,3300.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>239</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 166.5,tk: 294.1, vr: -576</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.285050,39.414280,3300.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>240</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 166.5,tk: 294.1, vr: -512</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.285760,39.414550,3275.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>241</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 167.4,tk: 294, vr: -512</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.286840,39.414960,3275.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>242</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 167.4,tk: 294, vr: -576</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.287670,39.415280,3275.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>243</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 167.4,tk: 294, vr: -576</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.288690,39.415700,3250.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>244</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 168.3,tk: 293.8, vr: -640</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.289250,39.415870,3250.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>245</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 168.3,tk: 293.8, vr: -640</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.290180,39.416240,3225.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>246</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 168.3,tk: 293.8, vr: -704</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.291440,39.416710,3225.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>247</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 168.3,tk: 293.8, vr: -704</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.292390,39.417070,3200.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>248</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 168.3,tk: 293.8, vr: -704</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.293170,39.417390,3200.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>249</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 168.3,tk: 293.8, vr: -768</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.293700,39.417600,3200.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>250</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 168.8,tk: 294.1, vr: -832</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.294660,39.417980,3175.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>251</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 168.8,tk: 294.1, vr: -832</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.295900,39.418430,3150.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>252</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 168.8,tk: 294.1, vr: -832</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.296870,39.418810,3150.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>253</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 168.8,tk: 294.1, vr: -768</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.297670,39.419130,3125.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>254</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 168.3,tk: 293.8, vr: -768</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.298600,39.419490,3125.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>255</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 168.3,tk: 293.8, vr: -832</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.299620,39.419880,3100.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>256</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 168.3,tk: 293.8, vr: -832</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.300660,39.420300,3100.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>257</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 168.3,tk: 293.8, vr: -832</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.301530,39.420640,3075.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>258</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 168.3,tk: 293.8, vr: -832</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.303280,39.421270,3050.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>259</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 168.3,tk: 293.8, vr: -832</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.303280,39.421270,3050.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>260</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 167.9,tk: 293.5, vr: -832</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.304510,39.421740,3025.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>261</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 167.9,tk: 293.5, vr: -768</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.305590,39.422150,3025.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>262</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 167.9,tk: 293.5, vr: -768</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.306520,39.422530,3000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>263</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 167,tk: 293.6, vr: -704</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.307080,39.422740,3000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>264</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 166.6,tk: 293.3, vr: -704</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.308510,39.423290,2975.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>265</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 165.7,tk: 293.5, vr: -704</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.308990,39.423430,2975.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>266</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 165.7,tk: 293.5, vr: -704</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.310360,39.423980,2950.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>267</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 166.1,tk: 293.8, vr: -640</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.311340,39.424350,2950.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>268</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 166.1,tk: 293.8, vr: -640</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.312440,39.424760,2925.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>269</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 166.1,tk: 293.8, vr: -640</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.313350,39.425130,2900.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>270</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 166.1,tk: 293.8, vr: -768</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.314360,39.425490,2900.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>271</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 166.1,tk: 293.8, vr: -832</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.314720,39.425630,2900.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>272</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 166.1,tk: 293.8, vr: -832</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.315610,39.425970,2875.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>273</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 166.1,tk: 293.8, vr: -832</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.317080,39.426530,2850.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>274</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 165.7,tk: 293.5, vr: -960</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.317810,39.426810,2850.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>275</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 165.7,tk: 293.5, vr: -960</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.318360,39.427000,2850.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>276</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 165.7,tk: 293.5, vr: -960</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.319270,39.427320,2825.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>277</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 165.7,tk: 293.5, vr: -960</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.319270,39.427320,2825.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>278</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 165.7,tk: 293.5, vr: -960</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.319270,39.427320,2825.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>279</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 165.7,tk: 293.5, vr: -960</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.321950,39.428380,2775.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>280</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 165.6,tk: 294.2, vr: -768</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.323240,39.428860,2750.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>281</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 165.6,tk: 294.2, vr: -768</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.323610,39.429000,2750.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>282</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 165.6,tk: 294.2, vr: -768</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.324510,39.429380,2750.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>283</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 164.7,tk: 294.4, vr: -768</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.325380,39.429750,2725.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>284</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 164.7,tk: 294.4, vr: -768</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.326840,39.430300,2700.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>285</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 164.7,tk: 294.4, vr: -768</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.327740,39.430620,2700.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>286</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 165.6,tk: 294.2, vr: -704</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.328250,39.430860,2675.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>287</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 165.2,tk: 293.9, vr: -768</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.328980,39.431140,2675.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>288</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 165.2,tk: 293.9, vr: -768</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.330080,39.431560,2650.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>289</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 164.3,tk: 294.1, vr: -768</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.331020,39.431950,2650.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>290</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 164.3,tk: 294.1, vr: -768</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.332040,39.432310,2625.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>291</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 164.3,tk: 294.1, vr: -768</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.332950,39.432680,2600.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>292</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 163.4,tk: 294.2, vr: -768</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.333830,39.433000,2600.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>293</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 162.5,tk: 294.4, vr: -768</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.335020,39.433470,2575.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>294</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 162.5,tk: 294.4, vr: -768</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.335920,39.433820,2575.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>295</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 161.1,tk: 294.2, vr: -704</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.336340,39.434010,2575.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>296</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 161.1,tk: 294.2, vr: -704</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.336340,39.434010,2575.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>297</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 158.9,tk: 294.1, vr: -768</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.338070,39.434690,2550.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>298</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 158.5,tk: 293.8, vr: -768</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.339020,39.435060,2525.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>299</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 157.2,tk: 293.6, vr: -832</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.340100,39.435420,2525.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>300</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 157.2,tk: 293.6, vr: -896</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.340940,39.435750,2500.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>301</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 159.2,tk: 296.1, vr: -960</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.340940,39.435750,2500.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>302</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 159.2,tk: 296.1, vr: -1024</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.342190,39.436250,2475.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>303</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 158.8,tk: 295.8, vr: -1088</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.343440,39.436680,2450.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>304</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 158.3,tk: 295.4, vr: -1088</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.344220,39.436980,2450.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>305</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 158.3,tk: 295.4, vr: -1088</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.345030,39.437290,2425.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>306</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 157.9,tk: 295.1, vr: -1024</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.345890,39.437620,2400.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>307</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 157.9,tk: 295.1, vr: -1024</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.345890,39.437620,2400.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>308</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 157,tk: 295.3, vr: -960</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.347920,39.438350,2350.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>309</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 156.1,tk: 295.4, vr: -1024</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.348750,39.438640,2350.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>310</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 156.1,tk: 295.4, vr: -1024</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.349180,39.438820,2325.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>311</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 156.1,tk: 295.4, vr: -1088</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.350460,39.439290,2300.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>312</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 155.2,tk: 295.6, vr: -1088</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.350970,39.439450,2300.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>313</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 155.2,tk: 295.6, vr: -1088</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.351810,39.439750,2275.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>314</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 154.7,tk: 296.1, vr: -960</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.352640,39.440090,2275.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>315</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 153.8,tk: 296.2, vr: -960</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.352640,39.440090,2275.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>316</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 154.3,tk: 296.6, vr: -960</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.354490,39.440820,2225.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>317</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 153.4,tk: 296.7, vr: -960</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.355260,39.441100,2200.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>318</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 153.4,tk: 296.7, vr: -896</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.356080,39.441430,2200.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>319</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 153,tk: 297.2, vr: -832</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.356990,39.441800,2175.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>320</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 152.1,tk: 297.4, vr: -832</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.356990,39.441800,2175.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>321</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 151.2,tk: 297.6, vr: -832</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.358640,39.442450,2150.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>322</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 150.3,tk: 297.8, vr: -832</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.359310,39.442780,2150.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>323</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 150.3,tk: 297.8, vr: -832</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.359740,39.442930,2125.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>324</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 150.3,tk: 297.8, vr: -896</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.359740,39.442930,2125.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>325</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 150.3,tk: 297.8, vr: -896</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.361510,39.443620,2100.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>326</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 150.3,tk: 297.8, vr: -896</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.362180,39.443940,2075.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>327</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 150.3,tk: 297.8, vr: -896</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.362610,39.444080,2075.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>328</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 148.5,tk: 298.1, vr: -896</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.364070,39.444690,2050.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>329</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 148.5,tk: 298.1, vr: -896</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.364520,39.444900,2050.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>330</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 147.6,tk: 298.3, vr: -896</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.365360,39.445270,2025.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>331</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 147.6,tk: 298.3, vr: -896</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.366070,39.445540,2000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>332</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 142.7,tk: 296.2, vr: -832</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.366070,39.445540,2000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>333</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 142.7,tk: 296.2, vr: -832</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.366070,39.445540,2000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>334</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 141.8,tk: 296.4, vr: -896</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.366070,39.445540,2000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>335</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 141.8,tk: 296.4, vr: -896</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.369510,39.447020,1950.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>336</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 141.8,tk: 296.4, vr: -896</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.369510,39.447020,1950.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>337</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 141.8,tk: 296.4, vr: -896</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.369510,39.447020,1950.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>338</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 145.4,tk: 298.3, vr: -1024</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.369510,39.447020,1950.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>339</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 145.4,tk: 298.3, vr: -1024</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.369510,39.447020,1950.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>340</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 145.4,tk: 298.3, vr: -1024</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.369510,39.447020,1950.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>341</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 146.2,tk: 297.3, vr: -1152</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.373420,39.448610,1850.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>342</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 146.2,tk: 296.4, vr: -1216</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.373420,39.448610,1850.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>343</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 146.2,tk: 296.4, vr: -1216</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.374910,39.449200,1825.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>344</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 146.7,tk: 295.9, vr: -1216</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.374910,39.449200,1825.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>345</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 146.7,tk: 295.9, vr: -1216</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.376880,39.449940,1775.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>346</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 147.2,tk: 295.3, vr: -1088</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.377770,39.450260,1750.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>347</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 147.2,tk: 295.3, vr: -1024</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.377770,39.450260,1750.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>348</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 143.5,tk: 292.1, vr: -960</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.377770,39.450260,1750.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>349</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 143.5,tk: 292.1, vr: -960</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.377770,39.450260,1750.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>350</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 143.5,tk: 292.1, vr: -960</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.377770,39.450260,1750.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>351</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 140.9,tk: 291.7, vr: -832</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.381890,39.451770,1675.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>352</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 140.6,tk: 291.3, vr: -896</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.381890,39.451770,1675.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>353</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 140.2,tk: 290.9, vr: -960</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.383300,39.452230,1625.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>354</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 139.9,tk: 290.5, vr: -960</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.383300,39.452230,1625.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>355</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 138.9,tk: 290.7, vr: -1024</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.384830,39.452790,1600.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>356</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 138.2,tk: 289.9, vr: -1088</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.385190,39.452880,1600.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>357</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 138.2,tk: 289.9, vr: -1088</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.385190,39.452880,1600.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>358</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 139.8,tk: 292.7, vr: -1024</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.385190,39.452880,1600.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>359</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 139.8,tk: 292.7, vr: -1024</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.387940,39.453770,1550.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>360</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 138.5,tk: 292.5, vr: -704</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.388610,39.454000,1525.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>361</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 138.5,tk: 292.5, vr: -704</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.389000,39.454100,1525.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>362</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 136.3,tk: 292.4, vr: -640</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.390490,39.454610,1500.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>363</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 135.4,tk: 292.6, vr: -704</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.390490,39.454610,1500.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>364</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 134.5,tk: 292.8, vr: -640</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.391990,39.455060,1475.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>365</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 132.6,tk: 293.1, vr: -768</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.391990,39.455060,1475.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>366</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 132.1,tk: 293.7, vr: -832</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.393010,39.455440,1450.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>367</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 131.2,tk: 293.8, vr: -896</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.394070,39.455800,1450.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>368</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 131.2,tk: 293.8, vr: -896</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.394070,39.455800,1450.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>369</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 126.5,tk: 292.3, vr: -832</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.395450,39.456300,1400.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>370</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 125,tk: 293.1, vr: -768</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.395450,39.456300,1400.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>371</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 124.5,tk: 293.7, vr: -640</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.396520,39.456760,1400.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>372</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 123.1,tk: 294.5, vr: -640</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.397160,39.456980,1375.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>373</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 122.6,tk: 295.1, vr: -704</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.397160,39.456980,1375.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>374</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 122.6,tk: 295.1, vr: -704</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.398610,39.457580,1350.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>375</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 121.2,tk: 294.9, vr: -768</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.399390,39.457950,1350.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>376</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 121.2,tk: 294.9, vr: -768</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.400020,39.458190,1325.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>377</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 121.7,tk: 295.3, vr: -704</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.400700,39.458500,1300.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>378</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 121.2,tk: 295.9, vr: -704</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.401000,39.458630,1300.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>379</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 120.8,tk: 295.5, vr: -768</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.402020,39.459050,1275.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>380</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 120.8,tk: 295.5, vr: -768</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.402020,39.459050,1275.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>381</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 120.8,tk: 295.5, vr: -768</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.403200,39.459540,1275.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>382</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 120.8,tk: 295.5, vr: -768</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.403500,39.459680,1250.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>383</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 121.7,tk: 294.2, vr: -448</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.404540,39.460100,1250.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>384</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 121.7,tk: 294.2, vr: -448</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.404850,39.460190,1250.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>385</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 121.7,tk: 294.2, vr: -448</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.404850,39.460190,1250.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>386</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 120.9,tk: 293.4, vr: -448</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.404850,39.460190,1250.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>387</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 120.5,tk: 292.9, vr: -576</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.407470,39.461210,1200.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>388</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 120.5,tk: 292.9, vr: -704</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.407870,39.461380,1200.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>389</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 123.4,tk: 295.9, vr: -704</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.408810,39.461730,1200.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>390</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 123.4,tk: 295.9, vr: -640</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.409060,39.461820,1175.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>391</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 123.4,tk: 295.9, vr: -640</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.409060,39.461820,1175.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>392</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 123,tk: 295.5, vr: -384</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.410100,39.462240,1175.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>393</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 123,tk: 295.5, vr: -384</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.411030,39.462570,1150.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>394</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 123,tk: 295.5, vr: -512</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.411990,39.462940,1150.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>395</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 122.1,tk: 295.7, vr: -640</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.412350,39.463070,1150.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>396</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 122.5,tk: 296.1, vr: -640</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.413420,39.463490,1125.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>397</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 122.5,tk: 296.1, vr: -640</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.413660,39.463580,1125.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>398</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 122.5,tk: 296.1, vr: -640</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.414730,39.463990,1100.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>399</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 119.6,tk: 293.1, vr: -832</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.414730,39.463990,1100.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>400</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 120.5,tk: 292.9, vr: -640</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.414730,39.463990,1100.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>401</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 121.5,tk: 292.8, vr: -512</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.416500,39.464660,1075.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>402</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 124.3,tk: 295.7, vr: -384</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.416500,39.464660,1075.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>403</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 124.3,tk: 295.7, vr: -384</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.416500,39.464660,1075.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>404</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 123.9,tk: 295.3, vr: -384</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.418030,39.465220,1050.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>405</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 123.5,tk: 294.9, vr: -448</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.418030,39.465220,1050.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>406</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 123.5,tk: 294.9, vr: -640</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.419810,39.465870,1050.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>407</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 124,tk: 294.3, vr: -704</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.420470,39.466100,1025.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>408</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 124,tk: 294.3, vr: -768</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.421180,39.466320,1025.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>409</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 124,tk: 294.3, vr: -768</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.421480,39.466460,1000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>410</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 124.4,tk: 294.7, vr: -576</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.422730,39.466920,1000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>411</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 124.4,tk: 294.7, vr: -512</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.422730,39.466920,1000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>412</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 123.9,tk: 295.3, vr: -448</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.424110,39.467380,975.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>413</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 123,tk: 295.5, vr: -192</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.424500,39.467550,975.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>414</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 123,tk: 295.5, vr: -192</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.424500,39.467550,975.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>415</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 123,tk: 295.5, vr: -192</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.425540,39.467960,975.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>416</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 123,tk: 295.5, vr: -192</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.425540,39.467960,975.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>417</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 120,tk: 293.6, vr: -384</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.427120,39.468570,950.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>418</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 120,tk: 293.6, vr: -576</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.427670,39.468760,950.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>419</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 120.9,tk: 293.4, vr: -512</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.427670,39.468760,950.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>420</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 121.3,tk: 293.8, vr: -512</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.429120,39.469350,925.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>421</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 121.3,tk: 293.8, vr: -512</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.429120,39.469350,925.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>422</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 121.9,tk: 293.2, vr: -640</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.429120,39.469350,925.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>423</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 122.4,tk: 292.6, vr: -704</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.430970,39.470080,900.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>424</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 125.2,tk: 295.5, vr: -704</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.432050,39.470440,900.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>425</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 125.2,tk: 295.5, vr: -512</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.432500,39.470620,875.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>426</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 125.2,tk: 295.5, vr: -320</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.433420,39.470990,875.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>427</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 122.4,tk: 292.6, vr: -384</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.433840,39.471130,850.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>428</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 122.4,tk: 292.6, vr: -384</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.433840,39.471130,850.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>429</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 121.5,tk: 292.8, vr: -512</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.435330,39.471680,850.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>430</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 122.4,tk: 292.6, vr: -512</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.435970,39.471920,825.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>431</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 122.4,tk: 292.6, vr: -512</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.436650,39.472180,825.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>432</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 122.4,tk: 292.6, vr: -448</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.437320,39.472430,825.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>433</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 121.5,tk: 292.8, vr: -448</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.438020,39.472690,825.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>434</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 121.9,tk: 293.2, vr: -512</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.438500,39.472920,800.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>435</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 120.9,tk: 293.4, vr: -576</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.438500,39.472920,800.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>436</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 121.3,tk: 293.8, vr: -512</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.439870,39.473420,800.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>437</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 121.3,tk: 293.8, vr: -448</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.440490,39.473690,775.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>438</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 122.2,tk: 293.6, vr: -448</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.441180,39.473970,775.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>439</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 122.2,tk: 293.6, vr: -512</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.441890,39.474250,775.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>440</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 122.2,tk: 293.6, vr: -512</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.442800,39.474610,750.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>441</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 123.2,tk: 293.4, vr: -576</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.443480,39.474850,750.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>442</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 123.2,tk: 293.4, vr: -640</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.443930,39.475020,750.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>443</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 122.8,tk: 293, vr: -640</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.444520,39.475270,725.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>444</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 123.7,tk: 292.8, vr: -640</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.444820,39.475370,725.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>445</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 123.7,tk: 292.8, vr: -640</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.445540,39.475660,725.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>446</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 123.3,tk: 292.4, vr: -640</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.446170,39.475880,700.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>447</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 123.3,tk: 292.4, vr: -576</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.447450,39.476350,675.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>448</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 123.3,tk: 292.4, vr: -576</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.448120,39.476620,675.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>449</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 123.3,tk: 292.4, vr: -640</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.448530,39.476760,675.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>450</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 123.3,tk: 292.4, vr: -704</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.449220,39.477040,650.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>451</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 123.3,tk: 292.4, vr: -704</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.449900,39.477260,650.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>452</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 126.1,tk: 295.3, vr: -768</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.450980,39.477680,625.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>453</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 126.1,tk: 295.3, vr: -768</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.451660,39.477930,625.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>454</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 126.1,tk: 295.3, vr: -832</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.451900,39.478020,600.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>455</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 126.1,tk: 295.3, vr: -832</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.452760,39.478350,600.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>456</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 126.1,tk: 295.3, vr: -896</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.453420,39.478590,575.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>457</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 123.3,tk: 292.4, vr: -768</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.454200,39.478870,575.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>458</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 123.7,tk: 292.8, vr: -768</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.454900,39.479140,550.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>459</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 123.2,tk: 293.4, vr: -768</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.455570,39.479420,525.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>460</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 123.6,tk: 293.9, vr: -768</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.456300,39.479700,525.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>461</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 123.6,tk: 293.9, vr: -768</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.456300,39.479700,525.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>462</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 123.2,tk: 293.4, vr: -768</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.457490,39.480150,500.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>463</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 123.2,tk: 293.4, vr: -832</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.458190,39.480440,500.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>464</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 123.2,tk: 293.4, vr: -896</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.458800,39.480700,475.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>465</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 123.2,tk: 293.4, vr: -896</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.459160,39.480790,475.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>466</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 121.9,tk: 293.2, vr: -768</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.460170,39.481200,450.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>467</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 120.9,tk: 293.4, vr: -640</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.460170,39.481200,450.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>468</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 120.5,tk: 292.9, vr: -640</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.461360,39.481650,425.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>469</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 120.5,tk: 292.9, vr: -640</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.462160,39.481980,425.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>470</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 122.5,tk: 296.1, vr: -640</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.462800,39.482210,400.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>471</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 122.5,tk: 296.1, vr: -640</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.462800,39.482210,400.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>472</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 120.8,tk: 295.5, vr: -768</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.464110,39.482710,375.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>473</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 120.8,tk: 295.5, vr: -704</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.464890,39.482990,375.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>474</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 120.8,tk: 295.5, vr: -704</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.464890,39.482990,375.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>475</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 119.9,tk: 295.7, vr: -640</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.465900,39.483400,350.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>476</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 119.9,tk: 295.7, vr: -640</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.465900,39.483400,350.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>477</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 119.9,tk: 295.7, vr: -640</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.467280,39.483860,325.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>478</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 119.9,tk: 295.7, vr: -640</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.467280,39.483860,325.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>479</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 117.6,tk: 295.7, vr: -448</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.467280,39.483860,325.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>480</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 117.6,tk: 295.7, vr: -448</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.467280,39.483860,325.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>481</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 117.6,tk: 295.7, vr: -448</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.467280,39.483860,325.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>482</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 117.6,tk: 295.7, vr: -448</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.467280,39.483860,325.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>483</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 117.6,tk: 295.7, vr: -448</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.467280,39.483860,325.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>484</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 117.6,tk: 295.7, vr: -448</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.467280,39.483860,325.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>485</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 117.6,tk: 295.7, vr: -448</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.467280,39.483860,325.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>486</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 117.6,tk: 295.7, vr: -448</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.467280,39.483860,325.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>487</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 117.6,tk: 295.7, vr: -448</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.467280,39.483860,325.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>488</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 117.6,tk: 295.7, vr: -448</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.467280,39.483860,325.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>489</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 117.6,tk: 295.7, vr: -448</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.467280,39.483860,325.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>490</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 117.6,tk: 295.7, vr: -448</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.467280,39.483860,325.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>491</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 117.6,tk: 295.7, vr: -448</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.467280,39.483860,325.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>492</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 117.6,tk: 295.7, vr: -448</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.467280,39.483860,325.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>493</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 117.6,tk: 295.7, vr: -448</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.467280,39.483860,325.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>494</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 117.6,tk: 295.7, vr: -448</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.467280,39.483860,325.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>495</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 117.6,tk: 295.7, vr: -448</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.467280,39.483860,325.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>496</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 117.6,tk: 295.7, vr: -448</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.467280,39.483860,325.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>497</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 117.6,tk: 295.7, vr: -448</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.467280,39.483860,325.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>498</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 117.6,tk: 295.7, vr: -448</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.467280,39.483860,325.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>499</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 117.6,tk: 295.7, vr: -448</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.467280,39.483860,325.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>500</name>
+	<description> cs: N170SW, hex: A11AD2, sq: 3203, gs: 92,tk: 298.1, vr: -448</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.480730,39.488990,0.000000 </coordinates>
+	</Point>
+</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,22 @@
+List of colours that can be used:
+	white
+	cyan
+	green
+	lightgray
+	magenta
+	orange
+	pink
+	gray
+    yellow
+	red
+
+case 1: java.awt.Color.white);
+case 2: java.awt.Color.cyan);
+case 3: java.awt.Color.green);
+case 4: java.awt.Color.lightGray);
+case 5: java.awt.Color.magenta);
+case 6: java.awt.Color.orange);
+case 7: java.awt.Color.pink);
+case 8: java.awt.Color.gray);
+case 9: java.awt.Color.yellow);
+default: java.awt.Color.red);

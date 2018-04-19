@@ -1,0 +1,5351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>tracks/19-Oct-2015_Arrival_4CA7AC.kml</name>
+<Style id="inline0">
+	<LineStyle>
+		<color>ff00ffff</color>
+		<width>1</width>
+	</LineStyle>
+	<IconStyle>
+		<scale>1</scale>
+		<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+	<LabelStyle>
+		<color>ffffeeee</color>
+		<scale>1</scale>
+	</LabelStyle>
+</Style>
+<Style id="inline1">
+	<LineStyle>
+		<color>ff00ffff</color>
+		<width>1</width>
+	</LineStyle>
+	<IconStyle>
+		<scale>0.5</scale>
+		<Icon><href>http://maps.google.com/mapfiles/kml/shapes/triangle.png</href></Icon>
+	</IconStyle>
+	<LabelStyle>
+		<color>ff0000ff</color>
+		<scale>0.8</scale>
+	</LabelStyle>
+</Style>
+<Placemark>
+	<name>3C4847</name>
+	<styleUrl>#inline0</styleUrl>
+	<MultiGeometry>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>0.286760,39.014570,13050.000000</coordinates>
+		</Point>
+		<LineString>
+			<extrude>1</extrude>
+			<tessellate>1</tessellate>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>
+			0.712800,38.998580,17000.000000 
+			0.711060,38.999180,17000.000000 
+			0.711060,38.999180,17000.000000 
+			0.707190,39.000550,17000.000000 
+			0.705440,39.001140,17000.000000 
+			0.703720,39.001740,17000.000000 
+			0.703720,39.001740,17000.000000 
+			0.700260,39.002930,17000.000000 
+			0.698490,39.003560,16975.000000 
+			0.696800,39.004170,16975.000000 
+			0.695420,39.004620,16975.000000 
+			0.693660,39.005240,16975.000000 
+			0.693660,39.005240,16975.000000 
+			0.689930,39.006550,16975.000000 
+			0.689930,39.006550,16975.000000 
+			0.686890,39.007610,16975.000000 
+			0.686890,39.007610,16975.000000 
+			0.686890,39.007610,16975.000000 
+			0.686890,39.007610,16975.000000 
+			0.686890,39.007610,16975.000000 
+			0.678530,39.010530,16975.000000 
+			0.676820,39.011100,16975.000000 
+			0.675540,39.011570,16975.000000 
+			0.674520,39.011900,16975.000000 
+			0.674520,39.011900,16975.000000 
+			0.674520,39.011900,16975.000000 
+			0.669010,39.013850,16975.000000 
+			0.669010,39.013850,16975.000000 
+			0.669010,39.013850,16975.000000 
+			0.669010,39.013850,16975.000000 
+			0.662540,39.016130,17000.000000 
+			0.662540,39.016130,17000.000000 
+			0.659000,39.017350,17000.000000 
+			0.657410,39.017900,17000.000000 
+			0.657410,39.017900,17000.000000 
+			0.657410,39.017900,17000.000000 
+			0.652670,39.019590,16975.000000 
+			0.652670,39.019590,16975.000000 
+			0.652670,39.019590,16975.000000 
+			0.652670,39.019590,16975.000000 
+			0.652670,39.019590,16975.000000 
+			0.645090,39.022250,17000.000000 
+			0.643490,39.022790,17000.000000 
+			0.641920,39.023350,17000.000000 
+			0.640380,39.023900,17000.000000 
+			0.639100,39.024320,17000.000000 
+			0.639100,39.024320,17000.000000 
+			0.639100,39.024320,17000.000000 
+			0.639100,39.024320,17000.000000 
+			0.632200,39.026740,17000.000000 
+			0.630640,39.027280,17000.000000 
+			0.630640,39.027280,17000.000000 
+			0.630640,39.027280,17000.000000 
+			0.626280,39.028790,17000.000000 
+			0.625310,39.029160,17000.000000 
+			0.622800,39.030000,17000.000000 
+			0.621860,39.030350,16975.000000 
+			0.619410,39.031220,16975.000000 
+			0.617860,39.031770,16975.000000 
+			0.617860,39.031770,16975.000000 
+			0.617860,39.031770,16975.000000 
+			0.617860,39.031770,16975.000000 
+			0.617860,39.031770,16975.000000 
+			0.617860,39.031770,16975.000000 
+			0.608190,39.035110,17000.000000 
+			0.607300,39.035450,17000.000000 
+			0.605740,39.035980,17000.000000 
+			0.605740,39.035980,17000.000000 
+			0.605740,39.035980,17000.000000 
+			0.605740,39.035980,17000.000000 
+			0.605740,39.035980,17000.000000 
+			0.597840,39.038290,17000.000000 
+			0.596190,39.038640,17000.000000 
+			0.594600,39.038990,17000.000000 
+			0.593620,39.039180,17000.000000 
+			0.593620,39.039180,17000.000000 
+			0.593620,39.039180,17000.000000 
+			0.588010,39.039920,17000.000000 
+			0.586340,39.040050,17000.000000 
+			0.584660,39.040150,17000.000000 
+			0.582700,39.040240,17000.000000 
+			0.582700,39.040240,17000.000000 
+			0.580020,39.040240,16975.000000 
+			0.578330,39.040240,16975.000000 
+			0.578330,39.040240,16975.000000 
+			0.574330,39.040010,16950.000000 
+			0.572690,39.039870,16925.000000 
+			0.571350,39.039730,16925.000000 
+			0.569740,39.039600,16900.000000 
+			0.569740,39.039600,16900.000000 
+			0.569740,39.039600,16900.000000 
+			0.569740,39.039600,16900.000000 
+			0.563110,39.038820,16800.000000 
+			0.561460,39.038610,16750.000000 
+			0.561460,39.038610,16750.000000 
+			0.558510,39.038220,16675.000000 
+			0.558510,39.038220,16675.000000 
+			0.558510,39.038220,16675.000000 
+			0.558510,39.038220,16675.000000 
+			0.558510,39.038220,16675.000000 
+			0.558510,39.038220,16675.000000 
+			0.547940,39.036800,16475.000000 
+			0.547940,39.036800,16475.000000 
+			0.544600,39.036350,16450.000000 
+			0.542970,39.036150,16425.000000 
+			0.542970,39.036150,16425.000000 
+			0.542970,39.036150,16425.000000 
+			0.538030,39.035480,16400.000000 
+			0.538030,39.035480,16400.000000 
+			0.538030,39.035480,16400.000000 
+			0.533750,39.034890,16375.000000 
+			0.532120,39.034650,16350.000000 
+			0.529850,39.034330,16325.000000 
+			0.529850,39.034330,16325.000000 
+			0.526930,39.033920,16275.000000 
+			0.526930,39.033920,16275.000000 
+			0.526930,39.033920,16275.000000 
+			0.526930,39.033920,16275.000000 
+			0.526930,39.033920,16275.000000 
+			0.526930,39.033920,16275.000000 
+			0.526930,39.033920,16275.000000 
+			0.526930,39.033920,16275.000000 
+			0.526930,39.033920,16275.000000 
+			0.512270,39.031960,16075.000000 
+			0.512270,39.031960,16075.000000 
+			0.512270,39.031960,16075.000000 
+			0.507400,39.031270,16000.000000 
+			0.505800,39.031070,16000.000000 
+			0.503520,39.030760,15950.000000 
+			0.502560,39.030610,15950.000000 
+			0.502560,39.030610,15950.000000 
+			0.499640,39.030210,15900.000000 
+			0.498720,39.030090,15900.000000 
+			0.496410,39.029750,15875.000000 
+			0.496410,39.029750,15875.000000 
+			0.496410,39.029750,15875.000000 
+			0.490970,39.028980,15800.000000 
+			0.489370,39.028790,15775.000000 
+			0.488400,39.028650,15775.000000 
+			0.486150,39.028340,15750.000000 
+			0.485170,39.028190,15725.000000 
+			0.485170,39.028190,15725.000000 
+			0.481610,39.027690,15675.000000 
+			0.480040,39.027490,15650.000000 
+			0.478090,39.027210,15625.000000 
+			0.478090,39.027210,15625.000000 
+			0.478090,39.027210,15625.000000 
+			0.478090,39.027210,15625.000000 
+			0.472350,39.026420,15525.000000 
+			0.472350,39.026420,15525.000000 
+			0.469120,39.025950,15475.000000 
+			0.469120,39.025950,15475.000000 
+			0.469120,39.025950,15475.000000 
+			0.469120,39.025950,15475.000000 
+			0.469120,39.025950,15475.000000 
+			0.469120,39.025950,15475.000000 
+			0.469120,39.025950,15475.000000 
+			0.457580,39.024320,15350.000000 
+			0.455990,39.024120,15325.000000 
+			0.455990,39.024120,15300.000000 
+			0.455990,39.024120,15300.000000 
+			0.455990,39.024120,15300.000000 
+			0.449340,39.023160,15250.000000 
+			0.448060,39.023020,15225.000000 
+			0.448060,39.023020,15225.000000 
+			0.444890,39.022550,15175.000000 
+			0.443270,39.022340,15150.000000 
+			0.441710,39.022130,15125.000000 
+			0.440110,39.021880,15100.000000 
+			0.438540,39.021670,15075.000000 
+			0.436950,39.021470,15050.000000 
+			0.435630,39.021290,15025.000000 
+			0.434080,39.021060,15000.000000 
+			0.432470,39.020870,14975.000000 
+			0.430240,39.020550,14950.000000 
+			0.428650,39.020320,14925.000000 
+			0.427060,39.020130,14900.000000 
+			0.425480,39.019910,14875.000000 
+			0.425480,39.019910,14875.000000 
+			0.422970,39.019550,14850.000000 
+			0.420410,39.019180,14825.000000 
+			0.419150,39.019040,14800.000000 
+			0.417540,39.018830,14775.000000 
+			0.417540,39.018830,14775.000000 
+			0.417540,39.018830,14775.000000 
+			0.417540,39.018830,14775.000000 
+			0.417540,39.018830,14775.000000 
+			0.410320,39.017810,14700.000000 
+			0.408690,39.017620,14675.000000 
+			0.406860,39.017340,14650.000000 
+			0.404970,39.017110,14625.000000 
+			0.403390,39.016890,14575.000000 
+			0.401480,39.016620,14550.000000 
+			0.399900,39.016410,14525.000000 
+			0.398310,39.016200,14500.000000 
+			0.398310,39.016200,14500.000000 
+			0.398310,39.016200,14500.000000 
+			0.394550,39.015700,14425.000000 
+			0.392330,39.015380,14400.000000 
+			0.390790,39.015200,14375.000000 
+			0.390790,39.015200,14375.000000 
+			0.387630,39.014790,14325.000000 
+			0.386050,39.014590,14300.000000 
+			0.384460,39.014420,14275.000000 
+			0.382870,39.014220,14250.000000 
+			0.381300,39.014100,14225.000000 
+			0.379390,39.013920,14200.000000 
+			0.378070,39.013820,14175.000000 
+			0.378070,39.013820,14175.000000 
+			0.378070,39.013820,14175.000000 
+			0.373290,39.013520,14125.000000 
+			0.371740,39.013460,14100.000000 
+			0.370120,39.013380,14075.000000 
+			0.369180,39.013370,14050.000000 
+			0.369180,39.013370,14050.000000 
+			0.369180,39.013370,14050.000000 
+			0.369180,39.013370,14050.000000 
+			0.369180,39.013370,14050.000000 
+			0.360880,39.013230,13925.000000 
+			0.358910,39.013230,13900.000000 
+			0.358910,39.013230,13900.000000 
+			0.358910,39.013230,13900.000000 
+			0.358910,39.013230,13900.000000 
+			0.352520,39.013320,13825.000000 
+			0.352520,39.013320,13825.000000 
+			0.349670,39.013380,13800.000000 
+			0.348100,39.013410,13775.000000 
+			0.346500,39.013430,13750.000000 
+			0.346500,39.013430,13750.000000 
+			0.346500,39.013430,13750.000000 
+			0.346500,39.013430,13750.000000 
+			0.339540,39.013520,13625.000000 
+			0.339540,39.013520,13625.000000 
+			0.339540,39.013520,13625.000000 
+			0.339540,39.013520,13625.000000 
+			0.339540,39.013520,13625.000000 
+			0.331850,39.013660,13500.000000 
+			0.331850,39.013660,13500.000000 
+			0.328670,39.013750,13450.000000 
+			0.328670,39.013750,13450.000000 
+			0.325830,39.013820,13425.000000 
+			0.325830,39.013820,13425.000000 
+			0.325830,39.013820,13425.000000 
+			0.320750,39.013920,13350.000000 
+			0.319210,39.013940,13350.000000 
+			0.317590,39.013960,13325.000000 
+			0.317590,39.013960,13325.000000 
+			0.314760,39.013990,13300.000000 
+			0.314150,39.013990,13300.000000 
+			0.314150,39.013990,13300.000000 
+			0.309750,39.014080,13275.000000 
+			0.308750,39.014100,13250.000000 
+			0.308750,39.014100,13250.000000 
+			0.305300,39.014130,13225.000000 
+			0.305300,39.014130,13225.000000 
+			0.305300,39.014130,13225.000000 
+			0.299320,39.014240,13175.000000 
+			0.299320,39.014240,13175.000000 
+			0.297410,39.014280,13150.000000 
+			0.294560,39.014310,13125.000000 
+			0.294560,39.014310,13125.000000 
+			0.294560,39.014310,13125.000000 
+			0.294560,39.014310,13125.000000 
+			0.287600,39.014450,13050.000000 
+			0.286660,39.014470,13050.000000 
+			0.286660,39.014470,13050.000000 
+			0.286660,39.014470,13050.000000 
+			0.286660,39.014470,13050.000000 
+			0.280030,39.014590,12975.000000 
+			0.278420,39.014600,12975.000000 
+			0.278420,39.014600,12975.000000 
+			0.274960,39.014640,12950.000000 
+			0.274350,39.014640,12925.000000 
+			0.271790,39.014690,12900.000000 
+			0.270240,39.014690,12900.000000 
+			0.268620,39.014730,12875.000000 
+			0.267080,39.014740,12875.000000 
+			0.265440,39.014780,12850.000000 
+			0.264510,39.014790,12850.000000 
+			0.262940,39.014830,12825.000000 
+			0.261050,39.014830,12800.000000 
+			0.259770,39.014830,12800.000000 
+			0.257520,39.014880,12775.000000 
+			0.257520,39.014880,12775.000000 
+			0.254030,39.014920,12750.000000 
+			0.254030,39.014920,12750.000000 
+			0.251790,39.014970,12725.000000 
+			0.249880,39.014970,12700.000000 
+			0.249880,39.014970,12700.000000 
+			0.246710,39.015010,12675.000000 
+			0.245120,39.015010,12650.000000 
+			0.243550,39.015060,12650.000000 
+			0.241940,39.015060,12625.000000 
+			0.241940,39.015060,12625.000000 
+			0.238770,39.015100,12600.000000 
+			0.237160,39.015150,12575.000000 
+			0.235600,39.015150,12550.000000 
+			0.233340,39.015200,12550.000000 
+			0.232360,39.015200,12525.000000 
+			0.230770,39.015200,12500.000000 
+			0.229190,39.015240,12500.000000 
+			0.227910,39.015240,12475.000000 
+			0.226010,39.015290,12450.000000 
+			0.224380,39.015290,12450.000000 
+			0.224380,39.015290,12450.000000 
+			0.221220,39.015380,12400.000000 
+			0.221220,39.015380,12400.000000 
+			0.218000,39.015430,12375.000000 
+			0.218000,39.015430,12375.000000 
+			0.214170,39.015520,12325.000000 
+			0.212860,39.015560,12300.000000 
+			0.211240,39.015620,12275.000000 
+			0.209700,39.015700,12225.000000 
+			0.209700,39.015700,12225.000000 
+			0.209700,39.015700,12225.000000 
+			0.204900,39.016130,12150.000000 
+			0.203310,39.016340,12125.000000 
+			0.201720,39.016550,12075.000000 
+			0.200080,39.016750,12075.000000 
+			0.198550,39.017010,12025.000000 
+			0.197270,39.017200,12000.000000 
+			0.195660,39.017440,11975.000000 
+			0.194090,39.017710,11950.000000 
+			0.192200,39.018040,11900.000000 
+			0.190590,39.018260,11875.000000 
+			0.189990,39.018400,11850.000000 
+			0.187420,39.018810,11800.000000 
+			0.187420,39.018810,11800.000000 
+			0.184570,39.019290,11725.000000 
+			0.182950,39.019550,11675.000000 
+			0.181400,39.019810,11650.000000 
+			0.181400,39.019810,11650.000000 
+			0.177870,39.020370,11575.000000 
+			0.177210,39.020510,11575.000000 
+			0.174990,39.020830,11525.000000 
+			0.174990,39.020830,11525.000000 
+			0.171140,39.021480,11450.000000 
+			0.170470,39.021580,11450.000000 
+			0.170470,39.021580,11450.000000 
+			0.170470,39.021580,11450.000000 
+			0.165030,39.022430,11350.000000 
+			0.165030,39.022430,11350.000000 
+			0.165030,39.022430,11350.000000 
+			0.160220,39.023160,11275.000000 
+			0.158940,39.023340,11250.000000 
+			0.156980,39.023620,11200.000000 
+			0.155360,39.023900,11175.000000 
+			0.155360,39.023900,11175.000000 
+			0.155360,39.023900,11175.000000 
+			0.155360,39.023900,11175.000000 
+			0.148970,39.024860,11100.000000 
+			0.147400,39.025110,11075.000000 
+			0.145810,39.025360,11075.000000 
+			0.144170,39.025630,11050.000000 
+			0.142940,39.025900,11025.000000 
+			0.141330,39.026180,11025.000000 
+			0.141330,39.026180,11025.000000 
+			0.138220,39.026920,10975.000000 
+			0.136660,39.027300,10975.000000 
+			0.135120,39.027690,10950.000000 
+			0.135120,39.027690,10950.000000 
+			0.131420,39.028750,10900.000000 
+			0.130820,39.028930,10900.000000 
+			0.129570,39.029300,10875.000000 
+			0.127720,39.029850,10875.000000 
+			0.127720,39.029850,10875.000000 
+			0.127720,39.029850,10875.000000 
+			0.127720,39.029850,10825.000000 
+			0.127720,39.029850,10825.000000 
+			0.119770,39.032270,10775.000000 
+			0.118290,39.032700,10750.000000 
+			0.116730,39.033190,10750.000000 
+			0.114880,39.033740,10725.000000 
+			0.114880,39.033740,10725.000000 
+			0.111830,39.034700,10700.000000 
+			0.110290,39.035170,10675.000000 
+			0.108730,39.035610,10650.000000 
+			0.108730,39.035610,10650.000000 
+			0.108730,39.035610,10650.000000 
+			0.108730,39.035610,10650.000000 
+			0.102910,39.037400,10600.000000 
+			0.101980,39.037670,10575.000000 
+			0.101980,39.037670,10575.000000 
+			0.101980,39.037670,10575.000000 
+			0.097350,39.039080,10525.000000 
+			0.095180,39.039730,10525.000000 
+			0.093690,39.040240,10500.000000 
+			0.092130,39.040700,10475.000000 
+			0.089970,39.041360,10450.000000 
+			0.089360,39.041550,10450.000000 
+			0.089360,39.041550,10450.000000 
+			0.086240,39.042480,10400.000000 
+			0.084410,39.043040,10400.000000 
+			0.084410,39.043040,10400.000000 
+			0.084410,39.043040,10400.000000 
+			0.079830,39.044400,10350.000000 
+			0.077640,39.045080,10325.000000 
+			0.076420,39.045460,10325.000000 
+			0.076420,39.045460,10325.000000 
+			0.073360,39.046390,10275.000000 
+			0.073360,39.046390,10275.000000 
+			0.070580,39.047240,10250.000000 
+			0.069030,39.047740,10225.000000 
+			0.069030,39.047740,10225.000000 
+			0.065980,39.048670,10200.000000 
+			0.065980,39.048670,10200.000000 
+			0.062570,39.049710,10175.000000 
+			0.061320,39.050080,10150.000000 
+			0.061320,39.050080,10150.000000 
+			0.058220,39.051040,10125.000000 
+			0.058220,39.051040,10125.000000 
+			0.055110,39.051960,10075.000000 
+			0.054200,39.052250,10075.000000 
+			0.052010,39.052920,10050.000000 
+			0.050480,39.053420,10025.000000 
+			0.048900,39.053880,10025.000000 
+			0.047050,39.054430,10000.000000 
+			0.045800,39.054790,9975.000000 
+			0.044250,39.055280,9975.000000 
+			0.044250,39.055280,9975.000000 
+			0.041140,39.056210,9925.000000 
+			0.039590,39.056670,9900.000000 
+			0.038330,39.057040,9900.000000 
+			0.036800,39.057510,9875.000000 
+			0.035880,39.057820,9875.000000 
+			0.035880,39.057820,9875.000000 
+			0.031190,39.059190,9825.000000 
+			0.031190,39.059190,9825.000000 
+			0.029020,39.059880,9800.000000 
+			0.027470,39.060310,9775.000000 
+			0.027470,39.060310,9775.000000 
+			0.027470,39.060310,9775.000000 
+			0.022520,39.061800,9725.000000 
+			0.020960,39.062300,9725.000000 
+			0.019700,39.062670,9700.000000 
+			0.017520,39.063290,9675.000000 
+			0.016000,39.063770,9650.000000 
+			0.014750,39.064130,9650.000000 
+			0.014750,39.064130,9650.000000 
+			0.011350,39.065150,9625.000000 
+			0.010070,39.065520,9600.000000 
+			0.008850,39.065890,9575.000000 
+			0.007880,39.066190,9575.000000 
+			0.005130,39.067010,9550.000000 
+			0.003580,39.067470,9525.000000 
+			0.003580,39.067470,9525.000000 
+			0.000730,39.068270,9500.000000 
+			-0.000840,39.068760,9475.000000 
+			-0.002380,39.069200,9475.000000 
+			-0.003940,39.069670,9450.000000 
+			-0.003940,39.069670,9450.000000 
+			-0.007050,39.070590,9425.000000 
+			-0.008610,39.071060,9400.000000 
+			-0.010210,39.071550,9400.000000 
+			-0.011720,39.071990,9375.000000 
+			-0.013310,39.072460,9350.000000 
+			-0.014890,39.072970,9350.000000 
+			-0.016480,39.073430,9325.000000 
+			-0.017730,39.073790,9300.000000 
+			-0.019290,39.074270,9275.000000 
+			-0.020840,39.074750,9250.000000 
+			-0.022400,39.075200,9250.000000 
+			-0.024000,39.075670,9225.000000 
+			-0.026180,39.076320,9200.000000 
+			-0.028080,39.076880,9200.000000 
+			-0.029360,39.077250,9175.000000 
+			-0.030930,39.077730,9150.000000 
+			-0.032470,39.078180,9150.000000 
+			-0.034030,39.078690,9125.000000 
+			-0.035580,39.079160,9100.000000 
+			-0.037200,39.079610,9100.000000 
+			-0.038760,39.080090,9075.000000 
+			-0.040300,39.080520,9075.000000 
+			-0.041870,39.081020,9050.000000 
+			-0.043150,39.081350,9050.000000 
+			-0.044720,39.081850,9025.000000 
+			-0.046330,39.082280,9000.000000 
+			-0.047890,39.082760,9000.000000 
+			-0.049440,39.083210,8975.000000 
+			-0.051330,39.083770,8975.000000 
+			-0.052900,39.084270,8950.000000 
+			-0.054220,39.084640,8950.000000 
+			-0.056070,39.085190,8925.000000 
+			-0.056070,39.085190,8925.000000 
+			-0.058290,39.085860,8900.000000 
+			-0.060240,39.086470,8875.000000 
+			-0.062450,39.087110,8850.000000 
+			-0.064030,39.087590,8825.000000 
+			-0.064030,39.087590,8825.000000 
+			-0.066870,39.088490,8800.000000 
+			-0.066870,39.088490,8800.000000 
+			-0.070630,39.089630,8750.000000 
+			-0.071590,39.089910,8750.000000 
+			-0.073140,39.090410,8725.000000 
+			-0.074460,39.090820,8700.000000 
+			-0.075050,39.091000,8700.000000 
+			-0.078220,39.091960,8675.000000 
+			-0.079770,39.092470,8650.000000 
+			-0.080730,39.092740,8650.000000 
+			-0.082950,39.093450,8625.000000 
+			-0.084550,39.093930,8600.000000 
+			-0.086120,39.094380,8600.000000 
+			-0.087710,39.094890,8575.000000 
+			-0.089290,39.095360,8550.000000 
+			-0.090880,39.095860,8550.000000 
+			-0.092470,39.096340,8525.000000 
+			-0.094040,39.096820,8500.000000 
+			-0.094640,39.097000,8500.000000 
+			-0.097150,39.097780,8475.000000 
+			-0.098400,39.098190,8475.000000 
+			-0.099980,39.098670,8450.000000 
+			-0.101560,39.099150,8425.000000 
+			-0.101560,39.099150,8425.000000 
+			-0.105040,39.100200,8400.000000 
+			-0.106260,39.100570,8375.000000 
+			-0.108490,39.101260,8350.000000 
+			-0.109740,39.101620,8350.000000 
+			-0.111330,39.102110,8325.000000 
+			-0.112910,39.102580,8325.000000 
+			-0.114440,39.103040,8300.000000 
+			-0.115720,39.103410,8275.000000 
+			-0.117330,39.103910,8275.000000 
+			-0.118900,39.104350,8250.000000 
+			-0.118900,39.104350,8250.000000 
+			-0.122010,39.105320,8225.000000 
+			-0.123600,39.105790,8200.000000 
+			-0.125180,39.106250,8200.000000 
+			-0.125180,39.106250,8200.000000 
+			-0.128300,39.107180,8175.000000 
+			-0.129870,39.107670,8150.000000 
+			</coordinates>
+		</LineString>
+	</MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>1</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 321.9,tk: 294, vr: 64</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.712800,38.998580,17000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>2</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 321.9,tk: 294, vr: 64</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.711060,38.999180,17000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>3</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 321.9,tk: 294, vr: 64</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.711060,38.999180,17000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>4</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 321.9,tk: 294, vr: 64</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.707190,39.000550,17000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>5</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 321.9,tk: 294, vr: 64</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.705440,39.001140,17000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>6</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 321.9,tk: 294, vr: 64</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.703720,39.001740,17000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>7</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 321.9,tk: 294, vr: 64</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.703720,39.001740,17000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>8</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 321,tk: 294.1, vr: 0</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.700260,39.002930,17000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>9</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 319.6,tk: 294, vr: -64</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.698490,39.003560,16975.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>10</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 318.7,tk: 294.1, vr: -64</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.696800,39.004170,16975.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>11</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 317.8,tk: 294.1, vr: -64</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.695420,39.004620,16975.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>12</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 316.5,tk: 294.1, vr: -64</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.693660,39.005240,16975.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>13</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 316.5,tk: 294.1, vr: -64</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.693660,39.005240,16975.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>14</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 314.2,tk: 294, vr: -64</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.689930,39.006550,16975.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>15</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 314.2,tk: 294, vr: -64</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.689930,39.006550,16975.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>16</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 314.2,tk: 294, vr: -64</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.686890,39.007610,16975.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>17</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 314.2,tk: 294, vr: -64</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.686890,39.007610,16975.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>18</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 314.2,tk: 294, vr: -64</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.686890,39.007610,16975.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>19</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 314.2,tk: 294, vr: -64</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.686890,39.007610,16975.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>20</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 314.2,tk: 294, vr: -64</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.686890,39.007610,16975.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>21</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 303.5,tk: 292.7, vr: 0</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.678530,39.010530,16975.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>22</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 303.5,tk: 292.7, vr: 0</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.676820,39.011100,16975.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>23</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 301.6,tk: 292.8, vr: -64</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.675540,39.011570,16975.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>24</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 300.3,tk: 292.7, vr: 64</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.674520,39.011900,16975.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>25</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 300.3,tk: 292.7, vr: 64</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.674520,39.011900,16975.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>26</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 300.3,tk: 292.7, vr: 64</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.674520,39.011900,16975.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>27</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 297.2,tk: 292.8, vr: 192</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.669010,39.013850,16975.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>28</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 297.2,tk: 292.8, vr: 192</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.669010,39.013850,16975.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>29</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 297.2,tk: 292.8, vr: 192</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.669010,39.013850,16975.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>30</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 297.2,tk: 292.8, vr: 192</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.669010,39.013850,16975.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>31</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 294,tk: 292.8, vr: 128</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.662540,39.016130,17000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>32</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 294,tk: 292.8, vr: 128</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.662540,39.016130,17000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>33</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 293.1,tk: 292.9, vr: 64</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.659000,39.017350,17000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>34</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 291.8,tk: 292.8, vr: 0</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.657410,39.017900,17000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>35</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 291.8,tk: 292.8, vr: 0</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.657410,39.017900,17000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>36</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 291.8,tk: 292.8, vr: 0</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.657410,39.017900,17000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>37</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 289.9,tk: 292.9, vr: 0</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.652670,39.019590,16975.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>38</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 289.9,tk: 292.9, vr: 0</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.652670,39.019590,16975.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>39</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 289.9,tk: 292.9, vr: 0</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.652670,39.019590,16975.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>40</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 289.9,tk: 292.9, vr: 0</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.652670,39.019590,16975.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>41</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 289.9,tk: 292.9, vr: 0</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.652670,39.019590,16975.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>42</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 287.3,tk: 292.7, vr: 0</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.645090,39.022250,17000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>43</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 287.3,tk: 292.7, vr: 128</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.643490,39.022790,17000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>44</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 287.3,tk: 292.7, vr: 128</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.641920,39.023350,17000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>45</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 287.3,tk: 292.7, vr: 64</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.640380,39.023900,17000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>46</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 287.3,tk: 292.7, vr: 64</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.639100,39.024320,17000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>47</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 287.3,tk: 292.7, vr: 64</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.639100,39.024320,17000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>48</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 287.3,tk: 292.7, vr: 64</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.639100,39.024320,17000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>49</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 287.3,tk: 292.7, vr: 64</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.639100,39.024320,17000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>50</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 289.2,tk: 294.1, vr: 0</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.632200,39.026740,17000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>51</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 289.2,tk: 294.1, vr: -64</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.630640,39.027280,17000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>52</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 289.2,tk: 294.1, vr: -64</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.630640,39.027280,17000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>53</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 289.2,tk: 294.1, vr: -64</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.630640,39.027280,17000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>54</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 289.2,tk: 294.1, vr: -64</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.626280,39.028790,17000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>55</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 288.3,tk: 294.2, vr: 0</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.625310,39.029160,17000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>56</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 288.3,tk: 294.2, vr: 0</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.622800,39.030000,17000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>57</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 288.3,tk: 294.2, vr: -64</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.621860,39.030350,16975.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>58</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 288.3,tk: 294.2, vr: 0</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.619410,39.031220,16975.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>59</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 287.9,tk: 294, vr: 0</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.617860,39.031770,16975.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>60</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 287.9,tk: 294, vr: 0</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.617860,39.031770,16975.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>61</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 287.9,tk: 294, vr: 0</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.617860,39.031770,16975.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>62</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 287.9,tk: 294, vr: 0</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.617860,39.031770,16975.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>63</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 287.9,tk: 294, vr: 0</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.617860,39.031770,16975.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>64</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 287.9,tk: 294, vr: 0</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.617860,39.031770,16975.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>65</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 286.5,tk: 293.9, vr: 64</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.608190,39.035110,17000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>66</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 286.1,tk: 293.7, vr: 64</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.607300,39.035450,17000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>67</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 285.3,tk: 293.3, vr: 64</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.605740,39.035980,17000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>68</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 285.3,tk: 293.3, vr: 64</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.605740,39.035980,17000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>69</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 285.3,tk: 293.3, vr: 64</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.605740,39.035980,17000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>70</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 285.3,tk: 293.3, vr: 64</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.605740,39.035980,17000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>71</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 285.3,tk: 293.3, vr: 64</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.605740,39.035980,17000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>72</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 281.6,tk: 286.5, vr: 64</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.597840,39.038290,17000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>73</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 281.6,tk: 286.5, vr: 64</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.596190,39.038640,17000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>74</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 281.3,tk: 284, vr: 64</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.594600,39.038990,17000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>75</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 280.9,tk: 280.7, vr: 0</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.593620,39.039180,17000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>76</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 280.9,tk: 280.7, vr: 0</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.593620,39.039180,17000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>77</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 280.9,tk: 280.7, vr: 0</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.593620,39.039180,17000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>78</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 282.2,tk: 277.1, vr: 0</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.588010,39.039920,17000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>79</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 280.6,tk: 273.7, vr: 0</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.586340,39.040050,17000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>80</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 281.6,tk: 273.7, vr: -64</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.584660,39.040150,17000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>81</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 281,tk: 270.4, vr: -192</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.582700,39.040240,17000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>82</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 281,tk: 270.4, vr: -192</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.582700,39.040240,17000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>83</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 281,tk: 270.4, vr: -320</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.580020,39.040240,16975.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>84</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 280,tk: 269.8, vr: -512</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.578330,39.040240,16975.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>85</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 280,tk: 269.8, vr: -512</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.578330,39.040240,16975.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>86</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 280.5,tk: 266.7, vr: -640</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.574330,39.040010,16950.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>87</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 279.7,tk: 265.9, vr: -896</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.572690,39.039870,16925.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>88</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 280.8,tk: 263.5, vr: -1024</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.571350,39.039730,16925.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>89</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 280.8,tk: 263.5, vr: -1024</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.569740,39.039600,16900.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>90</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 280.8,tk: 263.5, vr: -1024</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.569740,39.039600,16900.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>91</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 280.8,tk: 263.5, vr: -1024</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.569740,39.039600,16900.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>92</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 280.8,tk: 263.5, vr: -1024</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.569740,39.039600,16900.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>93</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 280.1,tk: 263, vr: -1728</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.563110,39.038820,16800.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>94</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 279.3,tk: 262.6, vr: -1920</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.561460,39.038610,16750.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>95</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 279.3,tk: 262.6, vr: -1920</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.561460,39.038610,16750.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>96</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 280.6,tk: 262.2, vr: -2176</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.558510,39.038220,16675.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>97</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 280.6,tk: 262.2, vr: -2176</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.558510,39.038220,16675.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>98</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 280.6,tk: 262.2, vr: -2176</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.558510,39.038220,16675.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>99</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 280.6,tk: 262.2, vr: -2176</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.558510,39.038220,16675.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>100</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 280.6,tk: 262.2, vr: -2176</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.558510,39.038220,16675.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>101</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 280.6,tk: 262.2, vr: -2176</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.558510,39.038220,16675.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>102</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 283.1,tk: 260.2, vr: -1728</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.547940,39.036800,16475.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>103</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 283.1,tk: 260.2, vr: -1728</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.547940,39.036800,16475.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>104</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 283.3,tk: 260, vr: -1280</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.544600,39.036350,16450.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>105</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 283.3,tk: 260, vr: -896</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.542970,39.036150,16425.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>106</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 283.3,tk: 260, vr: -896</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.542970,39.036150,16425.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>107</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 283.3,tk: 260, vr: -896</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.542970,39.036150,16425.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>108</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 281.3,tk: 260, vr: -640</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.538030,39.035480,16400.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>109</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 281.3,tk: 260, vr: -640</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.538030,39.035480,16400.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>110</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 281.3,tk: 260, vr: -640</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.538030,39.035480,16400.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>111</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 280.3,tk: 259.9, vr: -704</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.533750,39.034890,16375.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>112</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 279.3,tk: 259.9, vr: -832</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.532120,39.034650,16350.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>113</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 279.3,tk: 259.9, vr: -832</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.529850,39.034330,16325.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>114</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 279.3,tk: 259.9, vr: -832</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.529850,39.034330,16325.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>115</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 278.2,tk: 260.1, vr: -1344</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.526930,39.033920,16275.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>116</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 278.2,tk: 260.1, vr: -1344</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.526930,39.033920,16275.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>117</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 278.2,tk: 260.1, vr: -1344</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.526930,39.033920,16275.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>118</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 278.2,tk: 260.1, vr: -1344</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.526930,39.033920,16275.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>119</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 278.2,tk: 260.1, vr: -1344</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.526930,39.033920,16275.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>120</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 278.2,tk: 260.1, vr: -1344</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.526930,39.033920,16275.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>121</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 278.2,tk: 260.1, vr: -1344</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.526930,39.033920,16275.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>122</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 278.2,tk: 260.1, vr: -1344</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.526930,39.033920,16275.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>123</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 278.2,tk: 260.1, vr: -1344</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.526930,39.033920,16275.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>124</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 278.2,tk: 260.1, vr: -1344</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.512270,39.031960,16075.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>125</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 278.2,tk: 260.1, vr: -1344</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.512270,39.031960,16075.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>126</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 278.2,tk: 260.1, vr: -1344</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.512270,39.031960,16075.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>127</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 277.2,tk: 260, vr: -1216</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.507400,39.031270,16000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>128</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 277.2,tk: 260, vr: -1216</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.505800,39.031070,16000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>129</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 277.2,tk: 260, vr: -1216</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.503520,39.030760,15950.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>130</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 276.2,tk: 260, vr: -1216</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.502560,39.030610,15950.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>131</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 276.2,tk: 260, vr: -1216</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.502560,39.030610,15950.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>132</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 276.2,tk: 260, vr: -1216</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.499640,39.030210,15900.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>133</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 276.2,tk: 260, vr: -1216</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.498720,39.030090,15900.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>134</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 276.2,tk: 260, vr: -1216</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.496410,39.029750,15875.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>135</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 276.2,tk: 260, vr: -1216</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.496410,39.029750,15875.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>136</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 276.2,tk: 260, vr: -1216</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.496410,39.029750,15875.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>137</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 275.4,tk: 259.8, vr: -1216</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.490970,39.028980,15800.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>138</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 275.4,tk: 259.8, vr: -1216</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.489370,39.028790,15775.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>139</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 275.4,tk: 259.8, vr: -1216</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.488400,39.028650,15775.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>140</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 275.4,tk: 259.8, vr: -1280</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.486150,39.028340,15750.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>141</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 275.4,tk: 259.8, vr: -1280</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.485170,39.028190,15725.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>142</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 275.4,tk: 259.8, vr: -1280</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.485170,39.028190,15725.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>143</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 275.4,tk: 259.8, vr: -1408</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.481610,39.027690,15675.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>144</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 275.2,tk: 260, vr: -1472</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.480040,39.027490,15650.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>145</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 274.2,tk: 259.9, vr: -1536</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.478090,39.027210,15625.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>146</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 274.2,tk: 259.9, vr: -1536</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.478090,39.027210,15625.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>147</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 274.4,tk: 259.7, vr: -1600</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.478090,39.027210,15625.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>148</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 274.4,tk: 259.7, vr: -1600</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.478090,39.027210,15625.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>149</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 274.2,tk: 259.9, vr: -1536</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.472350,39.026420,15525.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>150</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 274.2,tk: 259.9, vr: -1536</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.472350,39.026420,15525.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>151</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 274.2,tk: 259.9, vr: -1472</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.469120,39.025950,15475.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>152</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 274.2,tk: 259.9, vr: -1472</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.469120,39.025950,15475.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>153</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 274.2,tk: 259.9, vr: -1472</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.469120,39.025950,15475.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>154</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 274.2,tk: 259.9, vr: -1472</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.469120,39.025950,15475.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>155</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 274.2,tk: 259.9, vr: -1280</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.469120,39.025950,15475.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>156</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 274.2,tk: 259.9, vr: -1280</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.469120,39.025950,15475.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>157</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 274.2,tk: 259.9, vr: -1280</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.469120,39.025950,15475.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>158</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 273.2,tk: 259.9, vr: -1152</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.457580,39.024320,15350.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>159</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 273.2,tk: 259.9, vr: -1152</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.455990,39.024120,15325.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>160</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 273.2,tk: 259.9, vr: -1152</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.455990,39.024120,15300.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>161</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 273.2,tk: 259.9, vr: -1152</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.455990,39.024120,15300.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>162</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 273.2,tk: 259.9, vr: -1152</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.455990,39.024120,15300.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>163</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 272.3,tk: 259.8, vr: -1216</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.449340,39.023160,15250.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>164</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 272.3,tk: 259.8, vr: -1216</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.448060,39.023020,15225.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>165</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 272.3,tk: 259.8, vr: -1216</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.448060,39.023020,15225.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>166</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 272.3,tk: 259.8, vr: -1536</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.444890,39.022550,15175.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>167</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 272.3,tk: 259.8, vr: -1600</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.443270,39.022340,15150.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>168</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 272.1,tk: 260.1, vr: -1600</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.441710,39.022130,15125.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>169</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 272.1,tk: 260.1, vr: -1600</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.440110,39.021880,15100.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>170</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 272.1,tk: 260.1, vr: -1600</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.438540,39.021670,15075.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>171</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 272.1,tk: 260.1, vr: -1600</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.436950,39.021470,15050.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>172</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 272.1,tk: 260.1, vr: -1600</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.435630,39.021290,15025.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>173</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 272.1,tk: 260.1, vr: -1472</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.434080,39.021060,15000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>174</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 272.1,tk: 260.1, vr: -1408</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.432470,39.020870,14975.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>175</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 272.1,tk: 260.1, vr: -1408</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.430240,39.020550,14950.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>176</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 272.1,tk: 260.1, vr: -1408</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.428650,39.020320,14925.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>177</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 272.1,tk: 260.1, vr: -1344</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.427060,39.020130,14900.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>178</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 271.1,tk: 260, vr: -1280</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.425480,39.019910,14875.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>179</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 271.1,tk: 260, vr: -1280</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.425480,39.019910,14875.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>180</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 271.1,tk: 260, vr: -1280</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.422970,39.019550,14850.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>181</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 271.1,tk: 260, vr: -1216</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.420410,39.019180,14825.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>182</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 271.1,tk: 260, vr: -1152</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.419150,39.019040,14800.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>183</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 271.1,tk: 260, vr: -1152</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.417540,39.018830,14775.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>184</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 271.1,tk: 260, vr: -1152</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.417540,39.018830,14775.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>185</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 271.1,tk: 260, vr: -1152</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.417540,39.018830,14775.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>186</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 271.1,tk: 260, vr: -1152</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.417540,39.018830,14775.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>187</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 271.1,tk: 260, vr: -1152</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.417540,39.018830,14775.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>188</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 268.7,tk: 261.9, vr: -1280</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.410320,39.017810,14700.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>189</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 268.7,tk: 261.9, vr: -1344</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.408690,39.017620,14675.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>190</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 268.7,tk: 261.9, vr: -1408</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.406860,39.017340,14650.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>191</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 268.7,tk: 261.9, vr: -1472</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.404970,39.017110,14625.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>192</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 267.7,tk: 261.8, vr: -1536</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.403390,39.016890,14575.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>193</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 267.7,tk: 261.8, vr: -1600</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.401480,39.016620,14550.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>194</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 267.7,tk: 261.8, vr: -1600</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.399900,39.016410,14525.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>195</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 267.7,tk: 261.8, vr: -1664</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.398310,39.016200,14500.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>196</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 267.7,tk: 261.8, vr: -1664</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.398310,39.016200,14500.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>197</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 267.7,tk: 261.8, vr: -1664</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.398310,39.016200,14500.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>198</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 267.7,tk: 261.8, vr: -1728</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.394550,39.015700,14425.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>199</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 267.7,tk: 261.8, vr: -1728</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.392330,39.015380,14400.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>200</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 268.7,tk: 261.9, vr: -1664</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.390790,39.015200,14375.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>201</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 268.7,tk: 261.9, vr: -1664</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.390790,39.015200,14375.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>202</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 268.4,tk: 262.3, vr: -1536</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.387630,39.014790,14325.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>203</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 268.3,tk: 262.5, vr: -1472</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.386050,39.014590,14300.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>204</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 268.9,tk: 263.2, vr: -1408</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.384460,39.014420,14275.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>205</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 268.9,tk: 263.2, vr: -1408</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.382870,39.014220,14250.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>206</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 269.2,tk: 262.7, vr: -1344</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.381300,39.014100,14225.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>207</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 268.9,tk: 265.3, vr: -1344</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.379390,39.013920,14200.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>208</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 268.7,tk: 265.9, vr: -1408</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.378070,39.013820,14175.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>209</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 268.7,tk: 265.9, vr: -1408</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.378070,39.013820,14175.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>210</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 268.7,tk: 265.9, vr: -1408</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.378070,39.013820,14175.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>211</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 269.8,tk: 265.5, vr: -1408</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.373290,39.013520,14125.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>212</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 269.5,tk: 266.4, vr: -1472</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.371740,39.013460,14100.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>213</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 269.4,tk: 266.8, vr: -1536</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.370120,39.013380,14075.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>214</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 269,tk: 268.9, vr: -1536</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.369180,39.013370,14050.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>215</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 269,tk: 268.9, vr: -1536</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.369180,39.013370,14050.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>216</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 269,tk: 268.9, vr: -1536</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.369180,39.013370,14050.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>217</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 269,tk: 268.9, vr: -1536</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.369180,39.013370,14050.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>218</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 269,tk: 268.9, vr: -1536</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.369180,39.013370,14050.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>219</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 270,tk: 270, vr: -1344</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.360880,39.013230,13925.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>220</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 270,tk: 270.4, vr: -1216</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.358910,39.013230,13900.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>221</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 270,tk: 270.4, vr: -1216</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.358910,39.013230,13900.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>222</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 270,tk: 270.4, vr: -1216</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.358910,39.013230,13900.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>223</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 270,tk: 270.4, vr: -1216</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.358910,39.013230,13900.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>224</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 269,tk: 271.1, vr: -1088</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.352520,39.013320,13825.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>225</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 269,tk: 271.1, vr: -1088</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.352520,39.013320,13825.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>226</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 268.1,tk: 271.3, vr: -1280</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.349670,39.013380,13800.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>227</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 268.1,tk: 271.3, vr: -1408</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.348100,39.013410,13775.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>228</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 268.1,tk: 271.3, vr: -1536</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.346500,39.013430,13750.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>229</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 268.1,tk: 271.3, vr: -1536</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.346500,39.013430,13750.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>230</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 268.1,tk: 271.3, vr: -1536</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.346500,39.013430,13750.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>231</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 268.1,tk: 271.3, vr: -1536</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.346500,39.013430,13750.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>232</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 268.1,tk: 271.3, vr: -1792</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.339540,39.013520,13625.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>233</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 268.1,tk: 271.3, vr: -1792</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.339540,39.013520,13625.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>234</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 268.1,tk: 271.3, vr: -1792</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.339540,39.013520,13625.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>235</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 268.1,tk: 271.3, vr: -1792</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.339540,39.013520,13625.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>236</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 268.1,tk: 271.3, vr: -1792</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.339540,39.013520,13625.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>237</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 268,tk: 270, vr: -1664</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.331850,39.013660,13500.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>238</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 268,tk: 270, vr: -1664</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.331850,39.013660,13500.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>239</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 268,tk: 270, vr: -1216</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.328670,39.013750,13450.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>240</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 268,tk: 270, vr: -1216</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.328670,39.013750,13450.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>241</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 268,tk: 270, vr: -1152</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.325830,39.013820,13425.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>242</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 268,tk: 270, vr: -1152</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.325830,39.013820,13425.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>243</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 268,tk: 270, vr: -1152</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.325830,39.013820,13425.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>244</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 266.1,tk: 271.3, vr: -1024</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.320750,39.013920,13350.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>245</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 266.1,tk: 271.3, vr: -960</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.319210,39.013940,13350.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>246</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 266.1,tk: 271.3, vr: -960</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.317590,39.013960,13325.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>247</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 266.1,tk: 271.3, vr: -960</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.317590,39.013960,13325.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>248</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 266,tk: 271.1, vr: -896</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.314760,39.013990,13300.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>249</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 266,tk: 271.1, vr: -896</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.314150,39.013990,13300.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>250</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 266,tk: 271.1, vr: -896</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.314150,39.013990,13300.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>251</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 266,tk: 271.1, vr: -896</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.309750,39.014080,13275.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>252</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 266,tk: 271.1, vr: -896</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.308750,39.014100,13250.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>253</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 266,tk: 271.1, vr: -896</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.308750,39.014100,13250.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>254</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 266,tk: 271.1, vr: -896</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.305300,39.014130,13225.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>255</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 266,tk: 271.1, vr: -896</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.305300,39.014130,13225.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>256</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 266,tk: 271.1, vr: -896</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.305300,39.014130,13225.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>257</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 267.1,tk: 271.3, vr: -896</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.299320,39.014240,13175.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>258</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 267.1,tk: 271.3, vr: -896</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.299320,39.014240,13175.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>259</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 267.1,tk: 271.3, vr: -896</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.297410,39.014280,13150.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>260</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 267.1,tk: 271.3, vr: -960</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.294560,39.014310,13125.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>261</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 267.1,tk: 271.3, vr: -960</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.294560,39.014310,13125.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>262</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 267.1,tk: 271.3, vr: -960</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.294560,39.014310,13125.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>263</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 267.1,tk: 271.3, vr: -960</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.294560,39.014310,13125.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>264</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 266.1,tk: 271.3, vr: -896</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.287600,39.014450,13050.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>265</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 266.1,tk: 271.3, vr: -832</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.286660,39.014470,13050.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>266</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 266.1,tk: 271.3, vr: -832</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.286660,39.014470,13050.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>267</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 266.1,tk: 271.3, vr: -832</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.286660,39.014470,13050.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>268</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 266.1,tk: 271.3, vr: -832</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.286660,39.014470,13050.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>269</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 266,tk: 271.1, vr: -896</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.280030,39.014590,12975.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>270</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 266,tk: 271.1, vr: -832</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.278420,39.014600,12975.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>271</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 266,tk: 271.1, vr: -832</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.278420,39.014600,12975.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>272</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 266,tk: 270.9, vr: -832</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.274960,39.014640,12950.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>273</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 266,tk: 270.9, vr: -832</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.274350,39.014640,12925.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>274</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 267,tk: 270.9, vr: -896</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.271790,39.014690,12900.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>275</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 267,tk: 270.9, vr: -896</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.270240,39.014690,12900.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>276</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 267,tk: 270.9, vr: -896</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.268620,39.014730,12875.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>277</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 267,tk: 271.1, vr: -896</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.267080,39.014740,12875.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>278</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 267,tk: 271.1, vr: -960</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.265440,39.014780,12850.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>279</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 267,tk: 271.1, vr: -896</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.264510,39.014790,12850.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>280</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 268,tk: 271.1, vr: -896</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.262940,39.014830,12825.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>281</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 268,tk: 271.1, vr: -896</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.261050,39.014830,12800.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>282</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 268,tk: 271.1, vr: -896</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.259770,39.014830,12800.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>283</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 268,tk: 271.1, vr: -896</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.257520,39.014880,12775.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>284</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 268,tk: 271.1, vr: -896</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.257520,39.014880,12775.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>285</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 268,tk: 271.1, vr: -960</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.254030,39.014920,12750.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>286</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 268,tk: 271.1, vr: -960</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.254030,39.014920,12750.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>287</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 268,tk: 270.9, vr: -960</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.251790,39.014970,12725.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>288</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 268,tk: 270.9, vr: -896</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.249880,39.014970,12700.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>289</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 268,tk: 270.9, vr: -896</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.249880,39.014970,12700.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>290</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 268,tk: 270.9, vr: -896</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.246710,39.015010,12675.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>291</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 268,tk: 270.9, vr: -896</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.245120,39.015010,12650.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>292</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 268,tk: 270.9, vr: -960</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.243550,39.015060,12650.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>293</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 268,tk: 270.9, vr: -960</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.241940,39.015060,12625.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>294</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 268,tk: 270.9, vr: -960</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.241940,39.015060,12625.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>295</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 269,tk: 270.9, vr: -960</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.238770,39.015100,12600.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>296</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 269,tk: 270.9, vr: -960</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.237160,39.015150,12575.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>297</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 269,tk: 271.1, vr: -960</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.235600,39.015150,12550.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>298</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 269,tk: 271.1, vr: -960</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.233340,39.015200,12550.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>299</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 269,tk: 271.1, vr: -960</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.232360,39.015200,12525.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>300</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 269,tk: 271.1, vr: -960</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.230770,39.015200,12500.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>301</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 269,tk: 271.1, vr: -960</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.229190,39.015240,12500.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>302</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 269,tk: 271.1, vr: -960</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.227910,39.015240,12475.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>303</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 269,tk: 271.1, vr: -1024</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.226010,39.015290,12450.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>304</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 269,tk: 271.1, vr: -1024</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.224380,39.015290,12450.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>305</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 269,tk: 271.1, vr: -1024</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.224380,39.015290,12450.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>306</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 270.1,tk: 271.3, vr: -1088</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.221220,39.015380,12400.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>307</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 270.1,tk: 271.3, vr: -1088</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.221220,39.015380,12400.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>308</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 270.1,tk: 271.3, vr: -1152</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.218000,39.015430,12375.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>309</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 270.1,tk: 271.3, vr: -1152</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.218000,39.015430,12375.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>310</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 270,tk: 270, vr: -1408</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.214170,39.015520,12325.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>311</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 270,tk: 270.6, vr: -1536</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.212860,39.015560,12300.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>312</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 270,tk: 270.6, vr: -1536</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.211240,39.015620,12275.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>313</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 270.7,tk: 274, vr: -1856</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.209700,39.015700,12225.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>314</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 270.7,tk: 274, vr: -1856</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.209700,39.015700,12225.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>315</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 270.7,tk: 274, vr: -1856</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.209700,39.015700,12225.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>316</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 269.9,tk: 274.7, vr: -1856</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.204900,39.016130,12150.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>317</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 270,tk: 277, vr: -1664</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.203310,39.016340,12125.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>318</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 270.5,tk: 277.9, vr: -1600</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.201720,39.016550,12075.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>319</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 271.3,tk: 280.2, vr: -1600</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.200080,39.016750,12075.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>320</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 271.6,tk: 280.6, vr: -1664</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.198550,39.017010,12025.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>321</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 272,tk: 281, vr: -1792</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.197270,39.017200,12000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>322</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 272.4,tk: 281.4, vr: -1920</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.195660,39.017440,11975.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>323</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 271.1,tk: 280, vr: -2112</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.194090,39.017710,11950.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>324</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 271.3,tk: 280.2, vr: -2176</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.192200,39.018040,11900.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>325</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 271.3,tk: 280.2, vr: -2176</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.190590,39.018260,11875.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>326</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 271.5,tk: 280.4, vr: -2240</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.189990,39.018400,11850.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>327</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 272.4,tk: 280.4, vr: -2304</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.187420,39.018810,11800.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>328</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 272.4,tk: 280.4, vr: -2304</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.187420,39.018810,11800.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>329</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 272.4,tk: 280.4, vr: -2240</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.184570,39.019290,11725.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>330</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 273.4,tk: 280.3, vr: -2176</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.182950,39.019550,11675.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>331</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 273.4,tk: 280.3, vr: -2112</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.181400,39.019810,11650.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>332</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 273.4,tk: 280.3, vr: -2112</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.181400,39.019810,11650.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>333</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 274.2,tk: 280.1, vr: -2048</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.177870,39.020370,11575.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>334</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 274.2,tk: 280.1, vr: -1984</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.177210,39.020510,11575.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>335</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 274.2,tk: 280.1, vr: -1856</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.174990,39.020830,11525.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>336</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 274.2,tk: 280.1, vr: -1856</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.174990,39.020830,11525.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>337</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 274.1,tk: 279.9, vr: -1792</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.171140,39.021480,11450.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>338</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 275.3,tk: 281.3, vr: -1728</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.170470,39.021580,11450.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>339</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 275.3,tk: 281.3, vr: -1728</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.170470,39.021580,11450.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>340</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 275.3,tk: 281.3, vr: -1728</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.170470,39.021580,11450.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>341</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 276.1,tk: 281.1, vr: -1728</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.165030,39.022430,11350.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>342</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 276.1,tk: 281.1, vr: -1728</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.165030,39.022430,11350.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>343</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 276.1,tk: 281.1, vr: -1728</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.165030,39.022430,11350.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>344</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 276.1,tk: 281.1, vr: -1728</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.160220,39.023160,11275.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>345</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 276.1,tk: 281.1, vr: -1664</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.158940,39.023340,11250.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>346</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 276.1,tk: 281.1, vr: -1600</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.156980,39.023620,11200.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>347</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 276.1,tk: 281.1, vr: -1472</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.155360,39.023900,11175.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>348</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 276.1,tk: 281.1, vr: -1472</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.155360,39.023900,11175.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>349</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 276.1,tk: 281.1, vr: -1472</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.155360,39.023900,11175.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>350</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 276.1,tk: 281.1, vr: -1472</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.155360,39.023900,11175.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>351</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 275.2,tk: 281.1, vr: -1280</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.148970,39.024860,11100.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>352</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 275.3,tk: 281.3, vr: -1280</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.147400,39.025110,11075.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>353</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 274.1,tk: 279.9, vr: -1216</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.145810,39.025360,11075.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>354</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 273,tk: 281, vr: -1088</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.144170,39.025630,11050.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>355</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 274.6,tk: 283.5, vr: -1088</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.142940,39.025900,11025.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>356</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 274.8,tk: 284.5, vr: -1088</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.141330,39.026180,11025.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>357</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 274.8,tk: 284.5, vr: -1088</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.141330,39.026180,11025.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>358</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 274.6,tk: 286.7, vr: -1024</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.138220,39.026920,10975.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>359</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 275.1,tk: 287.8, vr: -1088</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.136660,39.027300,10975.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>360</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 273,tk: 287, vr: -1088</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.135120,39.027690,10950.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>361</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 273,tk: 287, vr: -1088</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.135120,39.027690,10950.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>362</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 272.9,tk: 288.4, vr: -1088</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.131420,39.028750,10900.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>363</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 272.9,tk: 288.4, vr: -1088</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.130820,39.028930,10900.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>364</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 276,tk: 290.8, vr: -1024</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.129570,39.029300,10875.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>365</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 276.3,tk: 291, vr: -1024</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.127720,39.029850,10875.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>366</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 276.3,tk: 291, vr: -1024</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.127720,39.029850,10875.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>367</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 276.3,tk: 291, vr: -1024</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.127720,39.029850,10875.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>368</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 275.8,tk: 291.3, vr: -1024</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.127720,39.029850,10825.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>369</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 275.8,tk: 291.3, vr: -1024</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.127720,39.029850,10825.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>370</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 277.1,tk: 291.4, vr: -960</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.119770,39.032270,10775.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>371</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 277.1,tk: 291.4, vr: -960</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.118290,39.032700,10750.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>372</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 277.1,tk: 291.4, vr: -960</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.116730,39.033190,10750.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>373</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 277.1,tk: 291.4, vr: -960</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.114880,39.033740,10725.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>374</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 277.1,tk: 291.4, vr: -960</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.114880,39.033740,10725.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>375</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 278,tk: 291.3, vr: -1024</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.111830,39.034700,10700.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>376</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 278,tk: 291.3, vr: -1024</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.110290,39.035170,10675.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>377</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 278,tk: 291.3, vr: -1024</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.108730,39.035610,10650.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>378</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 278,tk: 291.3, vr: -1024</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.108730,39.035610,10650.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>379</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 278,tk: 291.3, vr: -1024</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.108730,39.035610,10650.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>380</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 278,tk: 291.3, vr: -1024</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.108730,39.035610,10650.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>381</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 278.4,tk: 291.5, vr: -960</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.102910,39.037400,10600.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>382</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 278.4,tk: 291.5, vr: -960</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.101980,39.037670,10575.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>383</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 278.4,tk: 291.5, vr: -960</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.101980,39.037670,10575.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>384</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 278.4,tk: 291.5, vr: -960</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.101980,39.037670,10575.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>385</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 278.4,tk: 291.5, vr: -960</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.097350,39.039080,10525.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>386</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 278.4,tk: 291.5, vr: -960</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.095180,39.039730,10525.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>387</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 278,tk: 291.3, vr: -960</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.093690,39.040240,10500.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>388</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 278,tk: 291.3, vr: -960</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.092130,39.040700,10475.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>389</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 278,tk: 291.3, vr: -1024</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.089970,39.041360,10450.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>390</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 278,tk: 291.3, vr: -1024</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.089360,39.041550,10450.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>391</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 278,tk: 291.3, vr: -1024</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.089360,39.041550,10450.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>392</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 278,tk: 291.3, vr: -1024</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.086240,39.042480,10400.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>393</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 277.6,tk: 291.1, vr: -1024</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.084410,39.043040,10400.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>394</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 277.6,tk: 291.1, vr: -1024</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.084410,39.043040,10400.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>395</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 277.6,tk: 291.1, vr: -1024</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.084410,39.043040,10400.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>396</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 278,tk: 291.3, vr: -1088</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.079830,39.044400,10350.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>397</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 278,tk: 291.3, vr: -1024</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.077640,39.045080,10325.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>398</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 278.4,tk: 291.5, vr: -960</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.076420,39.045460,10325.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>399</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 278.4,tk: 291.5, vr: -896</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.076420,39.045460,10325.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>400</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 278.4,tk: 291.5, vr: -960</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.073360,39.046390,10275.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>401</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 278.4,tk: 291.5, vr: -960</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.073360,39.046390,10275.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>402</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 278.4,tk: 291.5, vr: -960</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.070580,39.047240,10250.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>403</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 278.4,tk: 291.5, vr: -1024</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.069030,39.047740,10225.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>404</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 278.4,tk: 291.5, vr: -1024</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.069030,39.047740,10225.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>405</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 279.3,tk: 291.4, vr: -1024</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.065980,39.048670,10200.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>406</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 279.3,tk: 291.4, vr: -1024</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.065980,39.048670,10200.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>407</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 278.9,tk: 291.2, vr: -1024</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.062570,39.049710,10175.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>408</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 278.9,tk: 291.2, vr: -1024</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.061320,39.050080,10150.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>409</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 278.9,tk: 291.2, vr: -1024</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.061320,39.050080,10150.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>410</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 280.2,tk: 291.3, vr: -1088</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.058220,39.051040,10125.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>411</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 280.2,tk: 291.3, vr: -1088</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.058220,39.051040,10125.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>412</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 278.7,tk: 289.9, vr: -1024</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.055110,39.051960,10075.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>413</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 278.7,tk: 289.9, vr: -960</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.054200,39.052250,10075.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>414</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 281.2,tk: 291.3, vr: -1024</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.052010,39.052920,10050.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>415</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 281.2,tk: 291.3, vr: -960</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.050480,39.053420,10025.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>416</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 281.2,tk: 291.3, vr: -960</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.048900,39.053880,10025.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>417</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 280.8,tk: 291.1, vr: -1024</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.047050,39.054430,10000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>418</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 280.8,tk: 291.1, vr: -1088</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.045800,39.054790,9975.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>419</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 280.8,tk: 291.1, vr: -1088</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.044250,39.055280,9975.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>420</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 280.8,tk: 291.1, vr: -1088</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.044250,39.055280,9975.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>421</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 279.9,tk: 291.2, vr: -1088</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.041140,39.056210,9925.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>422</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 279.9,tk: 291.2, vr: -1088</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.039590,39.056670,9900.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>423</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 279.9,tk: 291.2, vr: -1024</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.038330,39.057040,9900.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>424</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 279.9,tk: 291.2, vr: -1024</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.036800,39.057510,9875.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>425</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 279.9,tk: 291.2, vr: -1024</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.035880,39.057820,9875.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>426</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 279.9,tk: 291.2, vr: -1024</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.035880,39.057820,9875.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>427</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 279.9,tk: 291.2, vr: -1024</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.031190,39.059190,9825.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>428</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 279.9,tk: 291.2, vr: -1024</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.031190,39.059190,9825.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>429</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 279.9,tk: 291.2, vr: -960</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.029020,39.059880,9800.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>430</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 280.8,tk: 291.1, vr: -960</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.027470,39.060310,9775.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>431</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 280.8,tk: 291.1, vr: -960</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.027470,39.060310,9775.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>432</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 280.8,tk: 291.1, vr: -960</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.027470,39.060310,9775.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>433</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 280.8,tk: 291.1, vr: -960</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.022520,39.061800,9725.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>434</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 280.8,tk: 291.1, vr: -960</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.020960,39.062300,9725.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>435</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 280.8,tk: 291.1, vr: -1024</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.019700,39.062670,9700.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>436</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 280.8,tk: 291.1, vr: -1024</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.017520,39.063290,9675.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>437</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 280.8,tk: 291.1, vr: -1024</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.016000,39.063770,9650.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>438</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 280.4,tk: 290.9, vr: -960</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.014750,39.064130,9650.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>439</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 280.4,tk: 290.9, vr: -960</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.014750,39.064130,9650.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>440</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 280.4,tk: 290.9, vr: -960</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.011350,39.065150,9625.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>441</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 280.1,tk: 290.7, vr: -1024</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.010070,39.065520,9600.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>442</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 280.1,tk: 290.7, vr: -1088</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.008850,39.065890,9575.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>443</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 280.1,tk: 290.7, vr: -1088</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.007880,39.066190,9575.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>444</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 280.1,tk: 290.7, vr: -1024</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.005130,39.067010,9550.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>445</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 280.1,tk: 290.7, vr: -1088</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.003580,39.067470,9525.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>446</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 280.1,tk: 290.7, vr: -1088</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.003580,39.067470,9525.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>447</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 280.1,tk: 290.7, vr: -1024</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>0.000730,39.068270,9500.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>448</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 280.1,tk: 290.7, vr: -960</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.000840,39.068760,9475.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>449</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 280.1,tk: 290.7, vr: -960</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.002380,39.069200,9475.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>450</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 281.4,tk: 290.8, vr: -896</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.003940,39.069670,9450.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>451</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 281.4,tk: 290.8, vr: -896</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.003940,39.069670,9450.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>452</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 281.4,tk: 290.8, vr: -896</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.007050,39.070590,9425.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>453</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 281.4,tk: 290.8, vr: -896</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.008610,39.071060,9400.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>454</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 282.7,tk: 290.9, vr: -960</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.010210,39.071550,9400.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>455</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 282.7,tk: 290.9, vr: -960</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.011720,39.071990,9375.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>456</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 282.7,tk: 290.9, vr: -960</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.013310,39.072460,9350.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>457</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 282.7,tk: 290.9, vr: -1024</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.014890,39.072970,9350.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>458</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 283,tk: 291.1, vr: -1024</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.016480,39.073430,9325.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>459</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 283,tk: 291.1, vr: -1024</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.017730,39.073790,9300.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>460</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 283,tk: 291.1, vr: -1088</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.019290,39.074270,9275.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>461</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 283,tk: 291.1, vr: -1152</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.020840,39.074750,9250.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>462</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 282.7,tk: 290.9, vr: -1088</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.022400,39.075200,9250.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>463</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 283.2,tk: 290.7, vr: -1088</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.024000,39.075670,9225.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>464</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 283.2,tk: 290.7, vr: -1088</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.026180,39.076320,9200.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>465</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 283.2,tk: 290.7, vr: -1088</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.028080,39.076880,9200.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>466</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 283.6,tk: 290.9, vr: -1024</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.029360,39.077250,9175.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>467</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 283.6,tk: 290.9, vr: -896</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.030930,39.077730,9150.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>468</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 283,tk: 291.1, vr: -960</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.032470,39.078180,9150.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>469</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 283,tk: 291.1, vr: -896</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.034030,39.078690,9125.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>470</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 283,tk: 291.1, vr: -960</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.035580,39.079160,9100.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>471</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 283,tk: 291.1, vr: -960</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.037200,39.079610,9100.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>472</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 282.7,tk: 290.9, vr: -896</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.038760,39.080090,9075.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>473</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 283.2,tk: 290.7, vr: -832</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.040300,39.080520,9075.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>474</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 283.2,tk: 290.7, vr: -768</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.041870,39.081020,9050.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>475</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 282.9,tk: 290.5, vr: -896</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.043150,39.081350,9050.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>476</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 282.9,tk: 290.5, vr: -896</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.044720,39.081850,9025.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>477</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 282.9,tk: 290.5, vr: -896</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.046330,39.082280,9000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>478</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 283.2,tk: 290.7, vr: -896</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.047890,39.082760,9000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>479</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 284.2,tk: 290.6, vr: -896</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.049440,39.083210,8975.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>480</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 284.5,tk: 290.8, vr: -832</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.051330,39.083770,8975.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>481</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 284.9,tk: 291, vr: -896</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.052900,39.084270,8950.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>482</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 282.5,tk: 289.7, vr: -896</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.054220,39.084640,8950.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>483</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 282.5,tk: 289.7, vr: -896</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.056070,39.085190,8925.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>484</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 282.5,tk: 289.7, vr: -896</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.056070,39.085190,8925.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>485</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 283.4,tk: 289.6, vr: -896</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.058290,39.085860,8900.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>486</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 283.4,tk: 289.6, vr: -960</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.060240,39.086470,8875.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>487</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 283.7,tk: 289.8, vr: -1152</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.062450,39.087110,8850.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>488</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 282.8,tk: 289.8, vr: -1152</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.064030,39.087590,8825.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>489</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 282.8,tk: 289.8, vr: -1152</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.064030,39.087590,8825.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>490</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 283.1,tk: 290, vr: -1216</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.066870,39.088490,8800.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>491</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 283.1,tk: 290, vr: -1216</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.066870,39.088490,8800.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>492</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 283.1,tk: 290, vr: -1152</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.070630,39.089630,8750.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>493</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 283.1,tk: 290, vr: -1088</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.071590,39.089910,8750.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>494</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 283.1,tk: 290, vr: -1088</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.073140,39.090410,8725.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>495</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 283.1,tk: 290, vr: -1088</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.074460,39.090820,8700.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>496</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 283.1,tk: 290, vr: -1088</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.075050,39.091000,8700.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>497</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 283.1,tk: 290, vr: -1024</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.078220,39.091960,8675.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>498</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 283.1,tk: 290, vr: -1024</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.079770,39.092470,8650.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>499</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 283.1,tk: 290, vr: -960</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.080730,39.092740,8650.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>500</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 283.1,tk: 290, vr: -960</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.082950,39.093450,8625.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>501</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 283.1,tk: 290, vr: -896</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.084550,39.093930,8600.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>502</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 283.1,tk: 290, vr: -896</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.086120,39.094380,8600.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>503</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 283.1,tk: 290, vr: -832</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.087710,39.094890,8575.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>504</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 283.1,tk: 290, vr: -832</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.089290,39.095360,8550.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>505</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 283.1,tk: 290, vr: -896</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.090880,39.095860,8550.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>506</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 282.2,tk: 290.1, vr: -960</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.092470,39.096340,8525.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>507</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 281.9,tk: 289.9, vr: -1024</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.094040,39.096820,8500.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>508</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 281.9,tk: 289.9, vr: -1024</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.094640,39.097000,8500.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>509</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 281.9,tk: 289.9, vr: -1024</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.097150,39.097780,8475.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>510</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 281.9,tk: 289.9, vr: -1024</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.098400,39.098190,8475.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>511</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 281.9,tk: 289.9, vr: -1024</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.099980,39.098670,8450.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>512</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 280.9,tk: 290, vr: -1088</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.101560,39.099150,8425.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>513</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 280.9,tk: 290, vr: -1088</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.101560,39.099150,8425.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>514</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 280.6,tk: 289.8, vr: -1088</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.105040,39.100200,8400.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>515</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 280.6,tk: 289.8, vr: -1024</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.106260,39.100570,8375.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>516</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 281.5,tk: 289.7, vr: -960</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.108490,39.101260,8350.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>517</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 281.5,tk: 289.7, vr: -960</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.109740,39.101620,8350.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>518</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 281.5,tk: 289.7, vr: -960</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.111330,39.102110,8325.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>519</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 281.5,tk: 289.7, vr: -960</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.112910,39.102580,8325.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>520</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 284,tk: 291.1, vr: -960</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.114440,39.103040,8300.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>521</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 284,tk: 291.1, vr: -896</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.115720,39.103410,8275.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>522</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 284,tk: 291.1, vr: -896</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.117330,39.103910,8275.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>523</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 283.6,tk: 290.9, vr: -896</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.118900,39.104350,8250.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>524</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 283.6,tk: 290.9, vr: -896</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.118900,39.104350,8250.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>525</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 282.7,tk: 290.9, vr: -896</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.122010,39.105320,8225.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>526</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 282.7,tk: 290.9, vr: -896</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.123600,39.105790,8200.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>527</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 282.7,tk: 290.9, vr: -960</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.125180,39.106250,8200.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>528</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 282.7,tk: 290.9, vr: -960</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.125180,39.106250,8200.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>529</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 281.7,tk: 291, vr: -896</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.128300,39.107180,8175.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>530</name>
+	<description> cs: RYR48XT, hex: 4CA7AC, sq: 1255, gs: 281.7,tk: 291, vr: -960</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>relativeToGround</altitudeMode>
+		<coordinates>-0.129870,39.107670,8150.000000 </coordinates>
+	</Point>
+</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>levctma.kml</name>
+<Style id="inline0">
+	<PolyStyle>
+		<fill>0</fill>
+		<color>AAff0000</color>
+	</PolyStyle>
+	<LineStyle>
+		<color>ffff0055</color>
+		<width>3</width>
+	</LineStyle>
+	<IconStyle>
+		<scale>1.5</scale>
+		<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+	<LabelStyle>
+		<color>ffffeeee</color>
+		<scale>1.5</scale>
+	</LabelStyle>
+</Style>
+<Placemark>
+	<name>TMA</name>
+	<styleUrl>#inline0</styleUrl>
+	<MultiGeometry>
+		<Point>
+			<altitudeMode>absolute</altitudeMode>
+			<coordinates>0.000000,40.000000,5943.600000</coordinates>
+		</Point>
+		<Polygon>
+			<extrude>1</extrude>
+			<tessellate>1</tessellate>
+			<altitudeMode>absolute</altitudeMode>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						0.000000,40.000000,5943.600000 
+						0.483333,39.250000,5943.600000 
+						0.483333,38.500000,5943.600000 
+						0.166667,38.000000,5943.600000 
+						-0.333333,38.000000,5943.600000 
+						-0.466667,38.116667,5943.600000 
+						-0.866667,38.116667,5943.600000 
+						-1.333333,38.833333,7467.600000 
+						-1.250000,39.150000,5943.600000 
+						-1.650000,39.566667,5943.600000 
+						-1.366667,40.000000,5943.600000 
+						0.000000,40.000000,5943.600000 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</MultiGeometry>
+</Placemark>
+</Document>
+</kml>

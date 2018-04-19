@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>loxo2.kml</name>
+<Style id="inline0">
+	<LineStyle>
+		<color>ffffff00</color>
+		<width>3</width>
+	</LineStyle>
+	<IconStyle>
+		<scale>1</scale>
+		<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+	<LabelStyle>
+		<color>ffffff00</color>
+		<scale>1</scale>
+	</LabelStyle>
+</Style>
+<Style id="inline1">
+	<LineStyle>
+		<color>ffffff00</color>
+		<width>3</width>
+	</LineStyle>
+	<IconStyle>
+		<scale>0.5</scale>
+		<Icon><href>http://maps.google.com/mapfiles/kml/shapes/triangle.png</href></Icon>
+	</IconStyle>
+	<LabelStyle>
+		<color>fffffffff</color>
+		<scale>0.8</scale>
+	</LabelStyle>
+</Style>
+<Placemark>
+	<name>LOXO2</name>
+	<styleUrl>#inline0</styleUrl>
+	<MultiGeometry>
+		<Point>
+			<altitudeMode>clampToGround</altitudeMode>
+			<coordinates>-53.999667,57.076124,0.000000</coordinates>
+		</Point>
+		<LineString>
+			<extrude>0</extrude>
+			<tessellate>1</tessellate>
+			<altitudeMode>clampToGround</altitudeMode>
+			<coordinates>
+			-0.481667,39.489444,0.000000 
+			-7.104527,42.001813,0.000000 
+			-13.994356,44.514181,0.000000 
+			-21.188007,47.026550,0.000000 
+			-28.728697,49.538918,0.000000 
+			-36.667669,52.051287,0.000000 
+			-45.066424,54.563655,0.000000 
+			-53.999767,57.076024,0.000000 
+			-63.560070,59.588392,0.000000 
+			-73.863372,62.100761,0.000000 
+			-85.058360,64.613129,0.000000 
+			-97.340052,67.125498,0.000000 
+			-110.971465,69.637866,0.000000 
+			-126.319621,72.150235,0.000000 
+			-143.919057,74.662603,0.000000 
+			</coordinates>
+		</LineString>
+	</MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>LEVC</name>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>clampToGround</altitudeMode>
+		<coordinates>-0.481667,39.489444,0.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>2</name>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>clampToGround</altitudeMode>
+		<coordinates>-7.104527,42.001813,0.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>3</name>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>clampToGround</altitudeMode>
+		<coordinates>-13.994356,44.514181,0.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>4</name>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>clampToGround</altitudeMode>
+		<coordinates>-21.188007,47.026550,0.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>5</name>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>clampToGround</altitudeMode>
+		<coordinates>-28.728697,49.538918,0.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>6</name>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>clampToGround</altitudeMode>
+		<coordinates>-36.667669,52.051287,0.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>7</name>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>clampToGround</altitudeMode>
+		<coordinates>-45.066424,54.563655,0.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>8</name>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>clampToGround</altitudeMode>
+		<coordinates>-53.999767,57.076024,0.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>9</name>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>clampToGround</altitudeMode>
+		<coordinates>-63.560070,59.588392,0.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>10</name>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>clampToGround</altitudeMode>
+		<coordinates>-73.863372,62.100761,0.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>11</name>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>clampToGround</altitudeMode>
+		<coordinates>-85.058360,64.613129,0.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>12</name>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>clampToGround</altitudeMode>
+		<coordinates>-97.340052,67.125498,0.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>13</name>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>clampToGround</altitudeMode>
+		<coordinates>-110.971465,69.637866,0.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>14</name>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>clampToGround</altitudeMode>
+		<coordinates>-126.319621,72.150235,0.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name>15</name>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>clampToGround</altitudeMode>
+		<coordinates>-143.919057,74.662603,0.000000 </coordinates>
+	</Point>
+</Placemark>
+</Document>
+</kml>

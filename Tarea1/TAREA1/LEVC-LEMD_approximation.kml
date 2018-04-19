@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>LEVC-LEMD_approximation.kml</name>
+<Style id="inline0">
+	<LineStyle>
+		<color>ffff69b4</color>
+		<width>2</width>
+	</LineStyle>
+	<IconStyle>
+		<scale>1.5</scale>
+		<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+	<LabelStyle>
+		<color>ffffeeee</color>
+		<scale>1.8</scale>
+	</LabelStyle>
+</Style>
+<Style id="inline1">
+	<LineStyle>
+		<color>ffff69b4</color>
+		<width>2</width>
+	</LineStyle>
+	<IconStyle>
+		<scale>1</scale>
+		<Icon><href>http://maps.google.com/mapfiles/kml/shapes/triangle.png</href></Icon>
+	</IconStyle>
+	<LabelStyle>
+		<color>fffffffff</color>
+		<scale>1.2</scale>
+	</LabelStyle>
+</Style>
+<Placemark>
+	<name>LEVC-LEMD</name>
+	<styleUrl>#inline0</styleUrl>
+	<MultiGeometry>
+		<Point>
+			<altitudeMode>clampToGround</altitudeMode>
+			<coordinates>-39.142234,4.384764,38000.000000</coordinates>
+		</Point>
+		<LineString>
+			<extrude>0</extrude>
+			<tessellate>1</tessellate>
+			<altitudeMode>clampToGround</altitudeMode>
+			<coordinates>
+			-3.560833,40.472222,0.000000 
+			-5.987806,38.947889,38000.000000 
+			-8.309092,37.373682,38000.000000 
+			-10.531770,35.754326,38000.000000 
+			-12.662902,34.094150,38000.000000 
+			-14.709410,32.397115,38000.000000 
+			-16.678004,30.666833,38000.000000 
+			-18.575128,28.906604,38000.000000 
+			-20.406930,27.119435,38000.000000 
+			-22.179252,25.308077,38000.000000 
+			-23.897628,23.475045,38000.000000 
+			-25.567294,21.622647,38000.000000 
+			-27.193202,19.753006,38000.000000 
+			-28.780038,17.868082,38000.000000 
+			-30.332244,15.969691,38000.000000 
+			-31.854043,14.059527,38000.000000 
+			-33.349461,12.139174,38000.000000 
+			-34.822352,10.210126,38000.000000 
+			-36.276422,8.273799,38000.000000 
+			-37.715255,6.331544,38000.000000 
+			-39.142334,4.384664,38000.000000 
+			-40.561066,2.434419,38000.000000 
+			-41.974808,0.482045,38000.000000 
+			-43.386885,-1.471239,38000.000000 
+			-44.800619,-3.424221,38000.000000 
+			-46.219349,-5.375680,38000.000000 
+			-47.646456,-7.324376,38000.000000 
+			-49.085390,-9.269042,38000.000000 
+			-50.539694,-11.208365,38000.000000 
+			-52.013033,-13.140974,38000.000000 
+			-53.509219,-15.065423,38000.000000 
+			-55.032249,-16.980176,38000.000000 
+			-56.586337,-18.883578,38000.000000 
+			-58.175953,-20.773834,38000.000000 
+			-59.805876,-22.648967,38000.000000 
+			-61.481252,-24.506770,38000.000000 
+			-63.207692,-26.344723,38000.000000 
+			-64.991424,-28.159856,38000.000000 
+			-66.839620,-29.948445,38000.000000 
+			-68.761348,-31.705164,38000.000000 
+			-70.772199,-33.418963,38000.000000 
+			</coordinates>
+		</LineString>
+	</MultiGeometry>
+</Placemark>
+<Placemark>
+	<name>LEMD</name>
+	<description>Airport</description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>clampToGround</altitudeMode>
+		<coordinates>-3.560833,40.472222,0.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name></name>
+	<description></description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>clampToGround</altitudeMode>
+		<coordinates>-5.987806,38.947889,38000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name></name>
+	<description></description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>clampToGround</altitudeMode>
+		<coordinates>-8.309092,37.373682,38000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name></name>
+	<description></description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>clampToGround</altitudeMode>
+		<coordinates>-10.531770,35.754326,38000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name></name>
+	<description></description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>clampToGround</altitudeMode>
+		<coordinates>-12.662902,34.094150,38000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name></name>
+	<description></description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>clampToGround</altitudeMode>
+		<coordinates>-14.709410,32.397115,38000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name></name>
+	<description></description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>clampToGround</altitudeMode>
+		<coordinates>-16.678004,30.666833,38000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name></name>
+	<description></description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>clampToGround</altitudeMode>
+		<coordinates>-18.575128,28.906604,38000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name></name>
+	<description></description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>clampToGround</altitudeMode>
+		<coordinates>-20.406930,27.119435,38000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name></name>
+	<description></description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>clampToGround</altitudeMode>
+		<coordinates>-22.179252,25.308077,38000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name></name>
+	<description></description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>clampToGround</altitudeMode>
+		<coordinates>-23.897628,23.475045,38000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name></name>
+	<description></description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>clampToGround</altitudeMode>
+		<coordinates>-25.567294,21.622647,38000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name></name>
+	<description></description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>clampToGround</altitudeMode>
+		<coordinates>-27.193202,19.753006,38000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name></name>
+	<description></description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>clampToGround</altitudeMode>
+		<coordinates>-28.780038,17.868082,38000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name></name>
+	<description></description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>clampToGround</altitudeMode>
+		<coordinates>-30.332244,15.969691,38000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name></name>
+	<description></description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>clampToGround</altitudeMode>
+		<coordinates>-31.854043,14.059527,38000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name></name>
+	<description></description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>clampToGround</altitudeMode>
+		<coordinates>-33.349461,12.139174,38000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name></name>
+	<description></description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>clampToGround</altitudeMode>
+		<coordinates>-34.822352,10.210126,38000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name></name>
+	<description></description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>clampToGround</altitudeMode>
+		<coordinates>-36.276422,8.273799,38000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name></name>
+	<description></description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>clampToGround</altitudeMode>
+		<coordinates>-37.715255,6.331544,38000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name></name>
+	<description></description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>clampToGround</altitudeMode>
+		<coordinates>-39.142334,4.384664,38000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name></name>
+	<description></description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>clampToGround</altitudeMode>
+		<coordinates>-40.561066,2.434419,38000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name></name>
+	<description></description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>clampToGround</altitudeMode>
+		<coordinates>-41.974808,0.482045,38000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name></name>
+	<description></description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>clampToGround</altitudeMode>
+		<coordinates>-43.386885,-1.471239,38000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name></name>
+	<description></description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>clampToGround</altitudeMode>
+		<coordinates>-44.800619,-3.424221,38000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name></name>
+	<description></description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>clampToGround</altitudeMode>
+		<coordinates>-46.219349,-5.375680,38000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name></name>
+	<description></description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>clampToGround</altitudeMode>
+		<coordinates>-47.646456,-7.324376,38000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name></name>
+	<description></description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>clampToGround</altitudeMode>
+		<coordinates>-49.085390,-9.269042,38000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name></name>
+	<description></description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>clampToGround</altitudeMode>
+		<coordinates>-50.539694,-11.208365,38000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name></name>
+	<description></description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>clampToGround</altitudeMode>
+		<coordinates>-52.013033,-13.140974,38000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name></name>
+	<description></description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>clampToGround</altitudeMode>
+		<coordinates>-53.509219,-15.065423,38000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name></name>
+	<description></description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>clampToGround</altitudeMode>
+		<coordinates>-55.032249,-16.980176,38000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name></name>
+	<description></description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>clampToGround</altitudeMode>
+		<coordinates>-56.586337,-18.883578,38000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name></name>
+	<description></description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>clampToGround</altitudeMode>
+		<coordinates>-58.175953,-20.773834,38000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name></name>
+	<description></description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>clampToGround</altitudeMode>
+		<coordinates>-59.805876,-22.648967,38000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name></name>
+	<description></description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>clampToGround</altitudeMode>
+		<coordinates>-61.481252,-24.506770,38000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name></name>
+	<description></description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>clampToGround</altitudeMode>
+		<coordinates>-63.207692,-26.344723,38000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name></name>
+	<description></description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>clampToGround</altitudeMode>
+		<coordinates>-64.991424,-28.159856,38000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name></name>
+	<description></description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>clampToGround</altitudeMode>
+		<coordinates>-66.839620,-29.948445,38000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name></name>
+	<description></description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>clampToGround</altitudeMode>
+		<coordinates>-68.761348,-31.705164,38000.000000 </coordinates>
+	</Point>
+</Placemark>
+<Placemark>
+	<name></name>
+	<description></description>
+	<styleUrl>inline1</styleUrl>
+	<Point>
+		<altitudeMode>clampToGround</altitudeMode>
+		<coordinates>-70.772199,-33.418963,38000.000000 </coordinates>
+	</Point>
+</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>led65.kml</name>
+<Style id="inline0">
+	<PolyStyle>
+		<fill>1</fill>
+		<color>225500ff</color>
+	</PolyStyle>
+	<LineStyle>
+		<color>ffffffff</color>
+		<width>1</width>
+	</LineStyle>
+	<IconStyle>
+		<scale>1</scale>
+		<Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href></Icon>
+	</IconStyle>
+	<LabelStyle>
+		<color>ffffeeee</color>
+		<scale>1</scale>
+	</LabelStyle>
+</Style>
+<Placemark>
+	<name>LED65</name>
+	<styleUrl>#inline0</styleUrl>
+	<MultiGeometry>
+		<Point>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<coordinates>-0.600000,39.783333,3810.000000</coordinates>
+		</Point>
+		<Polygon>
+			<extrude>1</extrude>
+			<tessellate>1</tessellate>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-0.600000,39.783333,3810.000000 
+						-0.516667,39.783333,3810.000000 
+						-0.516667,39.683333,3810.000000 
+						-0.600000,39.683333,3810.000000 
+						-0.600000,39.783333,3810.000000 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</MultiGeometry>
+</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,1174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+	<Document>
+		<Folder>
+			<open>1</open>
+			<name>trafico aereo SACTA</name>
+			<Style>
+				<ListStyle>
+					<listItemType>check</listItemType>
+					<bgColor>00ffffff</bgColor>
+					<maxSnippetLines>2</maxSnippetLines>
+				</ListStyle>
+			</Style>
+
+			<LookAt>
+				<longitude>0.37666666666666</longitude>
+				<latitude>39.47</latitude>
+				<altitude>0</altitude>
+				<heading>0</heading>
+				<tilt>25</tilt>
+				<range>750000</range>
+				<altitudeMode>relativeToGround</altitudeMode>
+			</LookAt>
+			<Style id="1">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+					<scale>1</scale>
+					<Icon><href>/Users/jvila/Dropbox/docencia/TNyCA/sw/SACTA-matlab-v4.1/SACTA/iconos/avion.png</href></Icon>
+				</IconStyle>
+			</Style>
+
+			<Style id="2">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+					<scale>1</scale>
+					<Icon><href>/Users/jvila/Dropbox/docencia/TNyCA/sw/SACTA-matlab-v4.1/SACTA/iconos/avion.png</href></Icon>
+				</IconStyle>
+			</Style>
+
+			<Style id="3">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+					<scale>1</scale>
+					<Icon><href>/Users/jvila/Dropbox/docencia/TNyCA/sw/SACTA-matlab-v4.1/SACTA/iconos/avion.png</href></Icon>
+				</IconStyle>
+			</Style>
+
+			<Style id="4">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+					<scale>1</scale>
+					<Icon><href>/Users/jvila/Dropbox/docencia/TNyCA/sw/SACTA-matlab-v4.1/SACTA/iconos/avion.png</href></Icon>
+				</IconStyle>
+			</Style>
+
+			<Style id="5">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+					<scale>1</scale>
+					<Icon><href>/Users/jvila/Dropbox/docencia/TNyCA/sw/SACTA-matlab-v4.1/SACTA/iconos/avion.png</href></Icon>
+				</IconStyle>
+			</Style>
+
+			<Style id="6">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+					<scale>1</scale>
+					<Icon><href>/Users/jvila/Dropbox/docencia/TNyCA/sw/SACTA-matlab-v4.1/SACTA/iconos/avion.png</href></Icon>
+				</IconStyle>
+			</Style>
+
+			<Style id="7">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+					<scale>1</scale>
+					<Icon><href>/Users/jvila/Dropbox/docencia/TNyCA/sw/SACTA-matlab-v4.1/SACTA/iconos/avion.png</href></Icon>
+				</IconStyle>
+			</Style>
+
+			<Style id="8">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+					<scale>1</scale>
+					<Icon><href>/Users/jvila/Dropbox/docencia/TNyCA/sw/SACTA-matlab-v4.1/SACTA/iconos/avion.png</href></Icon>
+				</IconStyle>
+			</Style>
+
+			<Style id="9">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+					<scale>1</scale>
+					<Icon><href>/Users/jvila/Dropbox/docencia/TNyCA/sw/SACTA-matlab-v4.1/SACTA/iconos/avion.png</href></Icon>
+				</IconStyle>
+			</Style>
+
+			<Style id="10">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+					<scale>1</scale>
+					<Icon><href>/Users/jvila/Dropbox/docencia/TNyCA/sw/SACTA-matlab-v4.1/SACTA/iconos/avion.png</href></Icon>
+				</IconStyle>
+			</Style>
+
+			<Style id="11">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+					<scale>1</scale>
+					<Icon><href>/Users/jvila/Dropbox/docencia/TNyCA/sw/SACTA-matlab-v4.1/SACTA/iconos/avion.png</href></Icon>
+				</IconStyle>
+			</Style>
+
+			<Style id="12">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+					<scale>1</scale>
+					<Icon><href>/Users/jvila/Dropbox/docencia/TNyCA/sw/SACTA-matlab-v4.1/SACTA/iconos/avion.png</href></Icon>
+				</IconStyle>
+			</Style>
+
+			<Style id="13">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+					<scale>1</scale>
+					<Icon><href>/Users/jvila/Dropbox/docencia/TNyCA/sw/SACTA-matlab-v4.1/SACTA/iconos/avion.png</href></Icon>
+				</IconStyle>
+			</Style>
+
+			<Style id="14">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+					<scale>1</scale>
+					<Icon><href>/Users/jvila/Dropbox/docencia/TNyCA/sw/SACTA-matlab-v4.1/SACTA/iconos/avion.png</href></Icon>
+				</IconStyle>
+			</Style>
+
+			<Style id="15">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+					<scale>1</scale>
+					<Icon><href>/Users/jvila/Dropbox/docencia/TNyCA/sw/SACTA-matlab-v4.1/SACTA/iconos/avion.png</href></Icon>
+				</IconStyle>
+			</Style>
+
+			<Style id="16">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+					<scale>1</scale>
+					<Icon><href>/Users/jvila/Dropbox/docencia/TNyCA/sw/SACTA-matlab-v4.1/SACTA/iconos/avion.png</href></Icon>
+				</IconStyle>
+			</Style>
+
+			<Style id="17">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+					<scale>1</scale>
+					<Icon><href>/Users/jvila/Dropbox/docencia/TNyCA/sw/SACTA-matlab-v4.1/SACTA/iconos/avion.png</href></Icon>
+				</IconStyle>
+			</Style>
+
+			<Style id="18">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+					<scale>1</scale>
+					<Icon><href>/Users/jvila/Dropbox/docencia/TNyCA/sw/SACTA-matlab-v4.1/SACTA/iconos/avion.png</href></Icon>
+				</IconStyle>
+			</Style>
+
+			<Style id="19">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+					<scale>1</scale>
+					<Icon><href>/Users/jvila/Dropbox/docencia/TNyCA/sw/SACTA-matlab-v4.1/SACTA/iconos/avion.png</href></Icon>
+				</IconStyle>
+			</Style>
+
+			<Style id="20">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+					<scale>1</scale>
+					<Icon><href>/Users/jvila/Dropbox/docencia/TNyCA/sw/SACTA-matlab-v4.1/SACTA/iconos/avion.png</href></Icon>
+				</IconStyle>
+			</Style>
+
+			<Style id="21">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+					<scale>1</scale>
+					<Icon><href>/Users/jvila/Dropbox/docencia/TNyCA/sw/SACTA-matlab-v4.1/SACTA/iconos/avion.png</href></Icon>
+				</IconStyle>
+			</Style>
+
+			<Style id="22">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+					<scale>1</scale>
+					<Icon><href>/Users/jvila/Dropbox/docencia/TNyCA/sw/SACTA-matlab-v4.1/SACTA/iconos/avion.png</href></Icon>
+				</IconStyle>
+			</Style>
+
+			<Style id="23">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+					<scale>1</scale>
+					<Icon><href>/Users/jvila/Dropbox/docencia/TNyCA/sw/SACTA-matlab-v4.1/SACTA/iconos/avion.png</href></Icon>
+				</IconStyle>
+			</Style>
+
+			<Style id="24">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+					<scale>1</scale>
+					<Icon><href>/Users/jvila/Dropbox/docencia/TNyCA/sw/SACTA-matlab-v4.1/SACTA/iconos/avion.png</href></Icon>
+				</IconStyle>
+			</Style>
+
+			<Style id="25">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+					<scale>1</scale>
+					<Icon><href>/Users/jvila/Dropbox/docencia/TNyCA/sw/SACTA-matlab-v4.1/SACTA/iconos/avion.png</href></Icon>
+				</IconStyle>
+			</Style>
+
+			<Style id="26">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+					<scale>1</scale>
+					<Icon><href>/Users/jvila/Dropbox/docencia/TNyCA/sw/SACTA-matlab-v4.1/SACTA/iconos/avion.png</href></Icon>
+				</IconStyle>
+			</Style>
+
+			<Style id="27">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+					<scale>1</scale>
+					<Icon><href>/Users/jvila/Dropbox/docencia/TNyCA/sw/SACTA-matlab-v4.1/SACTA/iconos/avion.png</href></Icon>
+				</IconStyle>
+			</Style>
+
+			<Style id="28">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+					<scale>1</scale>
+					<Icon><href>/Users/jvila/Dropbox/docencia/TNyCA/sw/SACTA-matlab-v4.1/SACTA/iconos/avion.png</href></Icon>
+				</IconStyle>
+			</Style>
+
+			<Style id="29">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+					<scale>1</scale>
+					<Icon><href>/Users/jvila/Dropbox/docencia/TNyCA/sw/SACTA-matlab-v4.1/SACTA/iconos/avion.png</href></Icon>
+				</IconStyle>
+			</Style>
+
+			<Style id="30">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+					<scale>1</scale>
+					<Icon><href>/Users/jvila/Dropbox/docencia/TNyCA/sw/SACTA-matlab-v4.1/SACTA/iconos/avion.png</href></Icon>
+				</IconStyle>
+			</Style>
+
+			<Style id="31">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+					<scale>1</scale>
+					<Icon><href>/Users/jvila/Dropbox/docencia/TNyCA/sw/SACTA-matlab-v4.1/SACTA/iconos/avion.png</href></Icon>
+				</IconStyle>
+			</Style>
+
+			<Style id="32">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+					<scale>1</scale>
+					<Icon><href>/Users/jvila/Dropbox/docencia/TNyCA/sw/SACTA-matlab-v4.1/SACTA/iconos/avion.png</href></Icon>
+				</IconStyle>
+			</Style>
+
+			<Style id="33">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+					<scale>1</scale>
+					<Icon><href>/Users/jvila/Dropbox/docencia/TNyCA/sw/SACTA-matlab-v4.1/SACTA/iconos/avion.png</href></Icon>
+				</IconStyle>
+			</Style>
+
+			<Style id="34">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+					<scale>1</scale>
+					<Icon><href>/Users/jvila/Dropbox/docencia/TNyCA/sw/SACTA-matlab-v4.1/SACTA/iconos/avion.png</href></Icon>
+				</IconStyle>
+			</Style>
+
+			<Style id="35">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+					<scale>1</scale>
+					<Icon><href>/Users/jvila/Dropbox/docencia/TNyCA/sw/SACTA-matlab-v4.1/SACTA/iconos/avion.png</href></Icon>
+				</IconStyle>
+			</Style>
+
+			<Style id="36">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+					<scale>1</scale>
+					<Icon><href>/Users/jvila/Dropbox/docencia/TNyCA/sw/SACTA-matlab-v4.1/SACTA/iconos/avion.png</href></Icon>
+				</IconStyle>
+			</Style>
+
+			<Style id="37">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+					<scale>1</scale>
+					<Icon><href>/Users/jvila/Dropbox/docencia/TNyCA/sw/SACTA-matlab-v4.1/SACTA/iconos/avion.png</href></Icon>
+				</IconStyle>
+			</Style>
+
+			<Style id="38">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+					<scale>1</scale>
+					<Icon><href>/Users/jvila/Dropbox/docencia/TNyCA/sw/SACTA-matlab-v4.1/SACTA/iconos/avion.png</href></Icon>
+				</IconStyle>
+			</Style>
+
+			<Style id="39">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+					<scale>1</scale>
+					<Icon><href>/Users/jvila/Dropbox/docencia/TNyCA/sw/SACTA-matlab-v4.1/SACTA/iconos/avion.png</href></Icon>
+				</IconStyle>
+			</Style>
+
+			<Style id="40">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+					<scale>1</scale>
+					<Icon><href>/Users/jvila/Dropbox/docencia/TNyCA/sw/SACTA-matlab-v4.1/SACTA/iconos/avion.png</href></Icon>
+				</IconStyle>
+			</Style>
+
+			<Style id="41">
+				<IconStyle>
+					<color>ffffffff</color>
+					<colorMode>normal</colorMode>
+					<scale>1</scale>
+					<Icon><href>/Users/jvila/Dropbox/docencia/TNyCA/sw/SACTA-matlab-v4.1/SACTA/iconos/avion.png</href></Icon>
+				</IconStyle>
+			</Style>
+
+			<Placemark>
+			<open>1</open>
+				<LookAt>
+					<longitude>-3.20172</longitude>
+					<latitude>41.0523</latitude>
+					<altitude>10980.4</altitude>
+					<heading>0</heading>
+					<tilt>35</tilt>
+					<range>15000</range>
+					<altitudeMode>relativeToGround</altitudeMode>
+				</LookAt>
+				<name>EZY37YP</name>
+				<description>Desc: , Callsign: EZY37YP, Hexcode: 406132, Squawk: 1060, Lon.: -3.20172, Lat.: 41.0523, Alt.: 36025, Speed: 444.5, Vert. rate: 0 </description>
+				<styleUrl>#1</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-3.20172,41.0523,10980.4</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+			<open>1</open>
+				<LookAt>
+					<longitude>0.00232</longitude>
+					<latitude>39.8791</latitude>
+					<altitude>11277.6</altitude>
+					<heading>0</heading>
+					<tilt>35</tilt>
+					<range>15000</range>
+					<altitudeMode>relativeToGround</altitudeMode>
+				</LookAt>
+				<name>RYR98HU</name>
+				<description>Desc: , Callsign: RYR98HU, Hexcode: 4CA626, Squawk: 3553, Lon.: 0.00232, Lat.: 39.8791, Alt.: 37000, Speed: 470.2, Vert. rate: 0 </description>
+				<styleUrl>#2</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>0.00232,39.8791,11277.6</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+			<open>1</open>
+				<LookAt>
+					<longitude>0.86407</longitude>
+					<latitude>38.7534</latitude>
+					<altitude>9151.62</altitude>
+					<heading>0</heading>
+					<tilt>35</tilt>
+					<range>15000</range>
+					<altitudeMode>relativeToGround</altitudeMode>
+				</LookAt>
+				<name>IBE3308</name>
+				<description>Desc: , Callsign: IBE3308, Hexcode: 3430C3, Squawk: 5506, Lon.: 0.86407, Lat.: 38.7534, Alt.: 30025, Speed: 384.3, Vert. rate: 64 </description>
+				<styleUrl>#3</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>0.86407,38.7534,9151.62</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+			<open>1</open>
+				<LookAt>
+					<longitude>0.50895</longitude>
+					<latitude>41.9289</latitude>
+					<altitude>12192</altitude>
+					<heading>0</heading>
+					<tilt>35</tilt>
+					<range>15000</range>
+					<altitudeMode>relativeToGround</altitudeMode>
+				</LookAt>
+				<name>GGSVI</name>
+				<description>Desc: , Callsign: GGSVI, Hexcode: 406F7D, Squawk: 5163, Lon.: 0.50895, Lat.: 41.9289, Alt.: 40000, Speed: 543.4, Vert. rate: 0 </description>
+				<styleUrl>#4</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>0.50895,41.9289,12192</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+			<open>1</open>
+				<LookAt>
+					<longitude>3.77058</longitude>
+					<latitude>38.8936</latitude>
+					<altitude>10972.8</altitude>
+					<heading>0</heading>
+					<tilt>35</tilt>
+					<range>15000</range>
+					<altitudeMode>relativeToGround</altitudeMode>
+				</LookAt>
+				<name>DAH2054</name>
+				<description>Desc: , Callsign: DAH2054, Hexcode: 0A008E, Squawk: 5525, Lon.: 3.77058, Lat.: 38.8936, Alt.: 36000, Speed: 452.8, Vert. rate: 0 </description>
+				<styleUrl>#5</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>3.77058,38.8936,10972.8</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+			<open>1</open>
+				<LookAt>
+					<longitude>-2.38867</longitude>
+					<latitude>40.5399</latitude>
+					<altitude>9982.2</altitude>
+					<heading>0</heading>
+					<tilt>35</tilt>
+					<range>15000</range>
+					<altitudeMode>relativeToGround</altitudeMode>
+				</LookAt>
+				<name>AME4554</name>
+				<description>Desc: , Callsign: AME4554, Hexcode: 354555, Squawk: 4505, Lon.: -2.38867, Lat.: 40.5399, Alt.: 32750, Speed: 474.1, Vert. rate: 1024 </description>
+				<styleUrl>#6</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-2.38867,40.5399,9982.2</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+			<open>1</open>
+				<LookAt>
+					<longitude>0.24544</longitude>
+					<latitude>40.4379</latitude>
+					<altitude>11582.4</altitude>
+					<heading>0</heading>
+					<tilt>35</tilt>
+					<range>15000</range>
+					<altitudeMode>relativeToGround</altitudeMode>
+				</LookAt>
+				<name>DAH1076</name>
+				<description>Desc: , Callsign: DAH1076, Hexcode: 0A008A, Squawk: 5570, Lon.: 0.24544, Lat.: 40.4379, Alt.: 38000, Speed: 407.3, Vert. rate: 0 </description>
+				<styleUrl>#7</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>0.24544,40.4379,11582.4</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+			<open>1</open>
+				<LookAt>
+					<longitude>0.51821</longitude>
+					<latitude>39.5525</latitude>
+					<altitude>9448.8</altitude>
+					<heading>0</heading>
+					<tilt>35</tilt>
+					<range>15000</range>
+					<altitudeMode>relativeToGround</altitudeMode>
+				</LookAt>
+				<name>IBK6774</name>
+				<description>Desc: , Callsign: IBK6774, Hexcode: 47A1CF, Squawk: 1252, Lon.: 0.51821, Lat.: 39.5525, Alt.: 31000, Speed: 486, Vert. rate: 0 </description>
+				<styleUrl>#8</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>0.51821,39.5525,9448.8</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+			<open>1</open>
+				<LookAt>
+					<longitude>-0.00597</longitude>
+					<latitude>39.5964</latitude>
+					<altitude>7879.08</altitude>
+					<heading>0</heading>
+					<tilt>35</tilt>
+					<range>15000</range>
+					<altitudeMode>relativeToGround</altitudeMode>
+				</LookAt>
+				<name>EZY23VX</name>
+				<description>Desc: , Callsign: EZY23VX, Hexcode: 406544, Squawk: 5556, Lon.: -0.00597, Lat.: 39.5964, Alt.: 25850, Speed: 452, Vert. rate: 1536 </description>
+				<styleUrl>#9</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-0.00597,39.5964,7879.08</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+			<open>1</open>
+				<LookAt>
+					<longitude>1.03908</longitude>
+					<latitude>37.1978</latitude>
+					<altitude>9083.04</altitude>
+					<heading>0</heading>
+					<tilt>35</tilt>
+					<range>15000</range>
+					<altitudeMode>relativeToGround</altitudeMode>
+				</LookAt>
+				<name>RYR5312</name>
+				<description>Desc: , Callsign: RYR5312, Hexcode: 4CABBC, Squawk: 5533, Lon.: 1.03908, Lat.: 37.1978, Alt.: 29800, Speed: 469.9, Vert. rate: 1024 </description>
+				<styleUrl>#10</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>1.03908,37.1978,9083.04</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+			<open>1</open>
+				<LookAt>
+					<longitude>-0.5705</longitude>
+					<latitude>39.5836</latitude>
+					<altitude>1760.22</altitude>
+					<heading>0</heading>
+					<tilt>35</tilt>
+					<range>15000</range>
+					<altitudeMode>relativeToGround</altitudeMode>
+				</LookAt>
+				<name>VLG89HQ</name>
+				<description>Desc: , Callsign: VLG89HQ, Hexcode: 342592, Squawk: 0000, Lon.: -0.5705, Lat.: 39.5836, Alt.: 5775, Speed: 239.4, Vert. rate: 3328 </description>
+				<styleUrl>#11</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-0.5705,39.5836,1760.22</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+			<open>1</open>
+				<LookAt>
+					<longitude>2.24741</longitude>
+					<latitude>41.4337</latitude>
+					<altitude>11285.2</altitude>
+					<heading>0</heading>
+					<tilt>35</tilt>
+					<range>15000</range>
+					<altitudeMode>relativeToGround</altitudeMode>
+				</LookAt>
+				<name>RAM795Z</name>
+				<description>Desc: , Callsign: RAM795Z, Hexcode: 020026, Squawk: 4012, Lon.: 2.24741, Lat.: 41.4337, Alt.: 37025, Speed: 486.4, Vert. rate: -64 </description>
+				<styleUrl>#12</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>2.24741,41.4337,11285.2</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+			<open>1</open>
+				<LookAt>
+					<longitude>3.2713</longitude>
+					<latitude>39.7829</latitude>
+					<altitude>5334</altitude>
+					<heading>0</heading>
+					<tilt>35</tilt>
+					<range>15000</range>
+					<altitudeMode>relativeToGround</altitudeMode>
+				</LookAt>
+				<name>NLY807W</name>
+				<description>Desc: , Callsign: NLY807W, Hexcode: 440551, Squawk: 6776, Lon.: 3.2713, Lat.: 39.7829, Alt.: 17500, Speed: 343.8, Vert. rate: -1792 </description>
+				<styleUrl>#13</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>3.2713,39.7829,5334</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+			<open>1</open>
+				<LookAt>
+					<longitude>1.82922</longitude>
+					<latitude>40.6228</latitude>
+					<altitude>9128.76</altitude>
+					<heading>0</heading>
+					<tilt>35</tilt>
+					<range>15000</range>
+					<altitudeMode>relativeToGround</altitudeMode>
+				</LookAt>
+				<name>JTG722</name>
+				<description>Desc: , Callsign: JTG722, Hexcode: 45AA92, Squawk: 5356, Lon.: 1.82922, Lat.: 40.6228, Alt.: 29950, Speed: 456.8, Vert. rate: 2944 </description>
+				<styleUrl>#14</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>1.82922,40.6228,9128.76</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+			<open>1</open>
+				<LookAt>
+					<longitude>-1.13243</longitude>
+					<latitude>39.5421</latitude>
+					<altitude>9753.6</altitude>
+					<heading>0</heading>
+					<tilt>35</tilt>
+					<range>15000</range>
+					<altitudeMode>relativeToGround</altitudeMode>
+				</LookAt>
+				<name>ANE8956</name>
+				<description>Desc: , Callsign: ANE8956, Hexcode: 3451D9, Squawk: 6015, Lon.: -1.13243, Lat.: 39.5421, Alt.: 32000, Speed: 456.7, Vert. rate: 0 </description>
+				<styleUrl>#15</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-1.13243,39.5421,9753.6</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+			<open>1</open>
+				<LookAt>
+					<longitude>3.12622</longitude>
+					<latitude>39.3878</latitude>
+					<altitude>10058.4</altitude>
+					<heading>0</heading>
+					<tilt>35</tilt>
+					<range>15000</range>
+					<altitudeMode>relativeToGround</altitudeMode>
+				</LookAt>
+				<name>AAF259</name>
+				<description>Desc: , Callsign: AAF259, Hexcode: 398501, Squawk: 7673, Lon.: 3.12622, Lat.: 39.3878, Alt.: 33000, Speed: 422, Vert. rate: -960 </description>
+				<styleUrl>#16</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>3.12622,39.3878,10058.4</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+			<open>1</open>
+				<LookAt>
+					<longitude>-0.82916</longitude>
+					<latitude>40.8607</latitude>
+					<altitude>11285.2</altitude>
+					<heading>0</heading>
+					<tilt>35</tilt>
+					<range>15000</range>
+					<altitudeMode>relativeToGround</altitudeMode>
+				</LookAt>
+				<name>EZY72UH</name>
+				<description>Desc: , Callsign: EZY72UH, Hexcode: 400E5B, Squawk: 6773, Lon.: -0.82916, Lat.: 40.8607, Alt.: 37025, Speed: 430.2, Vert. rate: -64 </description>
+				<styleUrl>#17</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-0.82916,40.8607,11285.2</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+			<open>1</open>
+				<LookAt>
+					<longitude>-2.13867</longitude>
+					<latitude>41.0793</latitude>
+					<altitude>8907.78</altitude>
+					<heading>0</heading>
+					<tilt>35</tilt>
+					<range>15000</range>
+					<altitudeMode>relativeToGround</altitudeMode>
+				</LookAt>
+				<name>VLG10LM</name>
+				<description>Desc: , Callsign: VLG10LM, Hexcode: 342398, Squawk: 6062, Lon.: -2.13867, Lat.: 41.0793, Alt.: 29225, Speed: 390.9, Vert. rate: 1088 </description>
+				<styleUrl>#18</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-2.13867,41.0793,8907.78</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+			<open>1</open>
+				<LookAt>
+					<longitude>-1.5293</longitude>
+					<latitude>38.6134</latitude>
+					<altitude>10972.8</altitude>
+					<heading>0</heading>
+					<tilt>35</tilt>
+					<range>15000</range>
+					<altitudeMode>relativeToGround</altitudeMode>
+				</LookAt>
+				<name>VLG1252</name>
+				<description>Desc: , Callsign: VLG1252, Hexcode: 342397, Squawk: 3751, Lon.: -1.5293, Lat.: 38.6134, Alt.: 36000, Speed: 425.6, Vert. rate: 0 </description>
+				<styleUrl>#19</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-1.5293,38.6134,10972.8</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+			<open>1</open>
+				<LookAt>
+					<longitude>1.29425</longitude>
+					<latitude>39.3767</latitude>
+					<altitude>11277.6</altitude>
+					<heading>0</heading>
+					<tilt>35</tilt>
+					<range>15000</range>
+					<altitudeMode>relativeToGround</altitudeMode>
+				</LookAt>
+				<name>AEA1040</name>
+				<description>Desc: , Callsign: AEA1040, Hexcode: 344487, Squawk: 6775, Lon.: 1.29425, Lat.: 39.3767, Alt.: 37000, Speed: 458.2, Vert. rate: 0 </description>
+				<styleUrl>#20</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>1.29425,39.3767,11277.6</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+			<open>1</open>
+				<LookAt>
+					<longitude>-0.18552</longitude>
+					<latitude>41.0229</latitude>
+					<altitude>10850.9</altitude>
+					<heading>0</heading>
+					<tilt>35</tilt>
+					<range>15000</range>
+					<altitudeMode>relativeToGround</altitudeMode>
+				</LookAt>
+				<name>PGT14K</name>
+				<description>Desc: , Callsign: PGT14K, Hexcode: 4B8E03, Squawk: 2315, Lon.: -0.18552, Lat.: 41.0229, Alt.: 35600, Speed: 446.5, Vert. rate: -960 </description>
+				<styleUrl>#21</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-0.18552,41.0229,10850.9</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+			<open>1</open>
+				<LookAt>
+					<longitude>1.77557</longitude>
+					<latitude>40.861</latitude>
+					<altitude>10050.8</altitude>
+					<heading>0</heading>
+					<tilt>35</tilt>
+					<range>15000</range>
+					<altitudeMode>relativeToGround</altitudeMode>
+				</LookAt>
+				<name>TOM3KB</name>
+				<description>Desc: , Callsign: TOM3KB, Hexcode: C03ABC, Squawk: 5353, Lon.: 1.77557, Lat.: 40.861, Alt.: 32975, Speed: 421.9, Vert. rate: 1984 </description>
+				<styleUrl>#22</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>1.77557,40.861,10050.8</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+			<open>1</open>
+				<LookAt>
+					<longitude>-3.37366</longitude>
+					<latitude>38.6816</latitude>
+					<altitude>11277.6</altitude>
+					<heading>0</heading>
+					<tilt>35</tilt>
+					<range>15000</range>
+					<altitudeMode>relativeToGround</altitudeMode>
+				</LookAt>
+				<name>TRA747B</name>
+				<description>Desc: , Callsign: TRA747B, Hexcode: 484AA1, Squawk: 4567, Lon.: -3.37366, Lat.: 38.6816, Alt.: 37000, Speed: 464.7, Vert. rate: 0 </description>
+				<styleUrl>#23</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-3.37366,38.6816,11277.6</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+			<open>1</open>
+				<LookAt>
+					<longitude>2.22312</longitude>
+					<latitude>39.9158</latitude>
+					<altitude>5935.98</altitude>
+					<heading>0</heading>
+					<tilt>35</tilt>
+					<range>15000</range>
+					<altitudeMode>relativeToGround</altitudeMode>
+				</LookAt>
+				<name>EXS6VA</name>
+				<description>Desc: , Callsign: EXS6VA, Hexcode: 4064BB, Squawk: 5345, Lon.: 2.22312, Lat.: 39.9158, Alt.: 19475, Speed: 413.5, Vert. rate: 2240 </description>
+				<styleUrl>#24</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>2.22312,39.9158,5935.98</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+			<open>1</open>
+				<LookAt>
+					<longitude>1.71493</longitude>
+					<latitude>41.4543</latitude>
+					<altitude>4396.74</altitude>
+					<heading>0</heading>
+					<tilt>35</tilt>
+					<range>15000</range>
+					<altitudeMode>relativeToGround</altitudeMode>
+				</LookAt>
+				<name>VLG82WC</name>
+				<description>Desc: , Callsign: VLG82WC, Hexcode: 3414CB, Squawk: 5360, Lon.: 1.71493, Lat.: 41.4543, Alt.: 14425, Speed: 367.8, Vert. rate: 2240 </description>
+				<styleUrl>#25</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>1.71493,41.4543,4396.74</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+			<open>1</open>
+				<LookAt>
+					<longitude>0.00739</longitude>
+					<latitude>39.3124</latitude>
+					<altitude>7764.78</altitude>
+					<heading>0</heading>
+					<tilt>35</tilt>
+					<range>15000</range>
+					<altitudeMode>relativeToGround</altitudeMode>
+				</LookAt>
+				<name>MON843G</name>
+				<description>Desc: , Callsign: MON843G, Hexcode: 40076A, Squawk: 5512, Lon.: 0.00739, Lat.: 39.3124, Alt.: 25475, Speed: 435.1, Vert. rate: 1472 </description>
+				<styleUrl>#26</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>0.00739,39.3124,7764.78</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+			<open>1</open>
+				<LookAt>
+					<longitude>2.57538</longitude>
+					<latitude>38.7496</latitude>
+					<altitude>11277.6</altitude>
+					<heading>0</heading>
+					<tilt>35</tilt>
+					<range>15000</range>
+					<altitudeMode>relativeToGround</altitudeMode>
+				</LookAt>
+				<name>BEL285</name>
+				<description>Desc: , Callsign: BEL285, Hexcode: 44CCCF, Squawk: 7117, Lon.: 2.57538, Lat.: 38.7496, Alt.: 37000, Speed: 491.5, Vert. rate: 0 </description>
+				<styleUrl>#27</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>2.57538,38.7496,11277.6</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+			<open>1</open>
+				<LookAt>
+					<longitude>0.97754</longitude>
+					<latitude>39.0901</latitude>
+					<altitude>1356.36</altitude>
+					<heading>0</heading>
+					<tilt>35</tilt>
+					<range>15000</range>
+					<altitudeMode>relativeToGround</altitudeMode>
+				</LookAt>
+				<name>N6RA</name>
+				<description>Desc: , Callsign: N6RA, Hexcode: A7C405, Squawk: 3253, Lon.: 0.97754, Lat.: 39.0901, Alt.: 4450, Speed: 232.1, Vert. rate: -1088 </description>
+				<styleUrl>#28</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>0.97754,39.0901,1356.36</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+			<open>1</open>
+				<LookAt>
+					<longitude>0.44501</longitude>
+					<latitude>40.1897</latitude>
+					<altitude>10668</altitude>
+					<heading>0</heading>
+					<tilt>35</tilt>
+					<range>15000</range>
+					<altitudeMode>relativeToGround</altitudeMode>
+				</LookAt>
+				<name>RYR45SJ</name>
+				<description>Desc: , Callsign: RYR45SJ, Hexcode: 4CA4F5, Squawk: 6772, Lon.: 0.44501, Lat.: 40.1897, Alt.: 35000, Speed: 453.5, Vert. rate: 0 </description>
+				<styleUrl>#29</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>0.44501,40.1897,10668</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+			<open>1</open>
+				<LookAt>
+					<longitude>0.42709</longitude>
+					<latitude>40.1433</latitude>
+					<altitude>9212.58</altitude>
+					<heading>0</heading>
+					<tilt>35</tilt>
+					<range>15000</range>
+					<altitudeMode>relativeToGround</altitudeMode>
+				</LookAt>
+				<name>VLG3002</name>
+				<description>Desc: , Callsign: VLG3002, Hexcode: 345042, Squawk: 4666, Lon.: 0.42709, Lat.: 40.1433, Alt.: 30225, Speed: 447.2, Vert. rate: 896 </description>
+				<styleUrl>#30</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>0.42709,40.1433,9212.58</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+			<open>1</open>
+				<LookAt>
+					<longitude>-0.17179</longitude>
+					<latitude>40.2855</latitude>
+					<altitude>9669.78</altitude>
+					<heading>0</heading>
+					<tilt>35</tilt>
+					<range>15000</range>
+					<altitudeMode>relativeToGround</altitudeMode>
+				</LookAt>
+				<name>RYR51XB</name>
+				<description>Desc: , Callsign: RYR51XB, Hexcode: 4CA373, Squawk: 1071, Lon.: -0.17179, Lat.: 40.2855, Alt.: 31725, Speed: 483.7, Vert. rate: -512 </description>
+				<styleUrl>#31</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-0.17179,40.2855,9669.78</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+			<open>1</open>
+				<LookAt>
+					<longitude>0.34984</longitude>
+					<latitude>41.8731</latitude>
+					<altitude>11277.6</altitude>
+					<heading>0</heading>
+					<tilt>35</tilt>
+					<range>15000</range>
+					<altitudeMode>relativeToGround</altitudeMode>
+				</LookAt>
+				<name>RYR12UU</name>
+				<description>Desc: , Callsign: RYR12UU, Hexcode: 4CA9D1, Squawk: 2166, Lon.: 0.34984, Lat.: 41.8731, Alt.: 37000, Speed: 458.8, Vert. rate: 0 </description>
+				<styleUrl>#32</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>0.34984,41.8731,11277.6</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+			<open>1</open>
+				<LookAt>
+					<longitude>0.69882</longitude>
+					<latitude>40.2593</latitude>
+					<altitude>9761.22</altitude>
+					<heading>0</heading>
+					<tilt>35</tilt>
+					<range>15000</range>
+					<altitudeMode>relativeToGround</altitudeMode>
+				</LookAt>
+				<name>AEA9143</name>
+				<description>Desc: , Callsign: AEA9143, Hexcode: 344446, Squawk: 4662, Lon.: 0.69882, Lat.: 40.2593, Alt.: 32025, Speed: 481.8, Vert. rate: 2112 </description>
+				<styleUrl>#33</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>0.69882,40.2593,9761.22</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+			<open>1</open>
+				<LookAt>
+					<longitude>-0.46063</longitude>
+					<latitude>39.4813</latitude>
+					<altitude>53.34</altitude>
+					<heading>0</heading>
+					<tilt>35</tilt>
+					<range>15000</range>
+					<altitudeMode>relativeToGround</altitudeMode>
+				</LookAt>
+				<name>AFL2502</name>
+				<description>Desc: , Callsign: AFL2502, Hexcode: 4240E2, Squawk: 4076, Lon.: -0.46063, Lat.: 39.4813, Alt.: 175, Speed: 138, Vert. rate: -640 </description>
+				<styleUrl>#34</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-0.46063,39.4813,53.34</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+			<open>1</open>
+				<LookAt>
+					<longitude>1.19354</longitude>
+					<latitude>40.9838</latitude>
+					<altitude>9974.58</altitude>
+					<heading>0</heading>
+					<tilt>35</tilt>
+					<range>15000</range>
+					<altitudeMode>relativeToGround</altitudeMode>
+				</LookAt>
+				<name>TCX73XM</name>
+				<description>Desc: , Callsign: TCX73XM, Hexcode: 4007E8, Squawk: 5317, Lon.: 1.19354, Lat.: 40.9838, Alt.: 32725, Speed: 434.3, Vert. rate: 1024 </description>
+				<styleUrl>#35</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>1.19354,40.9838,9974.58</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+			<open>1</open>
+				<LookAt>
+					<longitude>2.19397</longitude>
+					<latitude>39.1825</latitude>
+					<altitude>11597.6</altitude>
+					<heading>0</heading>
+					<tilt>35</tilt>
+					<range>15000</range>
+					<altitudeMode>relativeToGround</altitudeMode>
+				</LookAt>
+				<name>VLG65WX</name>
+				<description>Desc: , Callsign: VLG65WX, Hexcode: 3444C9, Squawk: 5372, Lon.: 2.19397, Lat.: 39.1825, Alt.: 38050, Speed: 403.3, Vert. rate: -64 </description>
+				<styleUrl>#36</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>2.19397,39.1825,11597.6</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+			<open>1</open>
+				<LookAt>
+					<longitude>-3.12708</longitude>
+					<latitude>41.3849</latitude>
+					<altitude>11582.4</altitude>
+					<heading>0</heading>
+					<tilt>35</tilt>
+					<range>15000</range>
+					<altitudeMode>relativeToGround</altitudeMode>
+				</LookAt>
+				<name>EZY7958</name>
+				<description>Desc: , Callsign: EZY7958, Hexcode: 405F0C, Squawk: 4652, Lon.: -3.12708, Lat.: 41.3849, Alt.: 38000, Speed: 424.2, Vert. rate: -64 </description>
+				<styleUrl>#37</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-3.12708,41.3849,11582.4</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+			<open>1</open>
+				<LookAt>
+					<longitude>-0.56818</longitude>
+					<latitude>39.481</latitude>
+					<altitude>10668</altitude>
+					<heading>0</heading>
+					<tilt>35</tilt>
+					<range>15000</range>
+					<altitudeMode>relativeToGround</altitudeMode>
+				</LookAt>
+				<name>VLG3216</name>
+				<description>Desc: , Callsign: VLG3216, Hexcode: 344699, Squawk: 4664, Lon.: -0.56818, Lat.: 39.481, Alt.: 35000, Speed: 480.5, Vert. rate: 64 </description>
+				<styleUrl>#38</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-0.56818,39.481,10668</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+			<open>1</open>
+				<LookAt>
+					<longitude>-1.91913</longitude>
+					<latitude>40.5536</latitude>
+					<altitude>6774.18</altitude>
+					<heading>0</heading>
+					<tilt>35</tilt>
+					<range>15000</range>
+					<altitudeMode>relativeToGround</altitudeMode>
+				</LookAt>
+				<name>VLG1506</name>
+				<description>Desc: , Callsign: VLG1506, Hexcode: 345101, Squawk: 6763, Lon.: -1.91913, Lat.: 40.5536, Alt.: 22225, Speed: 355.2, Vert. rate: -1856 </description>
+				<styleUrl>#39</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-1.91913,40.5536,6774.18</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+			<open>1</open>
+				<LookAt>
+					<longitude>0.2839</longitude>
+					<latitude>39.9739</latitude>
+					<altitude>10972.8</altitude>
+					<heading>0</heading>
+					<tilt>35</tilt>
+					<range>15000</range>
+					<altitudeMode>relativeToGround</altitudeMode>
+				</LookAt>
+				<name>RYR54KW</name>
+				<description>Desc: , Callsign: RYR54KW, Hexcode: 4CA7A9, Squawk: 5547, Lon.: 0.2839, Lat.: 39.9739, Alt.: 36000, Speed: 415, Vert. rate: 0 </description>
+				<styleUrl>#40</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>0.2839,39.9739,10972.8</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+			<open>1</open>
+				<LookAt>
+					<longitude>-1.03528</longitude>
+					<latitude>39.7287</latitude>
+					<altitude>9829.8</altitude>
+					<heading>0</heading>
+					<tilt>35</tilt>
+					<range>15000</range>
+					<altitudeMode>relativeToGround</altitudeMode>
+				</LookAt>
+				<name>QTR149</name>
+				<description>Desc: , Callsign: QTR149, Hexcode: 06A0B7, Squawk: 3772, Lon.: -1.03528, Lat.: 39.7287, Alt.: 32250, Speed: 480.5, Vert. rate: -2368 </description>
+				<styleUrl>#41</styleUrl>
+				<Point>
+					<altitudeMode>relativeToGround</altitudeMode>
+					<coordinates>-1.03528,39.7287,9829.8</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+	</Document>
+</kml>

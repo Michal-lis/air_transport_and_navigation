@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>rutas.kml</name>
+	<StyleMap id="m_ylw-pushpin0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl0">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Folder>
+		<name>Lugares temporales</name>
+		<open>1</open>
+		<Placemark>
+			<name>DGT</name>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
+			<LineString>
+				<extrude>1</extrude>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>
+					-0.5472960505540103,39.67316233451538,1 -0.550570162901908,39.6777638733556,135 -0.5618986607399558,39.62218285166368,135 -0.5468248855650849,39.61184768694734,135 -0.5396513793885432,39.5998677042208,135 -0.5384543398297963,39.59333151649932,135 -0.5340053482747958,39.58725178999659,135 -0.5212059365977431,39.57854851895787,135 -0.5074481938911195,39.57123434115963,135 -0.4937220224936235,39.56217440354597,135 -0.4828611011532501,39.55547443940878,135 -0.4680328990999333,39.55647076290676,135 -0.4560467286890552,39.556377493448,135 -0.4494833736387394,39.54571100114916,135 -0.4344491306517216,39.5575353426803,135 -0.4238250926038034,39.57557101423944,135 -0.4140088188509333,39.58527982149145,135 -0.4009954450658575,39.58856261245253,135 -0.4487039388984512,39.60685864944431,135 -0.4756852221708461,39.6054825784208,135 -0.513263457017992,39.62173771841488,135 -0.5117362720141007,39.63228931024602,135 -0.5330307523231114,39.64955002361447,135 -0.5387285840293898,39.651564361178,135 -0.5389720331709933,39.66207300366745,135 -0.5471856980721523,39.67299209196391,1 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>IncendiosCalderona</name>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
+			<LineString>
+				<extrude>1</extrude>
+				<tessellate>1</tessellate>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<coordinates>
+					-0.5472625683145278,39.67316320534747,1 -0.5504878394640446,39.67780736955978,195 -0.5163739100076601,39.70100931570109,195 -0.4654867527133865,39.71632504074742,195 -0.4379060649775601,39.71192459833609,195 -0.405940211210535,39.73606426485156,195 -0.3568902453759961,39.71668591570188,195 -0.3460795257141568,39.69523398114912,195 -0.3471075825392508,39.67059321000242,195 -0.3882424161750401,39.66206511950482,195 -0.4353966051307534,39.67159477159348,195 -0.4800520789547337,39.67633438881809,195 -0.5276102138164073,39.67629428803495,195 -0.5349064963093246,39.66417840154935,195 -0.5471002576352577,39.67294415534909,1 
+				</coordinates>
+			</LineString>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>
