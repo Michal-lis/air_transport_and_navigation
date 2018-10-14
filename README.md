@@ -3,4 +3,4 @@ Computation and representation of air routes making use of great circles, rhumb 
 
 Visualisations and calculations of great circles, rhumb lines, and waypoint-defined routes. The time calculation and the wind effect analysis on time calculations.
 
-The project consists of two exercises ("Tares" in Spanish), which are described in separate pdfs.
+The project consists of two exercises ("Tareas" in Spanish), which are described in separate pdfs.
