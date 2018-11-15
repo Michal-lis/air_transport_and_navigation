@@ -6,7 +6,7 @@ Tarea1: Computation and representation of air routes making use of great circles
 
 Tech used: Matlab, Google Earth, KML library for generating KML files (used by Google Earth) in Matlab, Geo library with formulas for great-circles and rhumb-lines, flight plan of the route provided in xml.
 
-[!Screenshot](images/problem.png)
+![Screenshot](images/problem.png)
 
 Matlab files include time calculation and the wind effect analysis on time calculations, as well as visualisations and calculations of great circles, rhumb lines, and waypoint-defined routes: 
 
