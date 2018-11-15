@@ -11,9 +11,9 @@ Tech used: Matlab, Google Earth, KML library for generating KML files (used by G
 
 Matlab files include time calculation and the wind effect analysis on time calculations, as well as visualisations and calculations of great circles, rhumb lines, and waypoint-defined routes: 
 
-![Screenshot](images/LIDO3.jpg)
+![Screenshot](images/LIDO3.jpg | width=100)
 
-![Screenshot](images/allroutes12.jpg)
+![Screenshot](images/allroutes1.jpg | width=100)
 
 Tarea2: 
 Using flightradar24.com and real life radar data to track data about flights arriving in Valencia, collect data about them and visualise them on Google Earth as well as Matlab diagrams showing various interesting flight charactersitics shuch as CPA - Closest Point of Approach (between two planes).
