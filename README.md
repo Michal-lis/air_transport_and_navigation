@@ -18,7 +18,7 @@ Matlab files include time calculation and the wind effect analysis on time calcu
 
 **Tarea2**: 
 
-Using flightradar24.com and real life radar data to track data about flights arriving in Valencia, collect data about them and visualise them on Google Earth as well as Matlab diagrams showing various interesting flight charactersitics shuch as CPA - Closest Point of Approach (between two planes).
+Using flightradar24.com and real life radar data to track trajectories of flights arriving at Valencia, collect more data about them and visualise these trajectories with Google Earth as well as Matlab diagrams showing various interesting flight charactersitics such as CPA - Closest Point of Approach between two planes.
 
 Flight stages:
 
