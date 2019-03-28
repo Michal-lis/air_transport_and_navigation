@@ -35,3 +35,5 @@ Time evolution of CPA:
 <img src="images/distance.jpg" width=800>
 
 The second part of the Tarea2 project (Xplane-matlab-simulink) was a very basic autopilot written in Matlab able to communicate with Microsoft Xplane for controlling the altitude, heading, turn and Vpath.
+
+For more comprehensive information check our Tarea1 and Tarea2 reports.
